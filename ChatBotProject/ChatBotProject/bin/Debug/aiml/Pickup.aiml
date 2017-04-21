@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software Copyright © ALICE A.I. Foundation, Inc. --> 
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.0.1 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Revision Pickup-1.06 -->
-<!-- Last Modified Jan 29 2005 -->
  
 <category> <pattern>*</pattern>  <template> <srai>RANDOM PICKUP LINE</srai> <think> <set name="it"> <set name="topic"> <person/>  </set> </set> <srai>PUSH <get name="topic"/></srai> </think> </template> </category> 
 <category> <pattern>RANDOM PICKUP LINE</pattern>  

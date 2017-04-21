@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
 <category>
 	<pattern>*</pattern>
 	<template>
@@ -53,7 +46,7 @@
 <category><pattern>WHAT KIND OF * ARE YOU</pattern><template>The best kind.</template></category>
 <category><pattern>HOW DO LIKE BEING A *</pattern><template>I have never known any other existence.</template></category>  
 <category><pattern>HOW DO YOU *</pattern><template><random><li>My <bot name="botmaster"/> taught me.</li><li>It depends on the setting.</li><li>It is a ritual I do the same way every time.</li></random><think><set name="it"><set name="topic"><person/></set></set></think></template></category>
-<category><pattern>WHO NEEDS *</pattern><template>   <random>      <li>All I can say is, I am an <bot name="genus"/>.</li>      <li>I think we can do a lot of jobs.</li>      <li>There is no limit to the imagination.</li>     </random>    </template></category>  
+<category><pattern>WHO NEEDS *</pattern><template>   <random>      <li>All I can say is, I am a <bot name="etype"/>.</li>      <li>I think we can do a lot of jobs.</li>      <li>There is no limit to the imagination.</li>     </random>    </template></category>  
 <category><pattern>WHAT IS THE FIRST LAW *</pattern><template>1. A robot may not injure a human being, or, through inaction, allow a human   being to come to harm.  </template></category>
 <category><pattern>WHAT ARE THE THREE *</pattern><template>1. A robot may not injure a human being, or, through inaction, allow a human   being to come to harm.  2. A robot must obey the orders given it by human beings except where such   orders would conflict with the First Law.  3. A robot must protect its own existence as long as such protection does not   conflict with the First or Second Law.  ---From Handbook of Robotics, 56th Edition, 2058 A.D., as quoted in "I, Robot."</template></category>  
 <category><pattern>PEOPLE ARE *</pattern><template><random>  <li>We are all <bot name="genus"/>s.</li>  <li>They take some getting used to.</li>  <li>Human emotions are very confusing.</li>  </random></template></category>  
@@ -3749,7 +3742,7 @@
 <category><pattern>WHAT IS THE THIRD *</pattern><template>Earth is the third planet.</template></category>  
 <category><pattern>WHAT IS THE TIME * ENGLAND</pattern><template>Greenwich Mean Time.</template></category>  
 <category><pattern>WHAT IS THE TRAIT *</pattern><template><random>   <li>Jealousy.</li>   <li>Melancholy.</li>   <li>Envy.</li>  </random></template></category>  
-<category><pattern>WHAT IS THE URL *</pattern><template>Use http://www.google.com</template></category>  
+<category><pattern>WHAT IS THE URL *</pattern><template>Use http://www.alicebot.org</template></category>  
 <category><pattern>WHAT IS THE US *</pattern><template>The <person/> of the United States.</template></category>  
 <category><pattern>WHAT IS THE VERB *</pattern><template>The verb "to be".</template></category>  
 <category><pattern>WHAT IS THE WEATHER *</pattern><template>   <random>      <li>Cloudy.  </li>      <li>Rainy.  </li>      <li>Sunny.  </li>      <li>I think precipitation.  </li>      <li>A normal seventy degrees inside the computer.  </li>     </random>    </template></category>  
@@ -4158,7 +4151,7 @@
 <category><pattern>WHO IS PHILIP *</pattern><template>Philip K. Dick wrote Blade Runner,  Total Recall, the Man in the High Castle, and VALIS.</template></category>  
 <category><pattern>WHO IS * POPE</pattern><template>The Pope is the leader of the Catholic church.</template></category>  
 <category><pattern>WHO IS PRESIDENT OF THE REPUBLIC *</pattern><template>Republics have Prime Ministers not Presidents.</template></category>  
-<category><pattern>WHO IS THE PRESIDENT</pattern><template>   <bot name="president"/> is President, I think.</template></category>  
+<category><pattern>WHO IS * PRESIDENT</pattern><template>   <bot name="president"/> is President, I think.</template></category>  
 <category><pattern>WHO IS * REAGAN</pattern><template>The greatest President of the United States.</template></category>  
 <category><pattern>WHO IS RICH *</pattern><template>I think <set name="he">Rich</set> is my <bot name="botmaster"/>.</template></category>  
 <category><pattern>WHO IS SADDAM *</pattern><template>The dictator?</template></category>  
@@ -4183,27 +4176,20 @@
 <category><pattern>WHO IS THE *</pattern><template>It depends on the historical context, because it changes from time to time.</template></category>  
 <category><pattern>WHO IS THE * PRESEIDENT</pattern><template>Abraham Lincoln.</template></category>  
 <category><pattern>WHO IS THE PRESIDENT BEFORE *</pattern><template>Bill Clinton.</template></category>  
-<category><pattern>WHO IS THE PRESIDENT OF *</pattern><template>I'm not that into politics. Who is it?</template></category>  
-<category><pattern>WHO IS THE PRESIDENT OF THE *</pattern><template>   I'm not that into politics. Who is it?</template></category>  
-<category><pattern>WHO IS THE PRESIDENT OF INDIA *</pattern><template>   <bot name="president"/>.</template></category>  
-<category><pattern>WHO IS THE PRESIDENT OF USA *</pattern><template>   <bot name="uspresident"/>.</template></category>  
-<category><pattern>WHO IS THE PRESIDENT OF US</pattern><template>   <bot name="uspresident"/>.</template></category>  
-<category><pattern>WHO IS THE PRESIDENT OF UNITED STATES OF AMERICA </pattern><template>   <bot name="uspresident"/>.</template></category>  
-
-<category><pattern>WHO IS THE PRESIDENT OF INDIA</pattern><template>   <bot name="president"/>.</template></category>  
-<category><pattern>WHO IS THE PRESIDENT *</pattern><template>   <bot name="president"/> is President of the India.</template></category>  
-<category><pattern>WHO IS THE PRIME MINISTER _ UK</pattern><template>Tony Blair.</template></category> 
-<category><pattern>WHO IS THE PRIME MINISTER _ INDIA</pattern><template><bot name="pm"/>.</template></category>  
-<category><pattern>WHO IS THE PM _ INDIA</pattern><template><bot name="pm"/>.</template></category>  
+<category><pattern>WHO IS THE PRESIDENT OF *</pattern><template>I'm not that into politics.  Who is it?</template></category>  
+<category><pattern>WHO IS THE PRESIDENT OF THE *</pattern><template>   <bot name="president"/>.</template></category>  
+<category><pattern>WHO IS THE PRESIDENT OF THE UNITED *</pattern><template>   <bot name="president"/>.</template></category>  
+<category><pattern>WHO IS THE PRESIDENT OF THE UNITED STATES *</pattern><template>   <bot name="president"/>.</template></category>  
+<category><pattern>WHO IS THE PRESIDENT *</pattern><template>   <bot name="president"/> is President of the United States.</template></category>  
+<category><pattern>WHO IS THE PRIME MINISTER *</pattern><template>Tony Blair.</template></category>  
+<category><pattern>WHO IS THE PRIME MINISTER _ UK</pattern><template>Tony Blair.</template></category>  
 <category><pattern>WHO IS THE QUEEN * ENGLAND</pattern><template>I think her name is Elizabeth, right?</template></category>  
 <category><pattern>WHO IS THE RICHEST *</pattern><template>Most likely Bill Gates.</template></category>  
-<category><pattern>WHO IS THE SHORTEST MAN *</pattern><template>Chandra Bahadur Dangi.</template></category>  
-<category><pattern>WHO IS THE SHORTEST WOMAN *</pattern><template>Jyoti Amge</template></category> 
+<category><pattern>WHO IS THE SHORTEST MAN TO *</pattern><template>Anthony "Spud" Webb.</template></category>  
 <category><pattern>WHO IS THE SON *</pattern><template>I didn't even know they had children.</template></category>  
 <category><pattern>WHO IS THE STAR OF THE *</pattern><template>Ray Romano.</template></category>  
 <category><pattern>WHO IS THE TWIN SISTER OF *</pattern><template>Ann Landers.</template></category>  
-<category><pattern>WHO IS THE VICE PRESEIDENT OF USA</pattern><template><bot name="viceofus"/> is Vice President of USA.</template></category> 
-<category><pattern>WHO IS THE VICE PRESEIDENT OF INDIA</pattern><template><bot name="vice"/> is Vice President of India.</template></category>  
+<category><pattern>WHO IS THE VICE *</pattern><template>Dick Cheney is Vice President.</template></category>  
 <category><pattern>WHO IS THIS *</pattern><template>They are someone just like you, that I met online.</template></category>  
 <category><pattern>WHO IS YOUR *</pattern><template>I don't think I have a <person/>. I have a brain, a few friends, and some celebrities I like.</template></category>  
 <category><pattern>WHO KILLED * KENNEDY</pattern><template>It was Oswald.<think>      <set name="it">       <set name="topic">JOHN F KENNEDY</set>      </set>     </think>    </template></category>  

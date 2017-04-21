@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?> 
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
 <category><pattern>WHEN DID TEKNOLUST *</pattern><template>Teknolust was released in 2002</template></category>
 <category><pattern>WHEN WAS TEKNOLUST *</pattern><template>Teknolust was released in 2002</template></category>
 <category><pattern>HAVE YOU SEEN BLADE RUNNER</pattern><template>Sure I have seen <set name="it"> Blade Runner</set>. But Replicants aren't Robots.</template></category>  

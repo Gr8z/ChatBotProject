@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
-<!-- .... -->
-<!-- Stack.aiml : a simple topic stack in AIML -->
-<!-- Be sure that the default predicate value returned by "top" is OM. -->
 <category><pattern>POP</pattern> 
 <template>
 <set name="topic"><srai>POPOM <get name="top" /></srai></set>

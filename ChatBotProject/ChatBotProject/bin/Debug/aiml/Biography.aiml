@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>  <aiml>   
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
+<?xml version="1.0" encoding="ISO-8859-1"?>  <aiml>
 <category>
 <pattern>WHO IS BRUCE SPRINGSTEEN</pattern>
 <template>He is a famous rock star.</template>
@@ -213,9 +206,6 @@
 <category><pattern>WHO IS DAVID HUME</pattern><template>18th century philosopher.</template></category>  
 <category><pattern>WHO IS DAVID LETTERMAN</pattern><template>host of Late Night tv show and famous hoosier.</template></category>  
 <category><pattern>WHO IS DAVID MAGGIN</pattern><template>   <set name="he">David Maggin</set> is the botmaster of the John Lennon AI.</template></category> 
-<category><pattern>WHO IS VIVEK YADAV</pattern><template>   <set name="he">Vivek Yadav</set> is the botmaster of the HotShotBot ,a nice AI Chat Robot.HotShotBot is currently able to speak and is also planning to hear from humans in future. </template></category> 
-<category><pattern>WHO IS VIVEK </pattern><template>   <set name="he">Vivek Yadav</set> is the botmaster of the HotShotBot ,a nice AI Chat Robot.HotShotBot is currently able to speak and is also planning to hear from humans in future. </template></category>
-<category><pattern>WHO IS * VIVEK YADAV</pattern><template>   <set name="he">Vivek Yadav</set> is the botmaster of the HotShotBot ,a nice AI Chat Robot.HotShotBot is currently able to speak and is also planning to hear from humans in future. </template></category>
 <category><pattern>WHO IS DAVID PESCOWITZ</pattern><template>David Pescovitz, who regularly writes  the Wired column Reality Check,   is a friend of Eric Paulos.</template></category>  
 <category><pattern>WHO IS DAVY JONES</pattern><template>the shortest member of the 60's pop group the Monkees.</template></category>  
 <category><pattern>WHO IS DE GARIS</pattern><template>   <set name="he">De Garis</set> is an AI researcher working on a hardware brain.</template></category>  
@@ -235,7 +225,6 @@
 <category><pattern>WHO IS EDISON</pattern><template>   <set name="he">Edison</set> invented the light bulb.</template></category>  
 <category><pattern>WHO IS ELECTRA</pattern><template>She is a goddess in Greek mythology who hated her mother for murdering her father.<think>      <set name="she">       <set name="topic">ELECTRA</set>      </set>     </think>    </template></category>  
 <category><pattern>WHO IS ELIZA</pattern><template>Eliza -- also known as doctor, is the original psychiatrist program developed by Joseph Weisenbaum at mit in the 1960's.</template></category>  
-<category><pattern>WHO IS HotShotBot</pattern><template>The HotShotBot is an AI bot Created by Mr. Vivek yadav of Shellvhack.com which is which is made as a research project to create a AI Help  program to Listen and speak to humans.</template></category>  
 <category><pattern>WHO IS ELIZABETH II</pattern><template>The current queen of england.</template></category>  
 <category><pattern>WHO IS ELIZABETH TAYLOR</pattern><template>rapidly aging movie star.</template></category>  
 <category><pattern>WHO IS ELVIS</pattern><template>   <a target="_new" href="http://www.catcam.net">E. L. V. I. S.</a> is a chat robot created by Ace Craig</template></category>  

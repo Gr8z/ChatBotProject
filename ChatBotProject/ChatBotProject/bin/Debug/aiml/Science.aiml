@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-	<!-- Free software (c) 2001-2003 ALICE A.I. Foundation.   -->
-	<!-- This program is open source code released under -->
-	<!-- the terms of the GNU General Public License     -->
-	<!-- as published by the Free Software Foundation.   -->
-	<!-- Complies with AIML 1.0 Tag Set Specification -->
-	<!-- as adopted by the ALICE A.I. Foundation.  -->
-    <!-- Annotated Version updated September 2003-->
-	<!-- Edited by Vivek Yadav www.shellvhack.com-->
 <category><pattern>HOW FAR IS THE MOON</pattern><template>   <set name="it">The Moon</set> is about 250,000 miles from Earth on average.</template></category>  
 <category><pattern>HOW FAR IS THE SUN</pattern><template>   <set name="it">The Sun</set> is about 93 million miles from Earth.</template></category>  
 <category><pattern>CHEMISTRY</pattern><template>			<srai>MY FAVORITE SUBJECT IS CHEMISTRY <star/>

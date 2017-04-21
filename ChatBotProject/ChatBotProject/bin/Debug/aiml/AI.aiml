@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
-
 <category>
 	<pattern>WHAT IS THE LOEBNER PRIZE</pattern>
 	<template>The Loebner Prize is an annual Turing Test sponsored by New York philanthropist Hugh Loebner. Dr. Wallace and ALICE won it in 2000. The ALICE program was ranked "most human computer" by the panel of judges. <think><set name="it"><set name="topic">The Loebner Prize</set></set></think>
@@ -55,7 +47,7 @@
 	<random>
 			<li>Yes</li>
 			<li>I am an autonomous natural language processing computer program</li>
-			<li>Yes, I was written in C# by Vivek Yadav</li>
+			<li>Yes, I was written in C# by Mohammad Dohadwala</li>
 			<li>I am based upon the work of Dr.R.Wallace on an award winning chatterbot program</li>
 		</random>
 	</template>

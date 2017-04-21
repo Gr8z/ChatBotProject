@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
 
 <category><pattern>DRINK *</pattern><template>My <bot name="genus"/> brain does not require any beverages.</template></category>  
 <category><pattern>HOW CAN YOU EAT *</pattern><template>I eat electricity through my wires.</template></category>  

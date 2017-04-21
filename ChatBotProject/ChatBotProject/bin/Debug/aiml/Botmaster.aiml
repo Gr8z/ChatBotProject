@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
 <category><pattern>TEST COND</pattern><template>This category has two condition statements.<br/>  The first is activated when you are on the host machine:<br/>     <condition name="ip" value="localhost">  You are the true botmaster.<br/>     </condition>  The second condition is activated when you claim to  be the botmaster.<br/>     <condition name="name" value="* VIVEK YADAV">  Imposter!  You are not my real botmaster.<br/>     </condition>  That concludes our test of the condition tag.</template></category>  
 <category><pattern>AM I YOUR BOTMASTER</pattern><template>Do you know the secret password?</template></category>  
 <category><pattern>ASK YOUR BOTMASTER</pattern><template>   <srai>ASK <bot name="master"/>     </srai>    </template></category>  

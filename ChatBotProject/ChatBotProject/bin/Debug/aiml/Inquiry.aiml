@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.01 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Annotated Version updated September 2003 -->
-<!-- .... -->
-<!-- Inquiry.aiml : a simple interrogator in AIML -->
-<!-- so that the bot doesn't repeat questions it knows the answers to. -->
-<!-- Be sure that the default predicate value returned by "top" is OM. -->
 <category><pattern>COLOR INQUIRY OM</pattern><template>What is your favorite color?</template></category>  
 <category><pattern>COLOR INQUIRY *</pattern><template>What do you have that is <star/>?</template></category>  
 <category><pattern>DOES INQUIRY OM</pattern><template>What are you doing</template></category>  
