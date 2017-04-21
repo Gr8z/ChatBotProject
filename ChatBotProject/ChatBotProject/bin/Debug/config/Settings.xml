@@ -25,7 +25,7 @@
   <item name="adminemail" value="mohammaddohad@yahoo.com"/>
   <item name="islogging" value="false"/>
   <item name="willcallhome" value="false"/>
-  <item name="timeout" value="10"/>
+  <item name="timeout" value="100"/>
   <item name="timeoutmessage" value="I am not smart enough to understand what the heck you just said, sorry"/>
   <item name="culture" value="en-US"/>
   <item name="ip" value="(c) 2006 Nicholas H.Tollervey. Released under the terms of the LGPL"/>
