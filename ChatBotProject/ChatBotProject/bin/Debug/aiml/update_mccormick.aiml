@@ -73,10 +73,11 @@
       <srai>WHAT IS SIRI</srai>
     </template>
   </category>
-  
+  <!--
  	 <category>
     <pattern>WHAT IS YOUR *</pattern>
   </category>
+  -->
   
  	 <category>
     <pattern>WHAT IS YOUR ALIGNMENT</pattern>
