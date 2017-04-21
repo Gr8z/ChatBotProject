@@ -39,19 +39,19 @@
             this.outputTxt.Multiline = true;
             this.outputTxt.Name = "outputTxt";
             this.outputTxt.ReadOnly = true;
-            this.outputTxt.Size = new System.Drawing.Size(304, 608);
+            this.outputTxt.Size = new System.Drawing.Size(304, 391);
             this.outputTxt.TabIndex = 0;
             // 
             // InputTxt
             // 
-            this.InputTxt.Location = new System.Drawing.Point(7, 623);
+            this.InputTxt.Location = new System.Drawing.Point(7, 416);
             this.InputTxt.Name = "InputTxt";
             this.InputTxt.Size = new System.Drawing.Size(238, 20);
             this.InputTxt.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(252, 623);
+            this.button1.Location = new System.Drawing.Point(252, 416);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(59, 23);
             this.button1.TabIndex = 2;
@@ -63,11 +63,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(319, 652);
+            this.ClientSize = new System.Drawing.Size(322, 462);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.InputTxt);
             this.Controls.Add(this.outputTxt);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
