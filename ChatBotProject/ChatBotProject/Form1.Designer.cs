@@ -39,21 +39,22 @@
             this.outputTxt.Multiline = true;
             this.outputTxt.Name = "outputTxt";
             this.outputTxt.ReadOnly = true;
+            this.outputTxt.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.outputTxt.Size = new System.Drawing.Size(304, 391);
             this.outputTxt.TabIndex = 0;
             // 
             // InputTxt
             // 
-            this.InputTxt.Location = new System.Drawing.Point(7, 416);
+            this.InputTxt.Location = new System.Drawing.Point(7, 408);
             this.InputTxt.Name = "InputTxt";
-            this.InputTxt.Size = new System.Drawing.Size(238, 20);
+            this.InputTxt.Size = new System.Drawing.Size(239, 20);
             this.InputTxt.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(252, 416);
+            this.button1.Location = new System.Drawing.Point(252, 407);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(59, 23);
+            this.button1.Size = new System.Drawing.Size(59, 22);
             this.button1.TabIndex = 2;
             this.button1.Text = "Send";
             this.button1.UseVisualStyleBackColor = true;
@@ -63,7 +64,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(322, 462);
+            this.ClientSize = new System.Drawing.Size(318, 437);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.InputTxt);
             this.Controls.Add(this.outputTxt);
@@ -71,7 +72,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Form1";
+            this.Text = "Chat Bot";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
