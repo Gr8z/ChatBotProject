@@ -71,6 +71,8 @@ namespace ChatBotProject
                 {
                     outputTxt.AppendText("YOU: \n" + InputTxt.Text + Environment.NewLine);
                     outputTxt.AppendText("BOT: \n" + bot.getOutput(InputTxt.Text) + Environment.NewLine);
+                    e.Handled = true;
+                    e.SuppressKeyPress = true;
                     Console.Beep();
                     InputTxt.Text = "";
                     InputTxt.Focus();
