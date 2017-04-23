@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using AIMLbot;
+using System.Media;
 
 namespace ChatBotProject
 {
@@ -39,9 +40,11 @@ namespace ChatBotProject
         {
             if (!(string.IsNullOrWhiteSpace(InputTxt.Text)))
             {
+                SoundPlayer Send = new SoundPlayer("SOUND1.wav");
+                SoundPlayer Rcv = new SoundPlayer("SOUND2.wav");
                 outputTxt.AppendText("YOU: \n" + InputTxt.Text + Environment.NewLine);
+                Send.Play();
                 outputTxt.AppendText("BOT: \n" + bot.getOutput(InputTxt.Text) + Environment.NewLine);
-                Console.Beep();
                 InputTxt.Text = "";
                 InputTxt.Focus();
             }
@@ -69,11 +72,12 @@ namespace ChatBotProject
             {
                 if (!(string.IsNullOrWhiteSpace(InputTxt.Text)))
                 {
+                    SoundPlayer Send = new SoundPlayer("SOUND1.wav");
+                    SoundPlayer Rcv = new SoundPlayer("SOUND2.wav");
                     outputTxt.AppendText("YOU: \n" + InputTxt.Text + Environment.NewLine);
+                    Send.Play();
                     outputTxt.AppendText("BOT: \n" + bot.getOutput(InputTxt.Text) + Environment.NewLine);
-                    e.Handled = true;
                     e.SuppressKeyPress = true;
-                    Console.Beep();
                     InputTxt.Text = "";
                     InputTxt.Focus();
                 }

@@ -22,3 +22,4 @@ C:\Users\saads\OneDrive\Documents\GitHub\ChatBotProject\ChatBotProject\ChatBotPr
 C:\Users\saads\OneDrive\Documents\GitHub\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.csproj.GenerateResource.Cache
 C:\Users\saads\OneDrive\Documents\GitHub\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.exe
 C:\Users\saads\OneDrive\Documents\GitHub\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.pdb
+C:\Users\saads\OneDrive\Documents\GitHub\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.csprojResolveAssemblyReference.cache
