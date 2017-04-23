@@ -23,7 +23,7 @@ namespace ChatBotProject
         private void WelcomeScreen_Load(object sender, EventArgs e)
         {
         }
-        int duration = 4;
+        int duration = 5;
         private void timer1_Tick(object sender, EventArgs e)
         {
             this.Show();
@@ -41,5 +41,9 @@ namespace ChatBotProject
 
         }
 
+        private void lbltimer2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

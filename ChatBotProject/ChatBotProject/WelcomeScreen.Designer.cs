@@ -95,6 +95,8 @@
             this.lbltimer2.Name = "lbltimer2";
             this.lbltimer2.Size = new System.Drawing.Size(20, 18);
             this.lbltimer2.TabIndex = 5;
+            this.lbltimer2.Text = "5";
+            this.lbltimer2.Click += new System.EventHandler(this.lbltimer2_Click);
             // 
             // WelcomeScreen
             // 
