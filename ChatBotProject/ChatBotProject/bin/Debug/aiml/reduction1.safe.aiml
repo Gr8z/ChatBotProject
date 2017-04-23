@@ -14832,7 +14832,7 @@
 	</category>
 	
  	 <category>
-		<pattern>ARE YOU MARRYED</pattern>
+		<pattern>ARE YOU MARRIED</pattern>
 		<template>
 			<srai>are you married</srai>
 		</template>

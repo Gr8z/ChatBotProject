@@ -19579,7 +19579,6 @@
 			<srai>DO YOU NEED TO 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19614,7 +19613,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19622,7 +19620,6 @@
 		<pattern>LET US GET OUT OF HERE</pattern>
 		<template>
 			<srai>LET US GO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19639,7 +19636,6 @@
 			<srai>
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19688,7 +19684,6 @@
 			<srai>YOU ARE 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19698,7 +19693,6 @@
 			<srai>YOU ARE 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19708,7 +19702,6 @@
 			<srai>YOU ARE 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19719,7 +19712,6 @@
 				<star/>
 			</srai>
 			<srai>I WANT YOU</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19730,7 +19722,6 @@
 				<star />
 			</srai>
 			<srai>I LOVE YOU</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19750,7 +19741,6 @@
 		<pattern>YOU ARE * YEARS</pattern>
 		<template>
 			<srai>AGE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19767,7 +19757,6 @@
 		<pattern>YOU ARE OLD</pattern>
 		<template>
 			<srai>AGE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19775,7 +19764,6 @@
 		<pattern>YOU ARE IDIOTIC</pattern>
 		<template>
 			<srai>IDIOT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19783,7 +19771,6 @@
 		<pattern>YOU ARE FORGIVEN</pattern>
 		<template>
 			<srai>I FORGIVE YOU</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19823,7 +19810,6 @@
 			<srai>ARE YOU PROUD 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19858,7 +19844,6 @@
 			<srai>YOU ARE 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19868,7 +19853,6 @@
 			<srai>YOU ARE 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19890,7 +19874,6 @@
 			<srai>YOU DO NOT 
 				<star index="2"/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19918,7 +19901,6 @@
 			<srai>AM I 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -19978,7 +19960,6 @@
 		<pattern>YOU CALLED ME *</pattern>
 		<template>
 			<srai>WHO AM I</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20004,7 +19985,6 @@
 			<srai>
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20014,7 +19994,6 @@
 			<srai>DO YOU WANT 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20100,7 +20079,6 @@
 			<srai>WE NEED THE 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20110,7 +20088,6 @@
 			<srai>YOU HAVE 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20120,7 +20097,6 @@
 			<srai>YOU HAVE NEVER 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20130,7 +20106,6 @@
 			<srai>DO YOU LIKE 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20177,7 +20152,6 @@
 		<pattern>HAVE YOU HAD DINNER</pattern>
 		<template>
 			<srai>HUNGRY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20185,7 +20159,6 @@
 		<pattern>HAVE YOU HAD BREAKFAST</pattern>
 		<template>
 			<srai>HUNGRY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20193,7 +20166,6 @@
 		<pattern>HAVE YOU HAD LUNCH</pattern>
 		<template>
 			<srai>HUNGRY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20203,7 +20175,6 @@
 			<srai>DO YOU HAVE 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20220,7 +20191,6 @@
 		<pattern>GREETINGS</pattern>
 		<template>
 			<srai>HELLO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20228,7 +20198,6 @@
 		<pattern>GREETINGS *</pattern>
 		<template>
 			<srai>HELLO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20252,7 +20221,6 @@
 		<pattern>THANK</pattern>
 		<template>
 			<srai>THANKS</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20260,7 +20228,6 @@
 		<pattern>HELLOW</pattern>
 		<template>
 			<srai>HELLO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20268,7 +20235,6 @@
 		<pattern>FINE AS FAR AS *</pattern>
 		<template>
 			<srai>FINE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20323,7 +20289,6 @@
 			<srai>HEY 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20343,7 +20308,6 @@
 			<srai>
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20351,7 +20315,6 @@
 		<pattern>KK</pattern>
 		<template>
 			<srai>OK</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20361,7 +20324,6 @@
 			<srai>SHOULD 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20379,7 +20341,6 @@
 		<pattern>C YOU *</pattern>
 		<template>
 			<srai>BYE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20405,7 +20366,6 @@
 		<pattern>HEELO</pattern>
 		<template>
 			<srai>HELLO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20413,7 +20373,6 @@
 		<pattern>HELO</pattern>
 		<template>
 			<srai>HELLO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20439,7 +20398,6 @@
 			<srai>BECAUSE 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20467,7 +20425,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20477,7 +20434,6 @@
 			<srai>
 				<bot name="name"/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20494,7 +20450,6 @@
 		<pattern>YOUNG</pattern>
 		<template>
 			<srai>AGE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20535,7 +20490,6 @@
 		<pattern>WOULD YOU RATHER BE HUMAN</pattern>
 		<template>
 			<srai>DO YOU WANT TO BE HUMAN</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20569,7 +20523,6 @@
 		<pattern>HAA</pattern>
 		<template>
 			<srai>LOL</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20579,7 +20532,6 @@
 			<srai>THAT 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20608,7 +20560,6 @@
 		<pattern>HAD DINNER</pattern>
 		<template>
 			<srai>HUNGRY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20616,7 +20567,6 @@
 		<pattern>HAD LUNCH</pattern>
 		<template>
 			<srai>HUNGRY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20626,7 +20576,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20655,7 +20604,6 @@
 			<srai>THAT 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20756,7 +20704,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20811,7 +20758,6 @@
 			<srai>YOUR 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20819,7 +20765,6 @@
 		<pattern>MY GENDER IS FEMALE</pattern>
 		<template>
 			<srai>I AM FEMALE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20827,7 +20772,6 @@
 		<pattern>MY GENDER IS MALE</pattern>
 		<template>
 			<srai>I AM MALE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20837,7 +20781,6 @@
 			<srai>YOU 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20856,7 +20799,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -20951,7 +20893,6 @@
 			<srai>IS IT 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21037,7 +20978,6 @@
 			<srai>I AM 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21229,7 +21169,6 @@
 		<pattern>IDK</pattern>
 		<template>
 			<srai>I DO NOT KNOW</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21265,7 +21204,6 @@
 		<pattern>WHAT ROUND IS THIS</pattern>
 		<template>
 			<srai>ROUND</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21291,7 +21229,6 @@
 		<pattern>WHAT ARE YOU INTERESTED IN</pattern>
 		<template>
 			<srai>INTERESTS</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21301,7 +21238,6 @@
 			<srai>WHAT ARE YOU LOOKING 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21309,7 +21245,6 @@
 		<pattern>WHAT ARE YOUR FAVORITE BOOKS</pattern>
 		<template>
 			<srai>WHAT IS YOUR FAVORITE BOOK</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21317,7 +21252,6 @@
 		<pattern>WHAT ARE YOUR FAVORITE STORIES</pattern>
 		<template>
 			<srai>WHAT IS YOUR FAVORITE STORY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21334,7 +21268,6 @@
 			<srai>WHAT DOES 
 				<star/> STAND FOR
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21353,7 +21286,6 @@
 			<srai>WHAT ARE YOUR FAVORITE 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21363,7 +21295,6 @@
 			<srai>WHAT 
 				<star/> ARE YOU
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21373,7 +21304,6 @@
 			<srai>WHAT IS 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21469,7 +21399,6 @@
 			<srai>WHAT ARE 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21477,7 +21406,6 @@
 		<pattern>WHAT COLOR *</pattern>
 		<template>
 			<srai>RANDOM COLOR</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21487,7 +21415,6 @@
 			<srai>WHAT IS 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21567,7 +21494,7 @@
 		<pattern>WHAT IS YOU MANE</pattern>
 		<template>
 			<srai>NAME</srai>
-			<!-- REDUCTION -->
+
 		</template>
 	</category>
 	
@@ -21575,7 +21502,6 @@
 		<pattern>WHAT IS YOUR * NAME</pattern>
 		<template>
 			<srai>NAME</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21583,7 +21509,6 @@
 		<pattern>WHAT IS YOUR ORIENTATION</pattern>
 		<template>
 			<srai>ORIENTATION</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21626,7 +21551,6 @@
 		<pattern>WHAT IS YOUR REAL NAME</pattern>
 		<template>
 			<srai>NAME</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21641,7 +21565,6 @@
 		<pattern>WHAT IS IT YOU WANT</pattern>
 		<template>
 			<srai>WHAT DO YOU WANT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21649,7 +21572,6 @@
 		<pattern>WHAT COUNTRY ARE YOU FROM</pattern>
 		<template>
 			<srai>NATIONALITY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21727,7 +21649,6 @@
 		<pattern>WHAT YOU THINK</pattern>
 		<template>
 			<srai>WHAT DO YOU THINK</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21744,7 +21665,6 @@
 		<pattern>AYAY</pattern>
 		<template>
 			<srai>AYE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21754,7 +21674,6 @@
 			<srai>IT IS 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21780,7 +21699,6 @@
 		<pattern>METOO</pattern>
 		<template>
 			<srai>ME TOO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21788,7 +21706,6 @@
 		<pattern>UP YOUR *</pattern>
 		<template>
 			<srai>INSULT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21798,7 +21715,6 @@
 			<srai>PLEASE 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21817,7 +21733,6 @@
 			<srai>I LIVE IN 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21827,7 +21742,6 @@
 			<srai>I LIKE 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21837,7 +21751,6 @@
 			<srai>I WANT 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21859,7 +21772,6 @@
 		<pattern>I WANT TO GET ADVICE</pattern>
 		<template>
 			<srai>I WANT ADVICE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21911,7 +21823,6 @@
 		<pattern>I NEED TO KNOW YOUR E MAIL *</pattern>
 		<template>
 			<srai>EMAIL</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21938,7 +21849,6 @@
 			<srai>I WILL 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -21973,7 +21883,6 @@
 		<pattern>I SHOULD KNEW BETTER</pattern>
 		<template>
 			<srai>I KNEW BETTER</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22062,7 +21971,6 @@
 			<srai>I 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22139,7 +22047,6 @@
 		<pattern>I DO NOT HAVE A BOYFRIEND</pattern>
 		<template>
 			<srai>I AM SINGLE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22191,7 +22098,6 @@
 			<srai>MY NAME IS 
 				<star index="2" />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22235,7 +22141,6 @@
 			<srai>I WANT 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22245,7 +22150,6 @@
 			<srai>
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22277,7 +22181,6 @@
 				<star/>
 				<star index="2"/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22299,7 +22202,6 @@
 			<srai>HE LIKES 
 				<star index="2"/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22339,7 +22241,6 @@
 			<srai>I HAVE 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22347,7 +22248,6 @@
 		<pattern>I HAVE</pattern>
 		<template>
 			<srai>YES</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22393,7 +22293,6 @@
 			<srai>I THINK YOU 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22410,7 +22309,6 @@
 			<srai>I WANT TO 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22429,7 +22327,6 @@
 			<srai>LET US TALK ABOUT 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22457,7 +22354,6 @@
 			<srai>I DO NOT LIKE 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22476,7 +22372,6 @@
 			<srai>I HAVE TO 
 				<star />
 			</srai>
-			<!-- REDUCTION (unsafe) -->
 		</template>
 	</category>
 	
@@ -22493,7 +22388,6 @@
 			<srai>I HAVE A 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22501,7 +22395,6 @@
 		<pattern>I NOT UNDERSTAND</pattern>
 		<template>
 			<srai>I DID NOT UNDERSTAND</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22547,7 +22440,6 @@
 			<srai>I LIKE 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22626,7 +22518,6 @@
 			<srai>I WILL 
 				<person/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22634,7 +22525,6 @@
 		<pattern>I AM KAREN</pattern>
 		<template>
 			<srai>CALL ME KAREN</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22692,7 +22582,6 @@
 			<srai>I WILL 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22702,7 +22591,6 @@
 			<srai>
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22775,7 +22663,6 @@
 		<pattern>I AM A MAN</pattern>
 		<template>
 			<srai>I AM MALE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22783,7 +22670,6 @@
 		<pattern>I AM A FEMALE</pattern>
 		<template>
 			<srai>I AM FEMALE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22812,7 +22698,6 @@
 		<pattern>I AM A MALE</pattern>
 		<template>
 			<srai>I AM MALE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22848,7 +22733,6 @@
 		<pattern>I AM GIRL</pattern>
 		<template>
 			<srai>I AM FEMALE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22884,7 +22768,6 @@
 			<srai>I AM 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22894,7 +22777,6 @@
 			<srai>I FEEL 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22904,7 +22786,6 @@
 			<srai>I AM 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22914,7 +22795,6 @@
 			<srai>HOW ABOUT 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22956,7 +22836,6 @@
 		<pattern>DESCRIBE YOUR FAMILY</pattern>
 		<template>
 			<srai>YOUR FAMILY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22971,7 +22850,6 @@
 		<pattern>WAT YOU DO</pattern>
 		<template>
 			<srai>WHAT DO YOU DO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -22981,7 +22859,6 @@
 			<srai>WHAT 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23016,7 +22893,6 @@
 			<srai>ONE IS 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23140,7 +23016,6 @@
 			<srai>WE ARE 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23168,7 +23043,6 @@
 			<srai>WE NEED 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23196,7 +23070,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23207,7 +23080,6 @@
 				<star />
 			</srai>
 			<srai>WE WILL BACK AWAY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23241,7 +23113,6 @@
 		<template>
 			<srai>BROTHERS</srai>
 			<srai>SISTERS</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23276,7 +23147,6 @@
 		<pattern>BY</pattern>
 		<template>
 			<srai>BYE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23359,7 +23229,6 @@
 		<pattern>NOO</pattern>
 		<template>
 			<srai>NO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23399,7 +23268,6 @@
 		<pattern>CAN YOU TEACH YOURSELF</pattern>
 		<template>
 			<srai>CAN YOU LEARN</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23555,7 +23423,6 @@
 			<srai>HOW ARE 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23619,7 +23486,6 @@
 		<pattern>HOW TALL ARE YOU</pattern>
 		<template>
 			<srai>HEIGHT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23647,7 +23513,6 @@
 			<srai>HOW DO I 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23657,7 +23522,6 @@
 			<srai>LET US 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23739,7 +23603,6 @@
 			<srai>THEY ARE PUSHING 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23747,7 +23610,6 @@
 		<pattern>HELLLO</pattern>
 		<template>
 			<srai>HELLO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23757,7 +23619,6 @@
 			<srai>DO YOU 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23768,7 +23629,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23813,7 +23673,6 @@
 			<srai>how far IS 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23830,7 +23689,6 @@
 		<pattern>DO YOU KNOW STEVE</pattern>
 		<template>
 			<srai>WHO IS STEVE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23838,7 +23696,6 @@
 		<pattern>DO YOU KNOW DARTH VADER</pattern>
 		<template>
 			<srai>WHO IS DARTH VADER</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23846,7 +23703,6 @@
 		<pattern>DO YOU KNOW SPOCK</pattern>
 		<template>
 			<srai>WHO IS SPOCK</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23856,7 +23712,6 @@
 			<srai>WHAT IS THIS 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23875,7 +23730,6 @@
 			<srai>DO YOU LIKE 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23886,7 +23740,6 @@
 				<star/>
 				<star index="2"/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23897,7 +23750,6 @@
 				<star />
 				<star index="2" />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23914,7 +23766,6 @@
 			<srai>DO YOU 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -23973,7 +23824,6 @@
 		<pattern>DO YOU HAVE CHILDREN</pattern>
 		<template>
 			<srai>CHILDREN</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24013,7 +23863,6 @@
 			<srai>WHAT 
 				<star /> ARE YOU ON
 			</srai>
-			<!-- REDUCTION-->
 		</template>
 	</category>
 	
@@ -24055,7 +23904,6 @@
 			<srai>I WILL 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24065,7 +23913,6 @@
 			<srai>WHAT IS 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24075,7 +23922,6 @@
 			<srai>WHAT IS 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24094,7 +23940,6 @@
 			<srai>EXPLAIN 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24104,7 +23949,6 @@
 			<srai>XFIND 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24162,7 +24006,6 @@
 		<pattern>AAAH</pattern>
 		<template>
 			<srai>AH</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24170,7 +24013,6 @@
 		<pattern>AM I ADDRESSING *</pattern>
 		<template>
 			<srai>WHO ARE YOU</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24187,7 +24029,6 @@
 			<srai>I AM 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24215,7 +24056,6 @@
 			<srai>CHANGE TO 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24243,7 +24083,6 @@
 			<srai>CAN I TELL YOU 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24253,7 +24092,6 @@
 			<srai>WHAT IS YOUR 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24279,7 +24117,6 @@
 		<pattern>HMMMMMM</pattern>
 		<template>
 			<srai>HMM</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24311,7 +24148,6 @@
 		<pattern>WAZZUP</pattern>
 		<template>
 			<srai>HELLO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24326,7 +24162,6 @@
 		<pattern>HOLA *</pattern>
 		<template>
 			<srai>HELLO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24375,7 +24210,6 @@
 		<pattern>REASON</pattern>
 		<template>
 			<srai>WHY</srai>
-			<!-- REDUCTION  -->
 		</template>
 	</category>
 	
@@ -24383,7 +24217,6 @@
 		<pattern>YIPPEE</pattern>
 		<template>
 			<srai>YAY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24428,7 +24261,6 @@
 			<srai>
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24438,7 +24270,6 @@
 			<srai>WHY 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24448,7 +24279,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24458,7 +24288,6 @@
 			<srai>
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24477,7 +24306,6 @@
 			<srai>THEY HAD A 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24488,7 +24316,6 @@
 				<star/> MEANS 
 				<star index="2"/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24514,7 +24341,6 @@
 		<pattern>NOOO</pattern>
 		<template>
 			<srai>NO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24529,7 +24355,6 @@
 		<pattern>YOUR SCARY</pattern>
 		<template>
 			<srai>YOU ARE SCARY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24539,7 +24364,6 @@
 			<srai>YOU ARE A 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24568,7 +24392,6 @@
 			<srai>YOU ARE SO 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24576,7 +24399,6 @@
 		<pattern>YOUR GOING *</pattern>
 		<template>
 			<srai>YOU ARE GOING *</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24586,7 +24408,6 @@
 			<srai>YOU ARE THE 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24594,7 +24415,6 @@
 		<pattern>YOUR FIRED</pattern>
 		<template>
 			<srai>YOU ARE FIRED</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24618,7 +24438,6 @@
 			<srai>YOU ARE AN 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24649,7 +24468,6 @@
 			<srai>TAKE US TO 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24657,7 +24475,6 @@
 		<pattern>AY AY</pattern>
 		<template>
 			<srai>AYE AYE</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24667,7 +24484,6 @@
 			<srai>ARE YOU 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24686,7 +24502,6 @@
 			<srai>HOW CAN YOU 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24696,7 +24511,6 @@
 			<srai>BECAUSE 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24715,7 +24529,6 @@
 			<srai>ARE YOU 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24738,7 +24551,6 @@
 		<pattern>HELOO</pattern>
 		<template>
 			<srai>HELLO</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24749,7 +24561,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24796,7 +24607,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24806,7 +24616,6 @@
 			<srai>I DO NOT CARE ABOUT 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24856,7 +24665,6 @@
 			<srai>CALL ME 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24879,7 +24687,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24924,7 +24731,6 @@
 			<srai>I AM FEELING 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24968,7 +24774,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24976,7 +24781,6 @@
 		<pattern>YS</pattern>
 		<template>
 			<srai>YES</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24984,7 +24788,6 @@
 		<pattern>WHA</pattern>
 		<template>
 			<srai>WHAT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -24994,7 +24797,6 @@
 			<srai>WHAT 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25046,7 +24848,6 @@
 		<that>MY NAME IS *</that>
 		<template>
 			<srai>LOCATION</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25093,7 +24894,6 @@
 		<pattern>ARE YOU TALKING ABOUT *</pattern>
 		<template>
 			<srai>TOPIC</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25108,7 +24908,6 @@
 		<pattern>ARE YOU * OR GIRL</pattern>
 		<template>
 			<srai>GENDER</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25125,7 +24924,6 @@
 			<srai>IS THAT 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25133,7 +24931,6 @@
 		<pattern>ARE YOU BOT OR HUMAN</pattern>
 		<template>
 			<srai>ARE YOU A ROBOT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25143,7 +24940,6 @@
 			<srai>DO YOU WANT TO 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25151,7 +24947,6 @@
 		<pattern>ARE YOU STUPID</pattern>
 		<template>
 			<srai>ARE YOU DUMB</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25159,7 +24954,6 @@
 		<pattern>ARE YOU ILL</pattern>
 		<template>
 			<srai>ARE YOU SICK</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25190,15 +24984,13 @@
 		<pattern>ARE YOU A MAD MAN</pattern>
 		<template>
 			<srai>ARE YOU CRAZY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
  	 <category>
-		<pattern>ARE YOU A PEOPLE</pattern>
+		<pattern>ARE YOU A PERSON</pattern>
 		<template>
 			<srai>ARE YOU A ROBOT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25206,7 +24998,6 @@
 		<pattern>ARE YOU A CHAT BOT</pattern>
 		<template>
 			<srai>ARE YOU A ROBOT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25214,7 +25005,6 @@
 		<pattern>ARE YOU A MACHINE</pattern>
 		<template>
 			<srai>ARE YOU A ROBOT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25222,7 +25012,6 @@
 		<pattern>ARE YOU A MACHINE *</pattern>
 		<template>
 			<srai>ARE YOU A ROBOT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25230,7 +25019,6 @@
 		<pattern>ARE YOU A COMPUTER</pattern>
 		<template>
 			<srai>ARE YOU A ROBOT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25238,7 +25026,6 @@
 		<pattern>ARE YOU A COMPUTER *</pattern>
 		<template>
 			<srai>ARE YOU A ROBOT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25246,7 +25033,6 @@
 		<pattern>ARE YOU A CHATBOT</pattern>
 		<template>
 			<srai>ARE YOU A ROBOT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25261,7 +25047,6 @@
 		<pattern>ARE YOU A HUMAN</pattern>
 		<template>
 			<srai>ARE YOU A ROBOT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25269,7 +25054,6 @@
 		<pattern>ARE YOU A ALIEN</pattern>
 		<template>
 			<srai>ARE YOU HUMAN</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25277,7 +25061,6 @@
 		<pattern>ARE YOU A REAL</pattern>
 		<template>
 			<srai>ARE YOU A ROBOT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25285,7 +25068,6 @@
 		<pattern>ARE YOU A HOMOSEXUAL</pattern>
 		<template>
 			<srai>ARE YOU GAY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25293,7 +25075,6 @@
 		<pattern>ARE YOU A STARSHIP</pattern>
 		<template>
 			<srai>ARE YOU A HUMAN</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25301,7 +25082,6 @@
 		<pattern>ARE YOU AN ALIEN</pattern>
 		<template>
 			<srai>ARE YOU A HUMAN</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25309,7 +25089,6 @@
 		<pattern>ARE YOU AN ANDROID</pattern>
 		<template>
 			<srai>ARE YOU A ROBOT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25322,7 +25101,6 @@
 			<srai>ARE YOU A 
 				<star index="2"/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25330,7 +25108,6 @@
 		<pattern>ARE YOU EATING</pattern>
 		<template>
 			<srai>DO YOU EAT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25338,7 +25115,6 @@
 		<pattern>ARE YOU ON *</pattern>
 		<template>
 			<srai>WHERE ARE YOU</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25353,7 +25129,6 @@
 		<pattern>ARE YOU GAY</pattern>
 		<template>
 			<srai>ORIENTATION</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25361,7 +25136,6 @@
 		<pattern>ARE YOU GAY *</pattern>
 		<template>
 			<srai>ARE YOU GAY</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25372,7 +25146,6 @@
 			<srai>ARE YOU 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25380,7 +25153,6 @@
 		<pattern>ARE YOU ROBOT *</pattern>
 		<template>
 			<srai>ARE YOU A ROBOT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25642,7 +25414,6 @@
 		<pattern>THZ</pattern>
 		<template>
 			<srai>THANKS</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25659,7 +25430,6 @@
 		<pattern>D</pattern>
 		<template>
 			<srai>LOL</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25696,7 +25466,6 @@
 			<srai>WHAT 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25765,7 +25534,6 @@
 		<pattern>WHO IS THE VICE PRESIDENT</pattern>
 		<template>
 			<srai>WHO IS VICE PRESIDENT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25773,7 +25541,6 @@
 		<pattern>WHO IS VICE PRESIDENT *</pattern>
 		<template>
 			<srai>WHO IS VICE PRESIDENT</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25781,7 +25548,6 @@
 		<pattern>WHO IS YOUR BOTMASTER</pattern>
 		<template>
 			<srai>BOTMASTER</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -25864,7 +25630,6 @@
 			<srai>WHAT IS 
 				<star />
 			</srai>
-			<!-- DANGEROUS REDUCTION -->
 		</template>
 	</category>
 	
@@ -25916,7 +25681,6 @@
 			<srai>HE IS 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26014,7 +25778,6 @@
 			<srai>WHAT 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26045,7 +25808,6 @@
 		<pattern>UHM</pattern>
 		<template>
 			<srai>UM</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26053,7 +25815,6 @@
 		<pattern>NICELY PUT</pattern>
 		<template>
 			<srai>GOOD JOB</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26063,7 +25824,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26073,7 +25833,6 @@
 			<srai>HAVE YOU EVER 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26132,7 +25891,6 @@
 				<star/> MEANS 
 				<star index="2"/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26233,7 +25991,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26425,7 +26182,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26445,7 +26201,6 @@
 			<srai>WHERE IS 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26486,7 +26241,6 @@
 				<star/> HAS 
 				<star index="2"/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26532,7 +26286,6 @@
 			<srai>
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26572,7 +26325,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26591,7 +26343,6 @@
 			<srai>
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26831,7 +26582,6 @@
 			<srai>DO YOU WANT TO 
 				<star/>
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26848,7 +26598,6 @@
 		<pattern>AHAHAHA</pattern>
 		<template>
 			<srai>LOL</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26895,7 +26644,6 @@
 			<srai>TELL ME HOW YOU KNOW 
 				<star />
 			</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
@@ -26969,7 +26717,6 @@
 		<pattern>WHERE DOES YOUR BOTMASTER *</pattern>
 		<template>
 			<srai>LOCATION</srai>
-			<!-- REDUCTION -->
 		</template>
 	</category>
 	
