@@ -37,7 +37,7 @@ namespace ChatBotProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (InputTxt.Text != "")
+            if (!(string.IsNullOrWhiteSpace(InputTxt.Text)))
             {
                 outputTxt.AppendText("YOU: \n" + InputTxt.Text + Environment.NewLine);
                 outputTxt.AppendText("BOT: \n" + bot.getOutput(InputTxt.Text) + Environment.NewLine);
@@ -67,7 +67,7 @@ namespace ChatBotProject
         {
             if (e.KeyCode == Keys.Enter)
             {
-                if (InputTxt.Text != "")
+                if (!(string.IsNullOrWhiteSpace(InputTxt.Text)))
                 {
                     outputTxt.AppendText("YOU: \n" + InputTxt.Text + Environment.NewLine);
                     outputTxt.AppendText("BOT: \n" + bot.getOutput(InputTxt.Text) + Environment.NewLine);
