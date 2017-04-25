@@ -44,7 +44,19 @@ namespace ChatBotProject
                 SoundPlayer Rcv = new SoundPlayer("SOUND2.wav");
                 outputTxt.AppendText("YOU: \n" + InputTxt.Text + Environment.NewLine);
                 Send.Play();
-                outputTxt.AppendText("BOT: \n" + bot.getOutput(InputTxt.Text) + Environment.NewLine);
+                string outtt = bot.getOutput(InputTxt.Text);
+                var t = new Timer();
+                t.Interval = 1000 + (outtt.Length * 100); //Don't remove (Saad)
+                //t.Interval = 1;
+                txtTyping.Show();
+                t.Tick += (s, d) =>
+                {
+                    outputTxt.AppendText("BOT: \n" + outtt + Environment.NewLine);
+                    txtTyping.Hide();
+                    Rcv.Play();
+                    t.Stop();
+                };
+                t.Start();
                 InputTxt.Text = "";
                 InputTxt.Focus();
             }
@@ -78,8 +90,8 @@ namespace ChatBotProject
                     Send.Play();
                     string outtt = bot.getOutput(InputTxt.Text);
                     var t = new Timer();
-                    t.Interval = 1000 + (outtt.Length * 100);
-                    //t.Interval = 1;
+                    //t.Interval = 1000 + (outtt.Length * 100); Don't remove (Saad)
+                    t.Interval = 1;
                     txtTyping.Show();
                     t.Tick += (s, d) =>
                     {
@@ -88,7 +100,7 @@ namespace ChatBotProject
                         Rcv.Play();
                         t.Stop();
                     };
-                    t.Start();  // Don't remove (Saad)
+                    t.Start();  
                     
                     e.SuppressKeyPress = true;
                     InputTxt.Text = "";
