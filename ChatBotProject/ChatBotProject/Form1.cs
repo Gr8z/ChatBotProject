@@ -38,8 +38,8 @@ namespace ChatBotProject
                 Send.Play();
                 string outtt = bot.getOutput(InputTxt.Text);
                 var t = new Timer();
-                t.Interval = 1000 + (outtt.Length * 100); //Don't remove (Saad)
-                //t.Interval = 1;
+                //t.Interval = 1000 + (outtt.Length * 100); //Don't remove (Saad)
+                t.Interval = 1;
                 txtTyping.Show();
                 t.Tick += (s, d) =>
                 {
