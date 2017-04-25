@@ -20,20 +20,12 @@ namespace ChatBotProject
             InitializeComponent();
             this.ActiveControl = InputTxt;
             InputTxt.Focus();
-
         }
 
         static ChatBot bot;
         private void Form1_Load(object sender, EventArgs e)
         {
             bot = new ChatBot();
-            using (WelcomeScreen wlcm = new WelcomeScreen())
-            {
-                wlcm.ShowDialog();
-                outputTxt.AppendText("BOT: Hello, I'm your ChatBot! \n");
-
-            }
-
         }
 
         private void showOutput()
