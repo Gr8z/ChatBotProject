@@ -13,3 +13,13 @@ C:\Users\Noor-ul-ain\Desktop\ChatBotProject\ChatBotProject\ChatBotProject\obj\De
 C:\Users\Noor-ul-ain\Desktop\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.Form1.resources
 C:\Users\Noor-ul-ain\Desktop\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.Properties.Resources.resources
 C:\Users\Noor-ul-ain\Desktop\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.csproj.GenerateResource.Cache
+D:\Scripts\ChatBotProject\ChatBotProject\ChatBotProject\bin\Debug\ChatBotProject.exe.config
+D:\Scripts\ChatBotProject\ChatBotProject\ChatBotProject\bin\Debug\ChatBotProject.exe
+D:\Scripts\ChatBotProject\ChatBotProject\ChatBotProject\bin\Debug\ChatBotProject.pdb
+D:\Scripts\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.csprojResolveAssemblyReference.cache
+D:\Scripts\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.bubble.resources
+D:\Scripts\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.Form1.resources
+D:\Scripts\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.Properties.Resources.resources
+D:\Scripts\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.csproj.GenerateResource.Cache
+D:\Scripts\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.exe
+D:\Scripts\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.pdb
