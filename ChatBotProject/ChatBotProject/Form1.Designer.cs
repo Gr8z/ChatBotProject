@@ -32,6 +32,7 @@
             this.outputTxt = new System.Windows.Forms.TextBox();
             this.InputTxt = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.txtTyping = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // outputTxt
@@ -63,11 +64,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // txtTyping
+            // 
+            this.txtTyping.AutoSize = true;
+            this.txtTyping.Location = new System.Drawing.Point(4, 440);
+            this.txtTyping.Name = "txtTyping";
+            this.txtTyping.Size = new System.Drawing.Size(73, 13);
+            this.txtTyping.TabIndex = 3;
+            this.txtTyping.Text = "Bot is typing...";
+            this.txtTyping.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(322, 462);
+            this.Controls.Add(this.txtTyping);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.InputTxt);
             this.Controls.Add(this.outputTxt);
@@ -88,6 +100,7 @@
         private System.Windows.Forms.TextBox outputTxt;
         private System.Windows.Forms.TextBox InputTxt;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label txtTyping;
     }
 }
 

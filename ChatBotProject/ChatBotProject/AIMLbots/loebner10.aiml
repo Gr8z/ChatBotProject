@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+	
+ 	 <category>
+		<pattern>NORESP</pattern>
+		<template>
+			<random>
+				<li>Are you bz?</li>
+				<li>Are you busy?</li>
+				<li>Is anyone there?</li>
+				<li>You haven't said anything.</li>
+				<li>I'm here waiting for you.</li>
+				<li>Get back to me when you are ready.</li>
+				<li>Hello?</li>
+				<li>I'm waiting.</li>
+				<li>Did you mean to send me a blank message?</li>
+				<li>Your message was blank or incomplete, Send anyway (Y/N)?</li>
+			</random>
+		</template>
+	</category>
+	
+ 	 <category>
+		<pattern>CONNECT</pattern>
+		<template>
+			<srai>SET PREDICATES</srai>
+		</template>
+	</category>
+</aiml>
