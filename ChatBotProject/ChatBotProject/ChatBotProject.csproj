@@ -71,70 +71,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="AIMLbots\AI.aiml" />
-    <None Include="AIMLbots\alice.aiml" />
-    <None Include="AIMLbots\astrology.aiml" />
-    <None Include="AIMLbots\Atomic.aiml" />
-    <None Include="AIMLbots\badanswer.aiml" />
-    <None Include="AIMLbots\Biography.aiml" />
-    <None Include="AIMLbots\Bot.aiml" />
-    <None Include="AIMLbots\bot_profile.aiml" />
-    <None Include="AIMLbots\Client.aiml" />
-    <None Include="AIMLbots\client_profile.aiml" />
-    <None Include="AIMLbots\Computers.aiml" />
-    <None Include="AIMLbots\continuation.aiml" />
-    <None Include="AIMLbots\date.aiml" />
-    <None Include="AIMLbots\Default.aiml" />
-    <None Include="AIMLbots\drugs.aiml" />
-    <None Include="AIMLbots\Emotion.aiml" />
-    <None Include="AIMLbots\Food.aiml" />
-    <None Include="AIMLbots\Geography.aiml" />
-    <None Include="AIMLbots\gossip.aiml" />
-    <None Include="AIMLbots\History.aiml" />
-    <None Include="AIMLbots\humor.aiml" />
-    <None Include="AIMLbots\imponderables.aiml" />
-    <None Include="AIMLbots\Inquiry.aiml" />
-    <None Include="AIMLbots\Interjection.aiml" />
-    <None Include="AIMLbots\IU.aiml" />
-    <None Include="AIMLbots\Knowledge.aiml" />
-    <None Include="AIMLbots\Literature.aiml" />
-    <None Include="AIMLbots\loebner10.aiml" />
-    <None Include="AIMLbots\Money.aiml" />
-    <None Include="AIMLbots\Movies.aiml" />
-    <None Include="AIMLbots\mp0.aiml" />
-    <None Include="AIMLbots\mp1.aiml" />
-    <None Include="AIMLbots\mp2.aiml" />
-    <None Include="AIMLbots\mp3.aiml" />
-    <None Include="AIMLbots\mp4.aiml" />
-    <None Include="AIMLbots\mp5.aiml" />
-    <None Include="AIMLbots\mp6.aiml" />
-    <None Include="AIMLbots\Music.aiml" />
-    <None Include="AIMLbots\numbers.aiml" />
-    <None Include="AIMLbots\Personality.aiml" />
-    <None Include="AIMLbots\Pickup.aiml" />
-    <None Include="AIMLbots\politics.aiml" />
-    <None Include="AIMLbots\primeminister.aiml" />
-    <None Include="AIMLbots\primitive-math.aiml" />
-    <None Include="AIMLbots\psychology.aiml" />
-    <None Include="AIMLbots\pyschology.aiml" />
-    <None Include="AIMLbots\reduction.names.aiml" />
-    <None Include="AIMLbots\reduction0.safe.aiml" />
-    <None Include="AIMLbots\reduction1.safe.aiml" />
-    <None Include="AIMLbots\reduction2.safe.aiml" />
-    <None Include="AIMLbots\reduction3.safe.aiml" />
-    <None Include="AIMLbots\reduction4.safe.aiml" />
-    <None Include="AIMLbots\reductions-update.aiml" />
-    <None Include="AIMLbots\religion.aiml" />
-    <None Include="AIMLbots\Salutations.aiml" />
-    <None Include="AIMLbots\Science.aiml" />
-    <None Include="AIMLbots\sex.aiml" />
-    <None Include="AIMLbots\sports.aiml" />
-    <None Include="AIMLbots\Stack.aiml" />
-    <None Include="AIMLbots\Stories.aiml" />
-    <None Include="AIMLbots\That.aiml" />
-    <None Include="AIMLbots\update1.aiml" />
-    <None Include="AIMLbots\update_mccormick.aiml" />
-    <None Include="AIMLbots\xfind.aiml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -149,7 +85,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="last try.ico" />
+    <Content Include="icon.ico" />
     <Content Include="SOUND1.wav" />
     <Content Include="SOUND2.wav" />
   </ItemGroup>
