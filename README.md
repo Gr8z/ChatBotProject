@@ -18,3 +18,4 @@ These are the contributors to this Project in random order:
 
 # Credits
 * conversational back-end is provided by [AIMLbot.dll](http://aimlbot.sourceforge.net), a C# implementation of Dr. Richard S. Wallace's A.L.I.C.E. system.
+* User Interface modules are provided by [Bunifu_UI_v1.52.dll](https://devtools.bunifu.co.ke/), a premium .NET UI Framework by Bunifu.
