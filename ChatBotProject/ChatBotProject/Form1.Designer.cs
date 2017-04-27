@@ -38,16 +38,16 @@
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.InputTxt = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.button1 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.bubble1 = new ChatBotProject.bubble();
-            this.bottom = new System.Windows.Forms.PictureBox();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bottom = new System.Windows.Forms.PictureBox();
+            this.bubble1 = new ChatBotProject.bubble();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.button1)).BeginInit();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bottom)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtTyping
@@ -149,25 +149,10 @@
             this.button1.Zoom = 10;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panel2
+            // bunifuElipse1
             // 
-            this.panel2.AutoScroll = true;
-            this.panel2.Controls.Add(this.bubble1);
-            this.panel2.Controls.Add(this.bottom);
-            this.panel2.Location = new System.Drawing.Point(7, 46);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(561, 350);
-            this.panel2.TabIndex = 7;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // bubble1
-            // 
-            this.bubble1.BackColor = System.Drawing.Color.Silver;
-            this.bubble1.Location = new System.Drawing.Point(9, 10);
-            this.bubble1.Name = "bubble1";
-            this.bubble1.Size = new System.Drawing.Size(479, 85);
-            this.bubble1.TabIndex = 3;
-            this.bubble1.Visible = false;
+            this.bunifuElipse1.ElipseRadius = 10;
+            this.bunifuElipse1.TargetControl = this;
             // 
             // bottom
             // 
@@ -178,10 +163,25 @@
             this.bottom.TabStop = false;
             this.bottom.Visible = false;
             // 
-            // bunifuElipse1
+            // bubble1
             // 
-            this.bunifuElipse1.ElipseRadius = 10;
-            this.bunifuElipse1.TargetControl = this;
+            this.bubble1.BackColor = System.Drawing.Color.Silver;
+            this.bubble1.Location = new System.Drawing.Point(9, 10);
+            this.bubble1.Name = "bubble1";
+            this.bubble1.Size = new System.Drawing.Size(479, 85);
+            this.bubble1.TabIndex = 3;
+            this.bubble1.Visible = false;
+            // 
+            // panel2
+            // 
+            this.panel2.AutoScroll = true;
+            this.panel2.Controls.Add(this.bubble1);
+            this.panel2.Controls.Add(this.bottom);
+            this.panel2.Location = new System.Drawing.Point(7, 46);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(561, 350);
+            this.panel2.TabIndex = 7;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // Form1
             // 
@@ -205,8 +205,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.button1)).EndInit();
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bottom)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -221,10 +221,10 @@
         private System.Windows.Forms.PictureBox close;
         private Bunifu.Framework.UI.BunifuMaterialTextbox InputTxt;
         private Bunifu.Framework.UI.BunifuImageButton button1;
-        private System.Windows.Forms.Panel panel2;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private System.Windows.Forms.PictureBox bottom;
+        private System.Windows.Forms.Panel panel2;
         private bubble bubble1;
+        private System.Windows.Forms.PictureBox bottom;
     }
 }
 
