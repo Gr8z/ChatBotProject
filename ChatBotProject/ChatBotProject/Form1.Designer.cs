@@ -176,6 +176,7 @@
             this.bottom.Size = new System.Drawing.Size(100, 50);
             this.bottom.TabIndex = 2;
             this.bottom.TabStop = false;
+            this.bottom.Visible = false;
             // 
             // bunifuElipse1
             // 

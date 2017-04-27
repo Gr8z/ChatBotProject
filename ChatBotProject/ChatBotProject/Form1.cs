@@ -38,20 +38,23 @@ namespace ChatBotProject
                 Send.Play();
                 string outtt = bot.getOutput(InputTxt.Text);
                 var t = new Timer();
-                //t.Interval = 1000 + (outtt.Length * 100); //Don't remove (Saad)
-                t.Interval = 1;
+                t.Interval = 1000 + (outtt.Length * 100); //Don't remove (Saad)
+                //t.Interval = 1;
                 txtTyping.Show();
+                InputTxt.Enabled = false;
                 t.Tick += (s, d) =>
                 {
+                    InputTxt.Enabled = true;
                     addOutMessage(outtt);
                     panel2.VerticalScroll.Value = panel2.VerticalScroll.Maximum; //scroll the chatbox down 
                     txtTyping.Hide();
                     Rcv.Play();
+                    InputTxt.Focus();
                     t.Stop();
                 };
                 t.Start();
                 InputTxt.Text = "";
-                InputTxt.Focus();
+                
             }
             else
             {
@@ -77,7 +80,7 @@ namespace ChatBotProject
         public void addInMessage(string message)
         {
             bubble bbl = new ChatBotProject.bubble(message, msgtype.In);
-            bbl.Location = bubble1.Location;
+            bbl.Location = bubble1.Location; bbl.Left += 50; // add indent
             bbl.Size = bubble1.Size;
             bbl.Anchor = bubble1.Anchor;
             bbl.Top = bbl_old.Bottom + 10;
@@ -91,7 +94,7 @@ namespace ChatBotProject
         public void addOutMessage(string message)
         {
             bubble bbl = new ChatBotProject.bubble(message, msgtype.Out);
-            bbl.Location = bubble1.Location; bbl.Left += 20; // add indent
+            bbl.Location = bubble1.Location; 
             bbl.Size = bubble1.Size;
             bbl.Anchor = bubble1.Anchor;
             bbl.Top = bbl_old.Bottom + 10;
