@@ -1,13 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using AIMLbot;
 using System.Media;
 
 namespace ChatBotProject
@@ -108,6 +100,11 @@ namespace ChatBotProject
         private void close_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
