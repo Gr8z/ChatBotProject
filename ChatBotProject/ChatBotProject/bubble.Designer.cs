@@ -45,9 +45,9 @@
             this.lblmessgae.BackColor = System.Drawing.Color.Transparent;
             this.lblmessgae.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmessgae.ForeColor = System.Drawing.Color.White;
-            this.lblmessgae.Location = new System.Drawing.Point(10, 13);
+            this.lblmessgae.Location = new System.Drawing.Point(10, 7);
             this.lblmessgae.Name = "lblmessgae";
-            this.lblmessgae.Size = new System.Drawing.Size(616, 43);
+            this.lblmessgae.Size = new System.Drawing.Size(616, 52);
             this.lblmessgae.TabIndex = 2;
             this.lblmessgae.Text = "I\'m a Barbie girl in the Barbie world. Life in plastic, it\'s fantastic! You can b" +
     "rush my hair, undress me everywhere. Imagination, life is your creation. Come on" +
@@ -58,10 +58,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Silver;
             this.Controls.Add(this.lblmessgae);
             this.Name = "bubble";
-            this.Size = new System.Drawing.Size(644, 66);
+            this.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
+            this.Size = new System.Drawing.Size(644, 64);
             this.Load += new System.EventHandler(this.bubble_Load);
             this.ResumeLayout(false);
 
