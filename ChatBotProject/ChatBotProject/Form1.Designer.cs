@@ -131,7 +131,6 @@
             this.InputTxt.Size = new System.Drawing.Size(517, 44);
             this.InputTxt.TabIndex = 5;
             this.InputTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.InputTxt.OnValueChanged += new System.EventHandler(this.InputTxt_OnValueChanged);
             this.InputTxt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.InputTxt_KeyDown);
             // 
             // button1
@@ -165,16 +164,12 @@
             // 
             // bubble1
             // 
-            this.bubble1.AutoSize = true;
-            this.bubble1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.bubble1.BackColor = System.Drawing.Color.Silver;
             this.bubble1.Location = new System.Drawing.Point(9, 10);
             this.bubble1.Name = "bubble1";
-            this.bubble1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.bubble1.Size = new System.Drawing.Size(479, 64);
+            this.bubble1.Size = new System.Drawing.Size(479, 85);
             this.bubble1.TabIndex = 3;
             this.bubble1.Visible = false;
-            this.bubble1.Load += new System.EventHandler(this.bubble1_Load);
             // 
             // panel2
             // 
@@ -211,7 +206,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.button1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bottom)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

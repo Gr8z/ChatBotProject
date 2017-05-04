@@ -43,7 +43,7 @@
             this.lblmessgae.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblmessgae.BackColor = System.Drawing.Color.Transparent;
-            this.lblmessgae.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmessgae.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmessgae.ForeColor = System.Drawing.Color.White;
             this.lblmessgae.Location = new System.Drawing.Point(10, 7);
             this.lblmessgae.Name = "lblmessgae";

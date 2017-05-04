@@ -128,9 +128,7 @@
 	
  	 <category>
 		<pattern>WOULD YOU LIKE TO * SEX</pattern>
-		<template>Try asking another 
-			<bot name="age"/> year old 
-			<bot name="gender"/>. That's not my thing.
+		<template>Try asking another <bot name="age"/> year old <bot name="gender"/>. That's not my thing.
 		</template>
 	</category>
 	

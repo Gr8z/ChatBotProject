@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <root>
   <item name="aimldirectory" value="aiml"/>
   <item name="configdirectory" value="config"/>
@@ -18,7 +18,8 @@
   <item name="master" value="Mohammad Dohadwala"/>
   <item name="author" value="Mohammad Dohadwala"/>
   <item name="location" value="Unknown"/>
-  <item name="gender" value=""/>
+  <item name="gender" value="male"/>
+  <item name="age" value="19"/>
   <item name="birthday" value="2017/4/21"/>
   <item name="birthplace" value=" , Dubai, UAE"/>
   <item name="website" value="www.szabist.ac.ae"/>
