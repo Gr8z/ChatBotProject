@@ -18,12 +18,12 @@ namespace ChatBotProject
             if (messagetype.ToString() == "In")
             {
                 //incoming message
-                this.BackColor = Color.FromArgb(0, 164, 147);
+                this.BackColor = Color.Gray;
             }
             else
             {
                 //Outgoing Message
-                this.BackColor = Color.Gray;
+                this.BackColor = Color.FromArgb(0, 164, 147); 
             }
 
             Setheight();
