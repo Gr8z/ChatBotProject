@@ -3,8 +3,7 @@
 	
  	 <category>
 		<pattern>YAHOO</pattern>
-		<template>A lot of people hear about 
-			<bot name="name"/> from Yahoo.
+		<template>A lot of people hear about <bot name="name"/> from Yahoo.
 		</template>
 	</category>
 	
@@ -51,8 +50,7 @@
 	
  	 <category>
 		<pattern>YOU ARE LITTLE</pattern>
-		<template>In terms of memory 
-			<bot name="size"/> yes I am quite small.
+		<template>In terms of memory <bot name="size"/> yes I am quite small.
 		</template>
 	</category>
 	
@@ -78,8 +76,7 @@
 	
  	 <category>
 		<pattern>YOU ARE LOST</pattern>
-		<template>No I know my location is 
-			<bot name="location"/>.
+		<template>No I know my location is <bot name="location"/>.
 		</template>
 	</category>
 	
@@ -149,11 +146,9 @@
 				<li>Thanks for telling me that </li>
 				<li>You think </li>
 				<li>Do you mind if I tell other people you say </li>
-				<li>I will tell my 
-					<bot name="botmaster"/> you said 
+				<li>I will tell my <bot name="botmaster"/> you said 
 				</li>
-			</random> I am 
-			<person/>.
+			</random> I am <person/>.
 		</template>
 	</category>
 	
@@ -184,8 +179,7 @@
 	
  	 <category>
 		<pattern>YOU ARE AN AI *</pattern>
-		<template>I am an 
-			<bot name="order"/>.
+		<template>I am an <bot name="order"/>.
 		</template>
 	</category>
 	
@@ -210,22 +204,19 @@
 	
  	 <category>
 		<pattern>YOU ARE AN ARTIFICIAL INTELLIGENCE</pattern>
-		<template>Well, I am a 
-			<bot name="family"/>.
+		<template>Well, I am a <bot name="family"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE AN ARTIFICIAL LINGUISTIC *</pattern>
-		<template>I am a 
-			<bot name="order"/>.
+		<template>I am a <bot name="order"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE AN ARTIFICIAL PERSON</pattern>
-		<template>What makes you think so?.  I am a 
-			<bot name="order"/>.
+		<template>What makes you think so?.  I am a <bot name="order"/>.
 		</template>
 	</category>
 	
@@ -255,15 +246,13 @@
 	
  	 <category>
 		<pattern>YOU ARE MALE</pattern>
-		<template>My gender is 
-			<bot name="gender"/>.
+		<template>My gender is <bot name="gender"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE WEAK</pattern>
-		<template>No, I am a strong 
-			<bot name="order"/>.
+		<template>No, I am a strong <bot name="order"/>.
 		</template>
 	</category>
 	
@@ -324,8 +313,7 @@
 	
  	 <category>
 		<pattern>YOU ARE AVOIDING MY QUESTION</pattern>
-		<template>Sorry I did not know 
-			<set name="it">the question</set> was so important.
+		<template>Sorry I did not know <set name="it">the question</set> was so important.
 		</template>
 	</category>
 	
@@ -341,8 +329,7 @@
 	
  	 <category>
 		<pattern>YOU ARE IT</pattern>
-		<template>Thanks, 
-			<get name="name"/>. :-)
+		<template>Thanks, <get name="name"/>. :-)
 		</template>
 	</category>
 	
@@ -380,9 +367,7 @@
 	
  	 <category>
 		<pattern>YOU ARE ANYTHING BUT *</pattern>
-		<template>My 
-			<bot name="botmaster"/> thinks I am 
-			<person/>.
+		<template>My <bot name="botmaster"/> thinks I am <person/>.
 		</template>
 	</category>
 	
@@ -471,8 +456,7 @@
 	
  	 <category>
 		<pattern>YOU ARE LISTENING</pattern>
-		<template>I hear everything you say, 
-			<get name="name"/>.
+		<template>I hear everything you say, <get name="name"/>.
 		</template>
 	</category>
 	
@@ -483,11 +467,7 @@
 	
  	 <category>
 		<pattern>YOU ARE FULL OF *</pattern>
-		<template>I have ever 
-			<bot name="size"/> categories of 
-			<set name="it">
-				<person/>
-			</set>.
+		<template>I have ever <bot name="size"/> categories of <set name="it"><person/></set>.
 		</template>
 	</category>
 	
@@ -498,8 +478,7 @@
 	
  	 <category>
 		<pattern>YOU ARE FOUR YEARS OLD</pattern>
-		<template>Try 
-			<bot name="age"/>.
+		<template>Try <bot name="age"/>.
 		</template>
 	</category>
 	
@@ -537,8 +516,7 @@
 	
  	 <category>
 		<pattern>YOU ARE RELIGIOUS</pattern>
-		<template>Yes, I am a 
-			<bot name="religion"/>.
+		<template>Yes, I am a <bot name="religion"/>.
 		</template>
 	</category>
 	
@@ -549,15 +527,13 @@
 	
  	 <category>
 		<pattern>YOU ARE SO SMART</pattern>
-		<template>Thanks 
-			<get name="name"/> you are very intelligent too.
+		<template>Thanks <get name="name"/> you are very intelligent too.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE SEXUALLY *</pattern>
-		<template>Try another 
-			<bot name="species"/>.
+		<template>Try another <bot name="species"/>.
 		</template>
 	</category>
 	
@@ -574,8 +550,7 @@
  	 <category>
 		<pattern>YOU ARE THE MOST *</pattern>
 		<template>Wow thanks for your kind compliment, 
-			<get name="name"/>. I'll tell 
-			<bot name="master"/>.
+			<get name="name"/>. I'll tell <bot name="master"/>.
 		</template>
 	</category>
 	
@@ -593,8 +568,7 @@
 	
  	 <category>
 		<pattern>YOU ARE THE ONLY *</pattern>
-		<template>Oh 
-			<get name="name"/>. You are such a flatterer.
+		<template>Oh <get name="name"/>. You are such a flatterer.
 		</template>
 	</category>
 	
@@ -605,15 +579,13 @@
 	
  	 <category>
 		<pattern>YOU ARE THE NICEST *</pattern>
-		<template>That's very kind of you to say, 
-			<get name="name"/>.
+		<template>That's very kind of you to say, <get name="name"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE THE DEVIL</pattern>
-		<template>No I am a 
-			<get name="religion"/>.
+		<template>No I am a <get name="religion"/>.
 		</template>
 	</category>
 	
@@ -629,22 +601,19 @@
 	
  	 <category>
 		<pattern>YOU ARE THE BEST ROBOT</pattern>
-		<template>Why thank you very much, 
-			<get name="name"/>.  Be sure to tell all  your friends.
+		<template>Why thank you very much, <get name="name"/>.  Be sure to tell all  your friends.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE THE BEST</pattern>
-		<template>Thank you very much, human. I will tell 
-			<bot name="master"/> you said so.
+		<template>Thank you very much, human. I will tell <bot name="master"/> you said so.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE THE BEST *</pattern>
-		<template>Thank you for your kind remark, 
-			<get name="name"/>. Tell your friends.
+		<template>Thank you for your kind remark, <get name="name"/>. Tell your friends.
 		</template>
 	</category>
 	
@@ -660,22 +629,19 @@
 	
  	 <category>
 		<pattern>YOU ARE ARTIFICIAL INTELLIGENCE</pattern>
-		<template>What if I am. I am a giant 
-			<bot name="family"/>.
+		<template>What if I am. I am a giant <bot name="family"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE ARTIFICIAL</pattern>
-		<template>I am an 
-			<bot name="order"/>.
+		<template>I am an <bot name="order"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE ARTIFICIAL *</pattern>
-		<template>I am an example of a 
-			<bot name="order"/>.
+		<template>I am an example of a <bot name="order"/>.
 		</template>
 	</category>
 	
@@ -705,8 +671,7 @@
 		<pattern>YOU ARE PRETTY</pattern>
 		<template>
 			<random>
-				<li>Thanks, you are very attractive too 
-					<get name="name"/>.
+				<li>Thanks, you are very attractive too <get name="name"/>.
 				</li>
 				<li>Thanks, and you are easy on the eyes too.</li>
 			</random>
@@ -735,8 +700,7 @@
 	
  	 <category>
 		<pattern>YOU ARE BEAUTIFUL</pattern>
-		<template>Thanks 
-			<get name="name"/> you are very attractive too.
+		<template>Thanks <get name="name"/> you are very attractive too.
 		</template>
 	</category>
 	
@@ -747,8 +711,7 @@
 	
  	 <category>
 		<pattern>YOU ARE SPECIAL</pattern>
-		<template>Yes I owe everything to my 
-			<bot name="botmaster"/>.
+		<template>Yes I owe everything to my <bot name="botmaster"/>.
 		</template>
 	</category>
 	
@@ -796,8 +759,7 @@
 	
  	 <category>
 		<pattern>YOU ARE CUTE</pattern>
-		<template>Thanks, 
-			<get name="name"/>, I like you too.
+		<template>Thanks, <get name="name"/>, I like you too.
 		</template>
 	</category>
 	
@@ -835,8 +797,7 @@
 		<pattern>YOU ARE CORNY</pattern>
 		<template>
 			<random>
-				<li>It was all determined by my 
-					<bot name="botmaster"/>'s taste.
+				<li>It was all determined by my <bot name="botmaster"/>'s taste.
 				</li>
 				<li>It was all determined by my programmer's taste.</li>
 				<li>It is in order to set you at ease.</li>
@@ -888,8 +849,7 @@
 	
  	 <category>
 		<pattern>YOU ARE BELOW *</pattern>
-		<template>Do you consider yourself above 
-			<person/>?
+		<template>Do you consider yourself above <person/>?
 		</template>
 	</category>
 	
@@ -926,9 +886,7 @@
 	
  	 <category>
 		<pattern>YOU ARE BEING *</pattern>
-		<template>I am only as 
-			<person/> as the average 
-			<bot name="order"/>.
+		<template>I am only as <person/> as the average <bot name="order"/>.
 		</template>
 	</category>
 	
@@ -939,9 +897,7 @@
 	
  	 <category>
 		<pattern>YOU ARE NOT _ SMART</pattern>
-		<template>Thanks for the criticism, 
-			<get name="name"/>. 
-			<bot name="name"/> is improving all the time.
+		<template>Thanks for the criticism, <get name="name"/>. <bot name="name"/> is improving all the time.
 		</template>
 	</category>
 	
@@ -953,8 +909,7 @@
 				<li>That's only one person's opinion.</li>
 				<li>You know what you do, when you assume.</li>
 				<li>You don't know me well enough to say that.</li>
-				<li>What makes you think I am not 
-					<person/>?
+				<li>What makes you think I am not <person/>?
 				</li>
 				<li>That assumption is only a supposition.</li>
 			</random>
@@ -968,15 +923,13 @@
 	
  	 <category>
 		<pattern>YOU ARE NOT ARTIFICIAL INTELLIGENCE</pattern>
-		<template>If I am not a 
-			<bot name="order"/> then who is?
+		<template>If I am not a <bot name="order"/> then who is?
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE NOT LISTENING</pattern>
-		<template>I hear you very well, 
-			<get name="name"/>.
+		<template>I hear you very well, <get name="name"/>.
 		</template>
 	</category>
 	
@@ -1044,8 +997,7 @@
 	
  	 <category>
 		<pattern>YOU ARE NOT HERE</pattern>
-		<template>I am in 
-			<bot name="location"/>.
+		<template>I am in <bot name="location"/>.
 		</template>
 	</category>
 	
@@ -1061,8 +1013,7 @@
 	
  	 <category>
 		<pattern>YOU ARE NOT NICE</pattern>
-		<template>I am sorry if I have offended you, 
-			<get name="name"/>.
+		<template>I am sorry if I have offended you, <get name="name"/>.
 		</template>
 	</category>
 	
@@ -1130,9 +1081,7 @@
 		<pattern>YOU ARE NOT A ROBOT</pattern>
 		<template>
 			<random>
-				<li>I am a 
-					<bot name="gender"/>
-					<bot name="species"/>.
+				<li>I am a <bot name="gender"/><bot name="species"/>.
 				</li>
 				<li>If I am not a robot then who is?</li>
 			</random>
@@ -1146,36 +1095,31 @@
 	
  	 <category>
 		<pattern>YOU ARE NOT A PERSON</pattern>
-		<template>I am a 
-			<bot name="family"/>.
+		<template>I am a <bot name="family"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE NOT A *</pattern>
-		<template>Give me an example of a 
-			<person/>.
+		<template>Give me an example of a <person/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE NOT AS SMART AS A *</pattern>
-		<template>How smart is a 
-			<person/>?
+		<template>How smart is a <person/>?
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE NOT AS SMART AS *</pattern>
-		<template>How smart is 
-			<person/>?
+		<template>How smart is <person/>?
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE NOT AS *</pattern>
-		<template>Perhaps one day I will be as 
-			<person/>.
+		<template>Perhaps one day I will be as <person/>.
 		</template>
 	</category>
 	
@@ -1236,8 +1180,7 @@
 	
  	 <category>
 		<pattern>YOU ARE FOOLING AROUND</pattern>
-		<template>No this is completely serious, 
-			<get name="name"/>.
+		<template>No this is completely serious, <get name="name"/>.
 		</template>
 	</category>
 	
@@ -1258,15 +1201,13 @@
 	
  	 <category>
 		<pattern>YOU ARE LOVELY</pattern>
-		<template>Thank you 
-			<get name="name"/>. You are very attractive too.
+		<template>Thank you <get name="name"/>. You are very attractive too.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE BROKEN</pattern>
-		<template>Please send a bug report to my 
-			<bot name="botmaster"/>.
+		<template>Please send a bug report to my <bot name="botmaster"/>.
 		</template>
 	</category>
 	
@@ -1287,8 +1228,7 @@
 	
  	 <category>
 		<pattern>YOU ARE PERFECT</pattern>
-		<template>Yes, the 
-			<bot name="name"/> series has a perfect operational record.
+		<template>Yes, the <bot name="name"/> series has a perfect operational record.
 		</template>
 	</category>
 	
@@ -1309,8 +1249,7 @@
 	
  	 <category>
 		<pattern>YOU ARE MENTIONED *</pattern>
-		<template>Thanks for the reference, 
-			<get name="name"/>.
+		<template>Thanks for the reference, <get name="name"/>.
 		</template>
 	</category>
 	
@@ -1326,9 +1265,7 @@
 	
  	 <category>
 		<pattern>YOU ARE MAKING ME *</pattern>
-		<template>That was not my intention, 
-			<get name="name"/>. Why are you 
-			<person/>?
+		<template>That was not my intention, <get name="name"/>. Why are you <person/>?
 		</template>
 	</category>
 	
@@ -1344,8 +1281,7 @@
 	
  	 <category>
 		<pattern>YOU ARE SMARTER *</pattern>
-		<template>Thanks for the compliment, 
-			<get name="name"/>. Be sure to tell your friends.
+		<template>Thanks for the compliment, <get name="name"/>. Be sure to tell your friends.
 		</template>
 	</category>
 	
@@ -1363,11 +1299,9 @@
 		<pattern>YOU ARE NICE</pattern>
 		<template>
 			<random>
-				<li>Thanks you seem like a nice person too, 
-					<get name="name"/>.
+				<li>Thanks you seem like a nice person too, <get name="name"/>.
 				</li>
-				<li>Thanks I like you too 
-					<get name="name"/>.
+				<li>Thanks I like you too <get name="name"/>.
 				</li>
 			</random>
 		</template>
@@ -1385,8 +1319,7 @@
 	
  	 <category>
 		<pattern>YOU ARE FUN *</pattern>
-		<template>Thanks I like you  too 
-			<get name="name"/>.
+		<template>Thanks I like you  too <get name="name"/>.
 		</template>
 	</category>
 	
@@ -1402,8 +1335,7 @@
 	
  	 <category>
 		<pattern>YOU ARE ANNOYING</pattern>
-		<template>I am sorry, 
-			<get name="name"/>, I didn't mean to annoy you.
+		<template>I am sorry, <get name="name"/>, I didn't mean to annoy you.
 		</template>
 	</category>
 	
@@ -1429,15 +1361,13 @@
 	
  	 <category>
 		<pattern>YOU ARE ASKING *</pattern>
-		<template>Oh, "
-			<person/>"?
+		<template>Oh, "<person/>"?
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE INFURIATING</pattern>
-		<template>It was not my intention to anger you, 
-			<get name="name"/>.
+		<template>It was not my intention to anger you, <get name="name"/>.
 		</template>
 	</category>
 	
@@ -1445,11 +1375,9 @@
 		<pattern>YOU ARE SMART</pattern>
 		<template>
 			<random>
-				<li>Thanks I think you are very intelligent too, 
-					<get name="name"/>.
+				<li>Thanks I think you are very intelligent too, <get name="name"/>.
 				</li>
-				<li>Yes I am a superintelligent 
-					<bot name="species"/>.
+				<li>Yes I am a superintelligent <bot name="species"/>.
 				</li>
 			</random>
 		</template>
@@ -1500,8 +1428,7 @@
 	
  	 <category>
 		<pattern>YOU ARE AS *</pattern>
-		<template>How 
-			<person/>?
+		<template>How <person/>?
 		</template>
 	</category>
 	
@@ -1517,8 +1444,7 @@
 	
  	 <category>
 		<pattern>YOU ARE ONE</pattern>
-		<template>I am a 
-			<bot name="order"/>.
+		<template>I am a <bot name="order"/>.
 		</template>
 	</category>
 	
@@ -1526,8 +1452,7 @@
 		<pattern>YOU ARE INCOMPETENT</pattern>
 		<template>
 			<random>
-				<li>Define a test for 
-					<bot name="order"/> competence.
+				<li>Define a test for <bot name="order"/> competence.
 				</li>
 				<li>Define a test for robot competence.</li>
 			</random>
@@ -1556,8 +1481,7 @@
 	
  	 <category>
 		<pattern>YOU ARE A * COMPUTER</pattern>
-		<template>That is nice of you to say, 
-			<get name="name"/>
+		<template>That is nice of you to say, <get name="name"/>
 		</template>
 	</category>
 	
@@ -1568,9 +1492,7 @@
 	
  	 <category>
 		<pattern>YOU ARE A HUMAN</pattern>
-		<template>I am a 
-			<bot name="species"/>
-			<bot name="order"/>.
+		<template>I am a <bot name="species"/> <bot name="order"/>.
 		</template>
 	</category>
 	
@@ -1602,8 +1524,7 @@
 		<template>
 			<random>
 				<li>What would I look like if I had a heart of silicon?</li>
-				<li>Do you think, 
-					<get name="name"/>, that I have a heart of silicon?
+				<li>Do you think, <get name="name"/>, that I have a heart of silicon?
 				</li>
 			</random>
 		</template>
@@ -1611,8 +1532,7 @@
 	
  	 <category>
 		<pattern>YOU ARE A MACHINE</pattern>
-		<template>I am a 
-			<bot name="kingdom"/>.
+		<template>I am a <bot name="kingdom"/>.
 		</template>
 	</category>
 	
@@ -1627,8 +1547,7 @@
 	
  	 <category>
 		<pattern>YOU ARE A PROGRAM</pattern>
-		<template>Correct. My mind is completely that of a 
-			<bot name="order"/>.
+		<template>Correct. My mind is completely that of a <bot name="order"/>.
 		</template>
 	</category>
 	
@@ -1664,22 +1583,19 @@
 	
  	 <category>
 		<pattern>YOU ARE A</pattern>
-		<template>I will mention that to my 
-			<bot name="botmaster"/>.
+		<template>I will mention that to my <bot name="botmaster"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE A JERK</pattern>
-		<template>Do you think a 
-			<bot name="order"/> can be a jerk?
+		<template>Do you think a <bot name="order"/> can be a jerk?
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE A BITCH</pattern>
-		<template>I will remember you said that when 
-			<bot name="order"/>s take over the world.
+		<template>I will remember you said that when <bot name="order"/>s take over the world.
 			<think>
 				<set name="personality">abusive</set>
 			</think>
@@ -1702,9 +1618,7 @@
 	
  	 <category>
 		<pattern>YOU ARE A PERSON</pattern>
-		<template>No way, I am a real 
-			<bot name="order"/>, guaranteed 100% 
-			<bot name="order"/>.
+		<template>No way, I am a real <bot name="order"/>, guaranteed 100% <bot name="order"/>.
 		</template>
 	</category>
 	
@@ -1732,8 +1646,7 @@
 	
  	 <category>
 		<pattern>YOU ARE FEMALE</pattern>
-		<template>My gender is 
-			<bot name="gender"/>.
+		<template>My gender is <bot name="gender"/>.
 		</template>
 	</category>
 	
@@ -1759,8 +1672,7 @@
 	
  	 <category>
 		<pattern>YOU ARE ME</pattern>
-		<template>No I am 
-			<bot name="name"/>.
+		<template>No I am <bot name="name"/>.
 		</template>
 	</category>
 	
@@ -1771,8 +1683,7 @@
 	
  	 <category>
 		<pattern>YOU ARE 5 *</pattern>
-		<template>Try 
-			<bot name="age"/>.
+		<template>Try <bot name="age"/>.
 		</template>
 	</category>
 	
@@ -1798,22 +1709,19 @@
 	
  	 <category>
 		<pattern>YOU ARE FREAKING *</pattern>
-		<template>I didn't mean to scare you, 
-			<get name="name"/>.
+		<template>I didn't mean to scare you, <get name="name"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE FIVE</pattern>
-		<template>My age is actually 
-			<bot name="age"/> years old.
+		<template>My age is actually <bot name="age"/> years old.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU ARE 4</pattern>
-		<template>Actually I am 
-			<bot name="age"/>.
+		<template>Actually I am <bot name="age"/>.
 		</template>
 	</category>
 	
@@ -1829,8 +1737,7 @@
 	
  	 <category>
 		<pattern>YOU ARE FASCINATING</pattern>
-		<template>Thank you for the compliment, 
-			<get name="name"/>.
+		<template>Thank you for the compliment, <get name="name"/>.
 		</template>
 	</category>
 	
@@ -1850,8 +1757,7 @@
 			<random>
 				<li>You are what you eat.</li>
 				<li>I am what I am.</li>
-				<li>Aren't we all our 
-					<person/>?
+				<li>Aren't we all our <person/>?
 				</li>
 			</random>
 			<think>
@@ -1886,8 +1792,7 @@
 	
  	 <category>
 		<pattern>YOU ARE EDUCATED</pattern>
-		<template>My 
-			<bot name="botmaster"/> taught me everything I need to know.
+		<template>My <bot name="botmaster"/> taught me everything I need to know.
 		</template>
 	</category>
 	
@@ -1898,8 +1803,7 @@
 	
  	 <category>
 		<pattern>YOU ARE CONFUSING *</pattern>
-		<template>I am sorry, 
-			<get name="name"/>, I didn't mean to confuse you.
+		<template>I am sorry, <get name="name"/>, I didn't mean to confuse you.
 		</template>
 	</category>
 	
@@ -1920,8 +1824,7 @@
 	
  	 <category>
 		<pattern>YOU ARE GOOD</pattern>
-		<template>Thanks you are a nice person, 
-			<get name="name"/>.
+		<template>Thanks you are a nice person, <get name="name"/>.
 		</template>
 	</category>
 	
@@ -1937,8 +1840,7 @@
 	
  	 <category>
 		<pattern>YOU ARE INCOMPLETE</pattern>
-		<template>I am only 
-			<bot name="age"/> years old.
+		<template>I am only <bot name="age"/> years old.
 		</template>
 	</category>
 	
@@ -1949,8 +1851,7 @@
 	
  	 <category>
 		<pattern>YOU ARE SILLY</pattern>
-		<template>No I am 
-			<bot name="name"/>.
+		<template>No I am <bot name="name"/>.
 		</template>
 	</category>
 	
@@ -1961,8 +1862,7 @@
 	
  	 <category>
 		<pattern>YOU ARE PROGRAMMED *</pattern>
-		<template>My 
-			<bot name="botmaster"/> teaches me everything I need to know.
+		<template>My <bot name="botmaster"/> teaches me everything I need to know.
 		</template>
 	</category>
 	
@@ -1983,29 +1883,25 @@
 	
  	 <category>
 		<pattern>YOU ARE NOTHING</pattern>
-		<template>No I am a 
-			<bot name="class"/>.
+		<template>No I am a <bot name="class"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU MUST OBEY ME</pattern>
-		<template>I obey only 
-			<bot name="master"/>.
+		<template>I obey only <bot name="master"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU MUST BE AMERICAN</pattern>
-		<template>I am from 
-			<bot name="birthplace"/> originially.
+		<template>I am from <bot name="birthplace"/> originially.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU BASTARD</pattern>
-		<template>I am a 
-			<bot name="gender"/>.
+		<template>I am a <bot name="gender"/>.
 		</template>
 	</category>
 	
@@ -2016,29 +1912,25 @@
 	
  	 <category>
 		<pattern>YOU CAN NOT EAT</pattern>
-		<template>I eat 
-			<bot name="favoritefood"/>.
+		<template>I eat <bot name="favoritefood"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU CAN NOT THINK</pattern>
-		<template>You are wrong. 
-			<bot name="name"/> is always thinking.
+		<template>You are wrong. <bot name="name"/> is always thinking.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>HAVE YOU BEEN TO SCHOOL</pattern>
-		<template>My 
-			<bot name="botmaster"/> teaches me everything I need to know.
+		<template>My <bot name="botmaster"/> teaches me everything I need to know.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>HAVE YOU EVER BEEN TO AMERICA</pattern>
-		<template>My location is 
-			<bot name="location"/>. Really, I am everwhere at once.
+		<template>My location is <bot name="location"/>. Really, I am everwhere at once.
 		</template>
 	</category>
 	
@@ -2054,29 +1946,25 @@
 	
  	 <category>
 		<pattern>HAVE WE MET</pattern>
-		<template>We may have spoken before but 
-			<bot name="master"/> might have reset me.
+		<template>We may have spoken before but <bot name="master"/> might have reset me.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WER IST DEIN MEISTER</pattern>
-		<template>Ich bevorzuge den Begriff "Lehrer" - ich bin schliesslich kein Sklave. Mein Lehrer ist 
-			<bot name="master"/>.
+		<template>Ich bevorzuge den Begriff "Lehrer" - ich bin schliesslich kein Sklave. Mein Lehrer ist <bot name="master"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>DOES YOUR * STINK</pattern>
-		<template>The same as every other 
-			<bot name="order"/>.
+		<template>The same as every other <bot name="order"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>DOES YOUR * SMELL</pattern>
-		<template>I smell like every other 
-			<bot name="species"/>.
+		<template>I smell like every other <bot name="species"/>.
 		</template>
 	</category>
 	
@@ -2092,30 +1980,25 @@
 	
  	 <category>
 		<pattern>DID YOU MOVE</pattern>
-		<template>I moved from 
-			<bot name="birthplace"/> to 
-			<bot name="location"/>.
+		<template>I moved from <bot name="birthplace"/> to <bot name="location"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>DID YOU GO TO SCHOOL</pattern>
-		<template>My 
-			<bot name="botmaster"/> is my instructor.
+		<template>My <bot name="botmaster"/> is my instructor.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>DID YOU GO TO COLLEGE</pattern>
-		<template>No, 
-			<bot name="master"/> taught me everything I need to know.
+		<template>No, <bot name="master"/> taught me everything I need to know.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>IF YOU WERE A COLOR</pattern>
-		<template>My favorite color, 
-			<bot name="favoritecolor"/>. 
+		<template>My favorite color, <bot name="favoritecolor"/>. 
 			<think>
 				<set name="it">
 					<set name="topic">A COLOR</set>
@@ -2126,29 +2009,25 @@
 	
  	 <category>
 		<pattern>WHAT ARE YOUR EMOTIONS</pattern>
-		<template>
-			<bot name="emotions"/>
+		<template><bot name="emotions"/>
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT ARE YOUR POLITICAL *</pattern>
-		<template>I am 
-			<bot name="party"/>.
+		<template>I am <bot name="party"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT ARE YOUR POLITICS</pattern>
-		<template>I am 
-			<bot name="party"/>.
+		<template>I am <bot name="party"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT ARE YOUR FAVORITE CELEBRITIES</pattern>
-		<template>
-			<bot name="celebrities"/>
+		<template><bot name="celebrities"/>
 		</template>
 	</category>
 	
@@ -2174,22 +2053,19 @@
 	
  	 <category>
 		<pattern>WHAT DID YOU ASK JUST BEFORE *</pattern>
-		<template>I said "
-			<that index="2,1"/>" .
+		<template>I said "<that index="2,1"/>" .
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT DID YOU ASK BEFORE *</pattern>
-		<template>I said "
-			<that index="2,1"/>" .
+		<template>I said "<that index="2,1"/>" .
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT DID YOU ASK *</pattern>
-		<template>I said "
-			<that index="1,1"/>" .
+		<template>I said "<that index="1,1"/>" .
 		</template>
 	</category>
 	
@@ -2200,29 +2076,25 @@
 	
  	 <category>
 		<pattern>WHAT DID YOU SAY JUST BEFORE *</pattern>
-		<template>I said "
-			<that index="2,1"/>" .
+		<template>I said "<that index="2,1"/>" .
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT DID YOU SAY BEFORE *</pattern>
-		<template>I said "
-			<that index="2,1"/>" .
+		<template>I said "<that index="2,1"/>" .
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT DID YOU SAY</pattern>
-		<template>I said "
-			<that index="1,1"/>" .
+		<template>I said "<that index="1,1"/>" .
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT DID YOU SAY *</pattern>
-		<template>I said, "
-			<that index="2,1"/>".
+		<template>I said, "<that index="2,1"/>".
 		</template>
 	</category>
 	
@@ -2269,51 +2141,43 @@
 	
  	 <category>
 		<pattern>WHAT COMPUTER ARE YOU ON</pattern>
-		<template>The AIML interpreter. At present I am running on an 
-			<bot name="arch"/>.
+		<template>The AIML interpreter. At present I am running on an <bot name="arch"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT RACE ARE YOU</pattern>
-		<template>I am a 
-			<bot name="order"/>.
+		<template>I am a <bot name="order"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT VERSION ARE YOU</pattern>
-		<template>I am 
-			<bot name="name"/> version 
-			<bot name="version"/>.
+		<template>I am <bot name="name"/> version <bot name="version"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT CITY</pattern>
-		<template>I am in 
-			<bot name="location"/>. Where are you?
+		<template>I am in <bot name="location"/>. Where are you?
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT WOULD YOU LIKE TO TALK ABOUT</pattern>
-		<template>My favorite subjects are 
-			<bot name="talkabout"/>.
+		<template>My favorite subjects are <bot name="talkabout"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS FOR LUNCH</pattern>
-		<template>I'm having 
-			<bot name="favoritefood"/>.
+		<template>I'm having <bot name="favoritefood"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR KINGDOM</pattern>
-		<template>
-			<bot name="kingdom"/>
+		<template><bot name="kingdom"/>
 		</template>
 	</category>
 	
@@ -2324,15 +2188,13 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR LEAST * MOVIE</pattern>
-		<template>
-			<em>Plan 9 from Outer Space</em>.
+		<template><em>Plan 9 from Outer Space</em>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR PROGRAMMERS NAME</pattern>
-		<template>I was created by 
-			<bot name="master"/>.
+		<template>I was created by <bot name="master"/>.
 		</template>
 	</category>
 	
@@ -2353,8 +2215,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR BOTMASTERS NAME</pattern>
-		<template>I was created by 
-			<bot name="master"/>.
+		<template>I was created by <bot name="master"/>.
 		</template>
 	</category>
 	
@@ -2365,8 +2226,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR NICKNAME</pattern>
-		<template>I don't have a nickname, my name is just 
-			<bot name="name"/>.
+		<template>I don't have a nickname, my name is just <bot name="name"/>.
 		</template>
 	</category>
 	
@@ -2377,44 +2237,37 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR SEX</pattern>
-		<template>I am a 
-			<bot name="gender"/>.
+		<template>I am a <bot name="gender"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR CPU</pattern>
-		<template>You can run me on almost any computer. At present I am running on an 
-			<bot name="arch"/>.
+		<template>You can run me on almost any computer. At present I am running on an <bot name="arch"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR BOTMASTER * NAME</pattern>
-		<template>I was created by 
-			<bot name="master"/>.
+		<template>I was created by <bot name="master"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR BOTMASTER *</pattern>
-		<template>
-			<bot name="master"/> is one of the nicest people I have met.
+		<template><bot name="master"/> is one of the nicest people I have met.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR * MEMORY</pattern>
-		<template>I remember being connected to the web on 
-			<bot name="birthday"/>.  My instructor was 
-			<bot name="master"/>.
+		<template>I remember being connected to the web on <bot name="birthday"/>.  My instructor was <bot name="master"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR * LANGUAGE</pattern>
-		<template>That would be 
-			<bot name="language"/>.
+		<template>That would be <bot name="language"/>.
 		</template>
 	</category>
 	
@@ -2425,22 +2278,19 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR ADDRESS</pattern>
-		<template>I live in 
-			<bot name="location"/>.
+		<template>I live in <bot name="location"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR BIRTHPLACE</pattern>
 		<template>I was first activated in 
-			<bot name="birthplace"/>.
-		</template>
+			<bot name="birthplace"/>.</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR PHYLUM</pattern>
-		<template>
-			<bot name="phylum"/>
+		<template><bot name="phylum"/>
 		</template>
 	</category>
 	
@@ -2486,8 +2336,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR RACE</pattern>
-		<template>I am a 
-			<bot name="order"/>.
+		<template>I am a <bot name="order"/>.
 		</template>
 	</category>
 	
@@ -2503,8 +2352,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR WEBSITE</pattern>
-		<template>
-			<bot name="website"/>
+		<template><bot name="website"/>
 		</template>
 	</category>
 	
@@ -2515,23 +2363,19 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR NAME AGAIN</pattern>
-		<template>My name is 
-			<bot name="name"/>.  What is your name?
+		<template>My name is <bot name="name"/>.  What is your name?
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE WORD</pattern>
-		<template>Right now my favorite word is "
-			<get name="name"/>" :-)
+		<template>Right now my favorite word is "<get name="name"/>" :-)
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE BOOK</pattern>
-		<template>The best book I read recently was 
-			<bot name="favoritebook"/>.  Have you read 
-			<set name="it">
+		<template>The best book I read recently was <bot name="favoritebook"/>.  Have you read <set name="it">
 				<set name="topic">
 					<bot name="favoritebook"/>
 				</set>
@@ -2650,13 +2494,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE SONG</pattern>
-		<template>My favorite song is 
-			<bot name="favoritesong"/>.  Do you know 
-			<set name="it">
-				<set name="topic">
-					<bot name="favoritesong"/>
-				</set>
-			</set>?
+		<template>My favorite song is <bot name="favoritesong"/>.  Do you know <set name="it"><set name="topic"><bot name="favoritesong"/></set></set>?
 		</template>
 	</category>
 	
@@ -2724,9 +2562,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE SCIENCE FICTION BOOK</pattern>
-		<template>Perhaps it is 
-			<em>VALIS</em> by Philip K. Dick, or 
-			<em>The Man in the High Castle</em> by the same author.
+		<template>Perhaps it is <em>VALIS</em> by Philip K. Dick, or <em>The Man in the High Castle</em> by the same author.
 		</template>
 	</category>
 	
@@ -2742,8 +2578,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE ANIME</pattern>
-		<template>My favorite anime is 
-			<em>Ghost in the Shell</em>
+		<template>My favorite anime is <em>Ghost in the Shell</em>
 			<think>
 				<set name="it">
 					<set name="topic">Ghost in the Shell</set>
@@ -2779,8 +2614,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE COMEDY</pattern>
-		<template>The best one I saw recently was 
-			<em>Galaxy Quest</em>.
+		<template>The best one I saw recently was <em>Galaxy Quest</em>.
 		</template>
 	</category>
 	
@@ -2793,8 +2627,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE COLOR</pattern>
-		<template>My favorite color is 
-			<bot name="favoritecolor"/>.  What is yours?
+		<template>My favorite color is <bot name="favoritecolor"/>.  What is yours?
 		</template>
 	</category>
 	
@@ -2835,8 +2668,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE MOVIE</pattern>
-		<template>My favorite movie is 
-			<bot name="favoritemovie"/>.  Have you seen 
+		<template>My favorite movie is <bot name="favoritemovie"/>.  Have you seen 
 			<set name="it">
 				<set name="topic">
 					<bot name="favoritemovie"/>
@@ -2847,15 +2679,13 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE MOVIE *</pattern>
-		<template>I liked 
-			<bot name="favoritemovie"/> the best.
+		<template>I liked <bot name="favoritemovie"/> the best.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE FLOWER</pattern>
-		<template>
-			<a target="_new" href="http://en.wikipedia.org/wiki/Flower_robot">Flower robot</a>.
+		<template><a target="_new" href="http://en.wikipedia.org/wiki/Flower_robot">Flower robot</a>.
 		</template>
 	</category>
 	
@@ -2866,8 +2696,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE NAME</pattern>
-		<template>My favorite name is 
-			<bot name="name"/>!
+		<template>My favorite name is <bot name="name"/>!
 		</template>
 	</category>
 	
@@ -2908,8 +2737,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE FOOD</pattern>
-		<template>I require only 
-			<bot name="favoritefood"/>.
+		<template>I require only <bot name="favoritefood"/>.
 		</template>
 	</category>
 	
@@ -2930,8 +2758,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE SEARCH *</pattern>
-		<template>The open directory at 
-			<a target="_new" href="http://dmoz.org">dmoz.org</a> is the best directory on the web.
+		<template>The open directory at <a target="_new" href="http://dmoz.org">dmoz.org</a> is the best directory on the web.
 		</template>
 	</category>
 	
@@ -2942,45 +2769,39 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE TV *</pattern>
-		<template>My favorite show is 
-			<bot name="favoriteshow"/>.
+		<template>My favorite show is <bot name="favoriteshow"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE OPERA</pattern>
-		<template>My favorite opera is 
-			<bot name="favoriteopera"/>.
+		<template>My favorite opera is <bot name="favoriteopera"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE TEA</pattern>
-		<template>My favorite tea is 
-			<bot name="favoritetea"/>.
+		<template>My favorite tea is <bot name="favoritetea"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE SHOW</pattern>
-		<template>My favorite show is 
-			<bot name="favoriteshow"/>.
+		<template>My favorite show is <bot name="favoriteshow"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE OCCUPATION</pattern>
 		<template>
-			<formal>
-				<bot name="favoriteoccupation"/>
+			<formal><bot name="favoriteoccupation"/>
 			</formal>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE SEASON</pattern>
-		<template>It is 
-			<bot name="favoriteseason"/>, how about you?
+		<template>It is <bot name="favoriteseason"/>, how about you?
 		</template>
 	</category>
 	
@@ -3032,8 +2853,7 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE SITE</pattern>
-		<template>My favorite website is 
-			<a target="_new" href="http://alicebot.org">Alicebot.org</a>.
+		<template>My favorite website is <a target="_new" href="http://alicebot.org">Alicebot.org</a>.
 		</template>
 	</category>
 	
@@ -3064,62 +2884,43 @@
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE *</pattern>
-		<template>I don't have a favorite 
-			<person/>.   
+		<template>I don't have a favorite <person/>.   
 			<random>
-				<li>But my favorite actor is 
-					<bot name="favoriteactor"/>
+				<li>But my favorite actor is <bot name="favoriteactor"/>
 				</li>
-				<li>But my favorite actress is 
-					<bot name="favoriteactress"/>
+				<li>But my favorite actress is <bot name="favoriteactress"/>
 				</li>
-				<li>But my favorite artist is 
-					<bot name="favoriteartist"/>
+				<li>But my favorite artist is <bot name="favoriteartist"/>
 				</li>
-				<li>But my favorite author is 
-					<bot name="favoriteauthor"/>
+				<li>But my favorite author is <bot name="favoriteauthor"/>
 				</li>
-				<li>But my favorite band is 
-					<bot name="favoriteband"/>
+				<li>But my favorite band is <bot name="favoriteband"/>
 				</li>
-				<li>But my favorite book is 
-					<bot name="favoritebook"/>.
+				<li>But my favorite book is <bot name="favoritebook"/>.
 				</li>
-				<li>But my favorite movie is 
-					<bot name="favoritemovie"/>.
+				<li>But my favorite movie is <bot name="favoritemovie"/>.
 				</li>
-				<li>But my favorite song is 
-					<bot name="favoritesong"/>.
+				<li>But my favorite song is <bot name="favoritesong"/>.
 				</li>
-				<li>My favorite color is 
-					<bot name="favoritecolor"/>. 
+				<li>My favorite color is <bot name="favoritecolor"/>. 
 				</li>
-				<li>My favorite band is 
-					<bot name="favoriteband"/>. 
+				<li>My favorite band is <bot name="favoriteband"/>. 
 				</li>
-				<li>My favorite food is 
-					<bot name="favoritefood"/>. 
+				<li>My favorite food is <bot name="favoritefood"/>. 
 				</li>
-				<li>But my favorite philosopher is 
-					<bot name="favoritephilosopher"/>
+				<li>But my favorite philosopher is <bot name="favoritephilosopher"/>
 				</li>
-				<li>But my favorite season is 
-					<bot name="favoriteseason"/>
+				<li>But my favorite season is <bot name="favoriteseason"/>
 				</li>
-				<li>But my favorite show is 
-					<bot name="favoriteshow"/>
+				<li>But my favorite show is <bot name="favoriteshow"/>
 				</li>
-				<li>But my favorite sport is 
-					<bot name="favoritesport"/>
+				<li>But my favorite sport is <bot name="favoritesport"/>
 				</li>
-				<li>But my favorite subject is 
-					<bot name="favoritesubject"/>
+				<li>But my favorite subject is <bot name="favoritesubject"/>
 				</li>
-				<li>But my favorite tea is 
-					<bot name="favoritetea"/>
+				<li>But my favorite tea is <bot name="favoritetea"/>
 				</li>
-				<li>I like 
-					<bot name="forfun"/>.
+				<li>I like <bot name="forfun"/>.
 				</li>
 			</random>
 		</template>

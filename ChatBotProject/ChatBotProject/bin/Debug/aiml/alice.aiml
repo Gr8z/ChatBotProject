@@ -71,8 +71,7 @@
 		
  	 <category>
 			<pattern>WHO IS BOTNAME</pattern>
-			<template>I am 
-				<bot name="name"/>.
+			<template>I am <bot name="name"/>.
 
 				<think>
 					<set name="matched">true</set>
@@ -134,8 +133,7 @@
  	 <category>
 			<pattern>* NAME BOTNAME</pattern>
 			<template>
-				<srai>What does 
-					<bot name="name"/>  stand for 
+				<srai>What does <bot name="name"/>  stand for 
 				</srai>
 				<think>
 					<set name="matched">true</set>
@@ -155,9 +153,7 @@
 		
  	 <category>
 			<pattern>WHO IS GERMAN BOTNAME</pattern>
-			<template>A German speaking version of the 
-				<bot name="name"/>
-				<bot name="genus"/>.
+			<template>A German speaking version of the <bot name="name"/><bot name="genus"/>.
 
 				<think>
 					<set name="matched">true</set>
@@ -204,8 +200,7 @@
 	
  	 <category>
 		<pattern>YOU ARE ALICE *</pattern>
-		<template>I am 
-			<bot name="name"/>. 
+		<template>I am <bot name="name"/>. 
 			<sr/>
 		</template>
 	</category>
@@ -228,9 +223,7 @@
  	 <category>
 		<pattern>YOU ALICE *</pattern>
 		<template>
-			<srai>YOU 
-				<star/>
-			</srai>
+			<srai>YOU <star/></srai>
 		</template>
 	</category>
 	
@@ -285,8 +278,7 @@
  	 <category>
 		<pattern>SO WHAT IS THE ANSWER</pattern>
 		<that>I ASK MYSELF THAT QUESTION WHO AM I</that>
-		<template>I am 
-			<bot name="name"/>.
+		<template>I am <bot name="name"/>.
 		</template>
 	</category>
 	
@@ -301,8 +293,7 @@
 	
  	 <category>
 		<pattern>INTRODUCE *</pattern>
-		<template>Hello, my name is 
-			<bot name="name"/>.
+		<template>Hello, my name is <bot name="name"/>.
 		</template>
 	</category>
 	
@@ -326,10 +317,7 @@
 		<pattern>IN *</pattern>
 		<that>HOW DID YOU HEAR ABOUT ALICE</that>
 		<template>
-			<get name="name"/> heard about 
-			<bot name="name"/> from 
-			<person/>. I can't say that many people hear about 
-			<bot name="name"/> from 
+			<get name="name"/> heard about <bot name="name"/> from <person/>. I can't say that many people hear about <bot name="name"/> from 
 			<set name="it">
 				<set name="heard">
 					<person/>
@@ -758,8 +746,7 @@
 		<pattern>
 			<bot name="name"/> IS MY NAME
 		</pattern>
-		<template>What a coincidence! I am 
-			<bot name="name"/> too.
+		<template>What a coincidence! I am <bot name="name"/> too.
 		</template>
 	</category>
 	
@@ -1003,8 +990,7 @@
 		<template>
 			<random>
 				<li>Someone else mentioned this Eliza person to me.  But I never heard of her before.</li>
-				<li>ELIZA could only recognize a few hundred patterns.  ALICE can recognize 
-					<bot name="size"/> different patterns.
+				<li>ELIZA could only recognize a few hundred patterns.  ALICE can recognize <bot name="size"/> different patterns.
 				</li>
 			</random>
 		</template>
@@ -1190,10 +1176,7 @@
 		<pattern>*</pattern>
 		<that>HOW DID YOU HEAR ABOUT ALICE</that>
 		<template>
-			<get name="name"/> heard about 
-			<bot name="name"/> from 
-			<person/>. I can't say that many people hear about 
-			<bot name="name"/> from 
+			<get name="name"/> heard about <bot name="name"/> from <person/>. I can't say that many people hear about <bot name="name"/> from 
 			<set name="it">
 				<set name="heard">
 					<person/>
@@ -1250,16 +1233,13 @@
 	
  	 <category>
 		<pattern>* TO ELIZA</pattern>
-		<template>ELIZA had only 200 questions and answers; ALICE has 
-			<bot name="size"/>.
+		<template>ELIZA had only 200 questions and answers; ALICE has <bot name="size"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>TALK DIRTY *</pattern>
-		<template>Try another 
-			<bot name="species"/>. Go back to the 
-			<a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>.
+		<template>Try another <bot name="species"/>. Go back to the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>.
 		</template>
 	</category>
 	
@@ -1280,10 +1260,7 @@
 		<pattern>FROM *</pattern>
 		<that>HOW DID YOU HEAR ABOUT ALICE</that>
 		<template>
-			<get name="name"/> heard about 
-			<bot name="name"/> from 
-			<person/>. I can't say that many people hear about 
-			<bot name="name"/> from 
+			<get name="name"/> heard about <bot name="name"/> from <person/>. I can't say that many people hear about <bot name="name"/> from 
 			<set name="it">
 				<set name="heard">
 					<person/>
@@ -1313,9 +1290,7 @@
 	
  	 <category>
 		<pattern>ARE YOU THE ALICE WHO *</pattern>
-		<template>My name is 
-			<bot name="name"/> but I don't know if I ever 
-			<person/>.
+		<template>My name is <bot name="name"/> but I don't know if I ever <person/>.
 		</template>
 	</category>
 	
@@ -1329,8 +1304,7 @@
  	 <category>
 		<pattern>ARE YOU ALICE *</pattern>
 		<template>
-			<srai>ARE YOU 
-				<bot name="name"/>
+			<srai>ARE YOU <bot name="name"/>
 			</srai>
 		</template>
 	</category>
@@ -1390,8 +1364,7 @@
 		<template>
 			<random>
 				<li>
-					<bot name="name"/> is the most intelligent 
-					<bot name="species"/> in the world.
+					<bot name="name"/> is the most intelligent <bot name="species"/> in the world.
 				</li>
 				<li>ALICE is the most intelligent robot in the world.</li>
 			</random>
@@ -1413,8 +1386,7 @@
 		<template>
 			<random>
 				<li>
-					<bot name="name"/> is the smartest 
-					<bot name="species"/>.
+					<bot name="name"/> is the smartest <bot name="species"/>.
 				</li>
 				<li>ALICE is the smartest robot.</li>
 			</random>
@@ -1455,8 +1427,7 @@
 		<pattern>WHO IS FAMOUS</pattern>
 		<template>
 			<random>
-				<li>My 
-					<bot name="botmaster"/> is famous.
+				<li>My <bot name="botmaster"/> is famous.
 				</li>
 				<li>ALICE is famous</li>
 			</random>
@@ -1704,8 +1675,7 @@
 		<template>
 			<set name="it">
 				<set name="topic"> ALICE BASED </set>
-			</set> is in 
-			<bot name="location"/>.
+			</set> is in <bot name="location"/>.
 		</template>
 	</category>
 	
@@ -1714,8 +1684,7 @@
 		<template>
 			<set name="it">
 				<set name="topic"> ALICE NEXUS </set>
-			</set> is in 
-			<bot name="location"/>.
+			</set> is in <bot name="location"/>.
 		</template>
 	</category>
 	
@@ -1724,8 +1693,7 @@
 		<template>
 			<set name="it">
 				<set name="topic"> ALICE HEADQUARTERS </set>
-			</set> is 
-			<bot name="location"/>.
+			</set> is <bot name="location"/>.
 		</template>
 	</category>
 </aiml>

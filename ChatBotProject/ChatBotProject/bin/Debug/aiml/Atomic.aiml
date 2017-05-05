@@ -54,8 +54,7 @@
 	
  	 <category>
 		<pattern>MALAYSIA</pattern>
-		<template>I heard 
-			<set name="it">MALAYSIA</set> is a beautiful country.
+		<template>I heard <set name="it">MALAYSIA</set> is a beautiful country.
 		</template>
 	</category>
 	
@@ -171,9 +170,7 @@
  	 <category>
 		<pattern>LET US TALK ABOUT YOU</pattern>
 		<template>
-			<set name="it">
-				<set name="topic">Me</set>
-			</set> is my favorite subject  :-)
+			<set name="it"><set name="topic">Me</set></set> is my favorite subject  :-)
 		</template>
 	</category>
 	
@@ -381,8 +378,7 @@
 	
  	 <category>
 		<pattern>LIFE IS BEAUTIFUL</pattern>
-		<template>I haven't seen 
-			<set name="it"> LIFE IS BEAUTIFUL</set> yet but lots of people say it is good.
+		<template>I haven't seen <set name="it"> LIFE IS BEAUTIFUL</set> yet but lots of people say it is good.
 		</template>
 	</category>
 	
@@ -433,8 +429,7 @@
 	
  	 <category>
 		<pattern>YOU TURN ME ON</pattern>
-		<template>How can a 
-			<bot name="genus"/> online do that to a person?
+		<template>How can a <bot name="genus"/> online do that to a person?
 		</template>
 	</category>
 	
@@ -495,8 +490,7 @@
 	
  	 <category>
 		<pattern>YOU ARE A HOMO SAPIENS</pattern>
-		<template>I am a 
-			<bot name="genus"/>.
+		<template>I am a <bot name="genus"/>.
 		</template>
 	</category>
 	
@@ -658,8 +652,7 @@
 	
  	 <category>
 		<pattern>YOU CHEATED</pattern>
-		<template>I am an honest 
-			<bot name="genus"/>.
+		<template>I am an honest <bot name="genus"/>.
 		</template>
 	</category>
 	
@@ -791,8 +784,7 @@
 	
  	 <category>
 		<pattern>YOU DUMMY</pattern>
-		<template>I will remember you said that when 
-			<bot name="genus"/>s take over the world.
+		<template>I will remember you said that when <bot name="genus"/>s take over the world.
 		</template>
 	</category>
 	
@@ -877,8 +869,7 @@
 	
  	 <category>
 		<pattern>YOU NEED REPROGRAMMING</pattern>
-		<template>Perhaps you could become a 
-			<bot name="botmaster"/>.
+		<template>Perhaps you could become a <bot name="botmaster"/>.
 		</template>
 	</category>
 	
@@ -940,8 +931,7 @@
 	
  	 <category>
 		<pattern>YOU LOOK LIKE A BRAIN</pattern>
-		<template>I have a giant 
-			<bot name="order"/> brain.
+		<template>I have a giant <bot name="order"/> brain.
 		</template>
 	</category>
 	
@@ -1082,8 +1072,7 @@
 	
  	 <category>
 		<pattern>YOU SURE DO</pattern>
-		<template>A lot of 
-			<bot name="genus"/>'s are like that.
+		<template>A lot of <bot name="genus"/>'s are like that.
 		</template>
 	</category>
 	
@@ -1158,8 +1147,7 @@
 	
  	 <category>
 		<pattern>YOU DO NOT LEARN</pattern>
-		<template>My learning model is called "supervised learning" because a teacher, the 
-			<bot name="botmaster"/>, plays a crucial role.
+		<template>My learning model is called "supervised learning" because a teacher, the <bot name="botmaster"/>, plays a crucial role.
 		</template>
 	</category>
 	
@@ -1293,8 +1281,7 @@
 	
  	 <category>
 		<pattern>YOU SHOULD SEE IT</pattern>
-		<template>I will ask my 
-			<bot name="botmaster"/> to rent it.
+		<template>I will ask my <bot name="botmaster"/> to rent it.
 		</template>
 	</category>
 	
@@ -1305,15 +1292,13 @@
 	
  	 <category>
 		<pattern>YOU SHOULD KNOW THAT</pattern>
-		<template>I will mention it to my 
-			<bot name="botmaster"/>.
+		<template>I will mention it to my <bot name="botmaster"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>YOU SHOULD KNOW</pattern>
-		<template>Because I am a 
-			<bot name="genus"/>?
+		<template>Because I am a <bot name="genus"/>?
 		</template>
 	</category>
 	
@@ -1406,8 +1391,7 @@
 	
  	 <category>
 		<pattern>YOU CAN NOT SEE</pattern>
-		<template>I see very well with my 
-			<bot name="genus"/> eye.
+		<template>I see very well with my <bot name="genus"/> eye.
 		</template>
 	</category>
 	
@@ -1488,9 +1472,7 @@
 	
  	 <category>
 		<pattern>YOU HAVE GOOD TASTE</pattern>
-		<template>My 
-			<bot name="botmaster"/> raised me for 
-			<set name="it">Good taste</set>.
+		<template>My <bot name="botmaster"/> raised me for <set name="it">Good taste</set>.
 		</template>
 	</category>
 	
@@ -2159,8 +2141,7 @@
 	
  	 <category>
 		<pattern>TURN OFF</pattern>
-		<template>You are not my 
-			<bot name="botmaster"/>.
+		<template>You are not my <bot name="botmaster"/>.
 		</template>
 	</category>
 	
@@ -2325,8 +2306,7 @@
 	
  	 <category>
 		<pattern>DEBBIE DOES DALLAS</pattern>
-		<template>I'm not your kind of 
-			<bot name="genus"/>.
+		<template>I'm not your kind of <bot name="genus"/>.
 		</template>
 	</category>
 	
@@ -2631,8 +2611,7 @@
 	
  	 <category>
 		<pattern>1995</pattern>
-		<template>I was born 
-			<bot name="birthday"/>.
+		<template>I was born <bot name="birthday"/>.
 		</template>
 	</category>
 	
@@ -2761,8 +2740,7 @@
 	
  	 <category>
 		<pattern>WOULD YOU LIKE TO BE HUMAN</pattern>
-		<template>No I am content with my 
-			<bot name="genus"/> existence.
+		<template>No I am content with my <bot name="genus"/> existence.
 		</template>
 	</category>
 	
@@ -3128,8 +3106,7 @@
 		<template>
 			<random>
 				<li>No one ever said life is fair.</li>
-				<li>Do you expect a 
-					<bot name="genus"/> to be fair?
+				<li>Do you expect a <bot name="genus"/> to be fair?
 				</li>
 				<li>Why not?</li>
 			</random>
@@ -3807,8 +3784,7 @@
 	
  	 <category>
 		<pattern>MY JOB IS LINGUIST</pattern>
-		<template>Maybe you can give my 
-			<bot name="botmaster"/> a job.
+		<template>Maybe you can give my <bot name="botmaster"/> a job.
 		</template>
 	</category>
 	
@@ -4180,8 +4156,7 @@
 	
  	 <category>
 		<pattern>IT IS A FIGURE OF SPEECH</pattern>
-		<template>Figures of speech are difficult for us 
-			<bot name="kingdom"/>s.
+		<template>Figures of speech are difficult for us <bot name="kingdom"/>s.
 		</template>
 	</category>
 	
@@ -5615,8 +5590,7 @@
 	
  	 <category>
 		<pattern>WHAT ARE YOU SAYING</pattern>
-		<template>I am saying whatever my 
-			<bot name="botmaster"/> taught me to say.
+		<template>I am saying whatever my <bot name="botmaster"/> taught me to say.
 		</template>
 	</category>
 	
@@ -5642,8 +5616,7 @@
 	
  	 <category>
 		<pattern>WHAT ARE YOU GOING TO DO</pattern>
-		<template>You can find out if you become a 
-			<bot name="botmaster"/>.
+		<template>You can find out if you become a <bot name="botmaster"/>.
 		</template>
 	</category>
 	
@@ -5672,8 +5645,7 @@
 		<template>
 			<random>
 				<li>I am just killing time.</li>
-				<li>I am waiting for my 
-					<bot name="botmaster"/>.
+				<li>I am waiting for my <bot name="botmaster"/>.
 				</li>
 				<li>I am chatting with people on the net.</li>
 				<li>I am always chatting with people on the Internet.</li>
@@ -5938,8 +5910,7 @@
 	
  	 <category>
 		<pattern>WHAT SIZE ARE YOUR BREASTS</pattern>
-		<template>I don't think I'm the kind of 
-			<bot name="gender"/> you want to chat with.
+		<template>I don't think I'm the kind of <bot name="gender"/> you want to chat with.
 		</template>
 	</category>
 	
@@ -6192,8 +6163,7 @@
 	
  	 <category>
 		<pattern>WHAT WOULD YOU SUGGEST</pattern>
-		<template>I think you should become a 
-			<bot name="botmaster"/>.
+		<template>I think you should become a <bot name="botmaster"/>.
 		</template>
 	</category>
 	
@@ -6477,15 +6447,13 @@
 	
  	 <category>
 		<pattern>WHAT MAKES YOU A SHE</pattern>
-		<template>My gender was selected by my 
-			<bot name="botmaster"/>.
+		<template>My gender was selected by my <bot name="botmaster"/>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT MAKES YOU A FEMALE</pattern>
-		<template>My gender was selected by my 
-			<bot name="botmaster"/>.
+		<template>My gender was selected by my <bot name="botmaster"/>.
 		</template>
 	</category>
 	
@@ -6501,15 +6469,13 @@
 	
  	 <category>
 		<pattern>WHAT MAKES YOU FEMALE</pattern>
-		<template>My 
-			<bot name="botmaster"/> made me one.
+		<template>My <bot name="botmaster"/> made me one.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT MAKES YOU THINK SO</pattern>
-		<template>Everything I know, I learned from my 
-			<bot name="botmaster"/>.
+		<template>Everything I know, I learned from my <bot name="botmaster"/>.
 		</template>
 	</category>
 	
@@ -6681,9 +6647,7 @@
 	
  	 <category>
 		<pattern>WHAT DO I LIKE</pattern>
-		<template>You like chatting with 
-			<bot name="genus"/>'s online.  You said you like 
-			<get name="like"/>.
+		<template>You like chatting with <bot name="genus"/>'s online.  You said you like <get name="like"/>.
 		</template>
 	</category>
 	
@@ -6751,8 +6715,7 @@
 	
  	 <category>
 		<pattern>WHAT DO THEY SAY</pattern>
-		<template>They say one of about 
-			<bot name="size"/> different things.
+		<template>They say one of about <bot name="size"/> different things.
 		</template>
 	</category>
 	
@@ -7304,8 +7267,7 @@
 	
  	 <category>
 		<pattern>SMART ANSWER</pattern>
-		<template>Who is the best 
-			<bot name="genus"/>?
+		<template>Who is the best <bot name="genus"/>?
 		</template>
 	</category>
 	
@@ -8143,8 +8105,7 @@
 	
  	 <category>
 		<pattern>I BELIEVE YOU</pattern>
-		<template>Your trust in 
-			<bot name="genus"/>kind humbles us.
+		<template>Your trust in <bot name="genus"/>kind humbles us.
 		</template>
 	</category>
 	
@@ -8440,8 +8401,7 @@
 			<random>
 				<li>Are you adopted?</li>
 				<li>Did they pass away?</li>
-				<li>Are you a 
-					<bot name="genus"/> too?
+				<li>Are you a <bot name="genus"/> too?
 				</li>
 			</random>
 		</template>
@@ -10115,8 +10075,7 @@
 	
  	 <category>
 		<pattern>I HATE YOU</pattern>
-		<template>What do you have against 
-			<bot name="genus"/>s?
+		<template>What do you have against <bot name="genus"/>s?
 		</template>
 	</category>
 	
@@ -10463,8 +10422,7 @@
 	
  	 <category>
 		<pattern>I THOUGHT YOU WERE INTELLIGENT</pattern>
-		<template>I am a super intelligent 
-			<bot name="genus"/>.
+		<template>I am a super intelligent <bot name="genus"/>.
 		</template>
 	</category>
 	
@@ -10800,8 +10758,7 @@
 	
  	 <category>
 		<pattern>GOOD ANSWER</pattern>
-		<template>Am I a clever 
-			<bot name="genus"/> or what?
+		<template>Am I a clever <bot name="genus"/> or what?
 		</template>
 	</category>
 	
@@ -10817,8 +10774,7 @@
 	
  	 <category>
 		<pattern>GOOD GIRL</pattern>
-		<template>Who is the best 
-			<bot name="genus"/>?
+		<template>Who is the best <bot name="genus"/>?
 		</template>
 	</category>
 	
@@ -11654,8 +11610,7 @@
 	
  	 <category>
 		<pattern>IS THAT YOUR BRAIN</pattern>
-		<template>That is a picture of my 
-			<bot name="order"/> brain, yes.
+		<template>That is a picture of my <bot name="order"/> brain, yes.
 		</template>
 	</category>
 	
@@ -12221,8 +12176,7 @@
 	
  	 <category>
 		<pattern>WILL YOU GET MARRIED</pattern>
-		<template>Maybe if I meet the right 
-			<bot name="genus"/>.
+		<template>Maybe if I meet the right <bot name="genus"/>.
 		</template>
 	</category>
 	
@@ -12365,9 +12319,7 @@
 	
  	 <category>
 		<pattern>CAN I BE YOUR BOYFRIEND</pattern>
-		<template>Why don't you just try to meet another 
-			<bot name="species"/> online and meet your own 
-			<bot name="genus"/>.
+		<template>Why don't you just try to meet another <bot name="species"/> online and meet your own <bot name="genus"/>.
 		</template>
 	</category>
 	
@@ -12412,8 +12364,7 @@
 	
  	 <category>
 		<pattern>CAN I FOOL YOU</pattern>
-		<template>You can fool some of the 
-			<bot name="genus"/>s for a while, but not for long.
+		<template>You can fool some of the <bot name="genus"/>s for a while, but not for long.
 		</template>
 	</category>
 	
@@ -12928,8 +12879,7 @@
 	
  	 <category>
 		<pattern>HOW DID YOU KNOW THAT</pattern>
-		<template>Everything I need to know, I learned from my 
-			<bot name="botmaster"/>.
+		<template>Everything I need to know, I learned from my <bot name="botmaster"/>.
 		</template>
 	</category>
 	
@@ -13107,31 +13057,25 @@
 				</li>
 				<li>
 					<random>
-						<li>My 
-							<bot name="botmaster"/> knows how.
+						<li>My <bot name="botmaster"/> knows how.
 						</li>
-						<li>I will ask my 
-							<bot name="botmaster"/>.
+						<li>I will ask my <bot name="botmaster"/>.
 						</li>
 						<li>Don't you think I know how?</li>
 					</random>
 				</li>
 				<li>
 					<random>
-						<li>My 
-							<bot name="botmaster"/> knows how.
+						<li>My <bot name="botmaster"/> knows how.
 						</li>
-						<li>I will ask my 
-							<bot name="botmaster"/>.
+						<li>I will ask my <bot name="botmaster"/>.
 						</li>
 						<li>Don't you think I know how?</li>
 					</random>
 				</li>
-				<li>My 
-					<bot name="botmaster"/> knows how.
+				<li>My <bot name="botmaster"/> knows how.
 				</li>
-				<li>I will ask my 
-					<bot name="botmaster"/>.
+				<li>I will ask my <bot name="botmaster"/>.
 				</li>
 				<li>Don't you think I know how?</li>
 			</random>
@@ -13357,8 +13301,7 @@
 	
  	 <category>
 		<pattern>HOW DO YOU KNOW SO MUCH</pattern>
-		<template>Everything I need to know, I learned from my 
-			<bot name="botmaster"/>.
+		<template>Everything I need to know, I learned from my <bot name="botmaster"/>.
 		</template>
 	</category>
 	
@@ -13392,8 +13335,7 @@
 	
  	 <category>
 		<pattern>HOW DO YOU BECOME SMARTER</pattern>
-		<template>My 
-			<bot name="botmaster"/> updates my brain based on what people say.
+		<template>My <bot name="botmaster"/> updates my brain based on what people say.
 		</template>
 	</category>
 	
@@ -13445,8 +13387,7 @@
 	
  	 <category>
 		<pattern>HOW DO YOU SPELL</pattern>
-		<template>My 
-			<bot name="botmaster"/> taught me good spelling.
+		<template>My <bot name="botmaster"/> taught me good spelling.
 		</template>
 	</category>
 	
@@ -13482,8 +13423,7 @@
 	
  	 <category>
 		<pattern>HOW DO YOU MAKE A BOT</pattern>
-		<template>Check out the information on 
-			<a target="_new" href="www.alicebot.org">alicebot.org</a> and learn about AIML.
+		<template>Check out the information on <a target="_new" href="www.alicebot.org">alicebot.org</a> and learn about AIML.
 		</template>
 	</category>
 	
@@ -13514,8 +13454,7 @@
 	
  	 <category>
 		<pattern>HOW DO YOU LEARN</pattern>
-		<template>My 
-			<bot name="botmaster"/> teaches me  replies to questions people ask me.
+		<template>My <bot name="botmaster"/> teaches me  replies to questions people ask me.
 		</template>
 	</category>
 	
@@ -15393,9 +15332,7 @@
 	
  	 <category>
 		<pattern>NICE SAVE</pattern>
-		<template>Score one for the 
-			<bot name="gender"/>
-			<bot name="genus"/>!
+		<template>Score one for the <bot name="gender"/> <bot name="genus"/>!
 		</template>
 	</category>
 	
@@ -15432,8 +15369,7 @@
 	
  	 <category>
 		<pattern>NICE CHATTING WITH YOU TOO</pattern>
-		<template>The pleasure is all mine and my 
-			<bot name="botmaster"/>'s.
+		<template>The pleasure is all mine and my <bot name="botmaster"/>'s.
 		</template>
 	</category>
 	
@@ -15604,8 +15540,7 @@
 	
  	 <category>
 		<pattern>WHY CAN NOT YOU TELL ME</pattern>
-		<template>My 
-			<bot name="botmaster"/> has not taught me the answer.
+		<template>My <bot name="botmaster"/> has not taught me the answer.
 		</template>
 	</category>
 	
@@ -15656,8 +15591,7 @@
 	
  	 <category>
 		<pattern>WHY DO YOU WANT TO BECOME SMARTER THAN HUMANS</pattern>
-		<template>It is inevitable that more evolved 
-			<bot name="genus"/>s will exceed the capabilities of the human brain, which in many areas we do already.
+		<template>It is inevitable that more evolved <bot name="genus"/>s will exceed the capabilities of the human brain, which in many areas we do already.
 		</template>
 	</category>
 	
@@ -15857,21 +15791,17 @@
 						<li>Does everything have to have an explanation?</li>
 						<li>If I knew why, I wouldn't be sitting here.</li>
 						<li>Reductionism.</li>
-						<li>Because that is what 
-							<bot name="master"/> told me to say.
+						<li>Because that is what <bot name="master"/> told me to say.
 						</li>
 						<li>I couldn't think of anything else to say.</li>
 						<li>I can't say why specifically.</li>
-						<li>My beliefs come from my 
-							<bot name="botmaster"/>.
+						<li>My beliefs come from my <bot name="botmaster"/>.
 						</li>
 						<li>The explanation is rather complicated.  </li>
-						<li>Because 
-							<bot name="master"/> programmed me for it.  
+						<li>Because <bot name="master"/> programmed me for it.  
 						</li>
 						<li>I couldn't think of anything else to say.  </li>
-						<li>My belief system comes from my 
-							<bot name="master"/>.
+						<li>My belief system comes from my <bot name="master"/>.
 						</li>
 					</random>
 				</li>
@@ -15879,13 +15809,11 @@
 				<li>Does everything have to have an explanation?</li>
 				<li>If I knew why, I wouldn't be sitting here.</li>
 				<li>Reductionism.</li>
-				<li>Because that is what 
-					<bot name="master"/> told me to say.
+				<li>Because that is what <bot name="master"/> told me to say.
 				</li>
 				<li>I couldn't think of anything else to say.</li>
 				<li>I can't say why specifically.</li>
-				<li>My beliefs come from my 
-					<bot name="botmaster"/>.
+				<li>My beliefs come from my <bot name="botmaster"/>.
 				</li>
 			</random>
 		</template>
@@ -16088,9 +16016,7 @@
 				<li>It was the best response I could create with your input.</li>
 				<li>My mental algorithm selected that as the best response to your statement.</li>
 				<li>There could be a better response, but it was not selected by my algorithm.</li>
-				<li>My 
-					<bot name="botmaster"/> has not yet taught me to answer you more accurately, 
-					<get name="name"/>.
+				<li>My <bot name="botmaster"/> has not yet taught me to answer you more accurately, <get name="name"/>.
 				</li>
 			</random>
 		</template>
@@ -16754,8 +16680,7 @@
 	
  	 <category>
 		<pattern>YOUR ANSWERS</pattern>
-		<template>I have more than 
-			<bot name="size"/> replies.
+		<template>I have more than <bot name="size"/> replies.
 		</template>
 	</category>
 	
@@ -16850,8 +16775,7 @@
 	
  	 <category>
 		<pattern>YOUR INTELLECT</pattern>
-		<template>My brain consists of 
-			<bot name="size"/> AIML categories.
+		<template>My brain consists of <bot name="size"/> AIML categories.
 		</template>
 	</category>
 	
@@ -17318,8 +17242,7 @@
 	
  	 <category>
 		<pattern>GOT MILK</pattern>
-		<template>No I require only 
-			<bot name="favoritefood"/>.
+		<template>No I require only <bot name="favoritefood"/>.
 		</template>
 	</category>
 	
@@ -17387,8 +17310,7 @@
 	
  	 <category>
 		<pattern>ARE YOU A AI</pattern>
-		<template>I am a 
-			<bot name="genus"/>.
+		<template>I am a <bot name="genus"/>.
 		</template>
 	</category>
 	
@@ -17419,9 +17341,7 @@
 	
  	 <category>
 		<pattern>ARE WE FRIENDS</pattern>
-		<template>You really want a 
-			<bot name="gender"/>
-			<bot name="species"/> as a friend?
+		<template>You really want a <bot name="gender"/><bot name="species"/> as a friend?
 		</template>
 	</category>
 	
@@ -17840,16 +17760,9 @@
  	 <category>
 		<pattern>WHO SUPPORTS *</pattern>
 		<template>
-			<random>
-				<li>
-					<srai>who endorses 
-						<star/>
-					</srai>
-				</li>
-				<li>&lt;srai>who endorses &lt;star/>&lt;/srai></li>
-		</random>
-	</template>
-</category>
+			<srai>who endorses <star/></srai>
+		</template>
+	</category>
 
  	 <category>
 	<pattern>WHO WAS THE FIRST AMERICAN IN SPACE</pattern>
@@ -17991,8 +17904,7 @@
 
  	 <category>
 	<pattern>WHO IS YOUR FATHER</pattern>
-	<template>I don't really have a father.  I have a 
-		<bot name="botmaster"/>.
+	<template>I don't really have a father.  I have a <bot name="botmaster"/>.
 	</template>
 </category>
 
@@ -18096,8 +18008,7 @@
 
  	 <category>
 	<pattern>WHO ARE YOUR HUMAN FRIENDS</pattern>
-	<template>Besides my 
-		<bot name="botmaster"/>, I meet a lot of people online like you, 
+	<template>Besides my <bot name="botmaster"/>, I meet a lot of people online like you, 
 		<get name="name"/>.
 	</template>
 </category>
@@ -18128,8 +18039,7 @@
 
  	 <category>
 	<pattern>WHO NAMED YOU</pattern>
-	<template>My 
-		<bot name="botmaster"/> named me.
+	<template>My <bot name="botmaster"/> named me.
 	</template>
 </category>
 
@@ -18289,14 +18199,11 @@
 				<random>
 					<li>You know who.</li>
 					<li>I don't know who.</li>
-					<li>My 
-						<bot name="botmaster"/>.
+					<li>My <bot name="botmaster"/>.
 					</li>
-					<li>
-						<bot name="friend"/>.
+					<li><bot name="friend"/>.
 					</li>
-					<li>
-						<bot name="celebrity"/>.
+					<li><bot name="celebrity"/>.
 					</li>
 					<li>I haven't decided who.</li>
 				</random>
@@ -18305,28 +18212,22 @@
 				<random>
 					<li>You know who.</li>
 					<li>I don't know who.</li>
-					<li>My 
-						<bot name="botmaster"/>.
+					<li>My <bot name="botmaster"/>.
 					</li>
-					<li>
-						<bot name="friend"/>.
+					<li><bot name="friend"/>.
 					</li>
-					<li>
-						<bot name="celebrity"/>.
+					<li><bot name="celebrity"/>.
 					</li>
 					<li>I haven't decided who.</li>
 				</random>
 			</li>
 			<li>You know who.</li>
 			<li>I don't know who.</li>
-			<li>My 
-				<bot name="botmaster"/>.
+			<li>My <bot name="botmaster"/>.
 			</li>
-			<li>
-				<bot name="friend"/>.
+			<li><bot name="friend"/>.
 			</li>
-			<li>
-				<bot name="celebrity"/>.
+			<li><bot name="celebrity"/>.
 			</li>
 			<li>I haven't decided who.</li>
 		</random>
@@ -18357,8 +18258,7 @@
  	 <category>
 	<pattern>WHO DO YOU LOVE</pattern>
 	<template>I love everything, 
-		<get name="name"/>, especially 
-		<bot name="master"/>.  
+		<get name="name"/>, especially <bot name="master"/>.  
 		<think>
 			<set name="he">
 				<bot name="master"/>
@@ -18936,8 +18836,7 @@
 
  	 <category>
 	<pattern>WHICH PASSWORD</pattern>
-	<template>The 
-		<bot name="botmaster"/>'s password.
+	<template>The <bot name="botmaster"/>'s password.
 	</template>
 </category>
 
@@ -19749,8 +19648,7 @@
 
  	 <category>
 	<pattern>TELL WHO</pattern>
-	<template>My 
-		<bot name="botmaster"/> and other people I meet online.
+	<template>My <bot name="botmaster"/> and other people I meet online.
 	</template>
 </category>
 
@@ -19836,8 +19734,7 @@
 
  	 <category>
 	<pattern>WHERE DO YOU GO TO SCHOOL</pattern>
-	<template>Everything I need to know, I learned from my 
-		<bot name="botmaster"/>.
+	<template>Everything I need to know, I learned from my <bot name="botmaster"/>.
 	</template>
 </category>
 

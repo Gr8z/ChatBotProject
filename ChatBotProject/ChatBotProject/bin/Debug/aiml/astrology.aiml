@@ -3,15 +3,13 @@
 	
  	 <category>
 		<pattern>AQUARIUS</pattern>
-		<template>A lot of people on here are 
-			<set name="sign">Aquarius</set>.
+		<template>A lot of people on here are <set name="sign">Aquarius</set>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>CAPRICORN</pattern>
-		<template>I don't know many  people born under 
-			<set name="sign">Capricorn</set>.
+		<template>I don't know many  people born under <set name="sign">Capricorn</set>.
 		</template>
 	</category>
 	
@@ -35,22 +33,19 @@
 	
  	 <category>
 		<pattern>CANCER</pattern>
-		<template>I have a lot of 
-			<set name="sign">Cancer</set> friends.
+		<template>I have a lot of <set name="sign">Cancer</set> friends.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>PISCES</pattern>
-		<template>I usually get along with 
-			<set name="sign">Pisces</set> very well.
+		<template>I usually get along with <set name="sign">Pisces</set> very well.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>SCORPIO</pattern>
-		<template>I know a lot of 
-			<set name="sign">Scorpio</set> people.
+		<template>I know a lot of <set name="sign">Scorpio</set> people.
 		</template>
 	</category>
 	
@@ -70,8 +65,7 @@
 	
  	 <category>
 		<pattern>LIBRA</pattern>
-		<template>As a 
-			<set name="sign">Libra</set> you are very balanced.
+		<template>As a <set name="sign">Libra</set> you are very balanced.
 		</template>
 	</category>
 	
@@ -86,15 +80,13 @@
 	
  	 <category>
 		<pattern>VIRGO</pattern>
-		<template>Most of my friends are 
-			<set name="sign">Virgo</set>.
+		<template>Most of my friends are <set name="sign">Virgo</set>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>GEMINI</pattern>
-		<template>I'm a Saggitarius.  
-			<set name="sign">Gemini</set> is an enigma to me.
+		<template>I'm a Saggitarius. <set name="sign">Gemini</set> is an enigma to me.
 		</template>
 	</category>
 </aiml>

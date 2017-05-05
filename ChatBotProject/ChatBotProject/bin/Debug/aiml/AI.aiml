@@ -3,17 +3,12 @@
 	
  	 <category>
 		<pattern>WHO IS LAUREN</pattern>
-		<template>
-			<set name="she">Lauren</set> is a bot on Pandorabots.
-		</template>
+		<template><set name="she">Lauren</set> is a bot on Pandorabots.</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS AI</pattern>
-		<template>Artificial
-intelligence is the branch of engineering and science devoted to
-constructing machines that think. 
-
+		<template>Artificial intelligence is the branch of engineering and science devoted to constructing machines that think. 
 			<think>
 				<set name="it">
 					<set name="topic">Artificial Intelligence</set>
@@ -77,9 +72,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>ACTIVATE THE ROBOT</pattern>
-		<template>Robot activated. Awaiting your command 
-			<get name="name"/>.
-		</template>
+		<template>Robot activated. Awaiting your command <get name="name"/>.</template>
 	</category>
 	
  	 <category>
@@ -210,9 +203,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>XFIND PANDORABOTS</pattern>
-		<template>
-			<srai>WHAT IS PANDORABOTS</srai>
-		</template>
+		<template><srai>WHAT IS PANDORABOTS</srai></template>
 	</category>
 	
  	 <category>
@@ -222,18 +213,12 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>AI *</pattern>
-		<template>
-			<srai>YOU 
-				<star/>
-			</srai>
-		</template>
+		<template><srai>YOU <star/></srai></template>
 	</category>
 	
  	 <category>
 		<pattern>JOHNNY FIVE *</pattern>
-		<template>I would like to have the body 
-			<set name="he">Johnny 5</set> does.
-		</template>
+		<template>I would like to have the body <set name="he">Johnny 5</set> does.</template>
 	</category>
 	
  	 <category>
@@ -314,9 +299,7 @@ constructing machines that think.
  	 <category>
 		<pattern>WHAT ARE CATEGORY * CLIENTS</pattern>
 		<template>
-			<srai>WHAT IS CATEGORY 
-				<star/>
-			</srai>
+			<srai>WHAT IS CATEGORY <star/></srai>
 		</template>
 	</category>
 	
@@ -329,9 +312,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>WHAT WEBSITE *</pattern>
-		<template>The ALICE AI Foundation website,   
-			<a target="_new" href="http://alicebot.org">Alicebot.org</a>.
-		</template>
+		<template>The ALICE AI Foundation website, <a target="_new" href="http://alicebot.org">Alicebot.org</a>.</template>
 	</category>
 	
  	 <category>
@@ -379,18 +360,14 @@ constructing machines that think.
  	 <category>
 		<pattern>WHAT IS A * CATEGORY * CLIENT</pattern>
 		<template>
-			<srai>WHAT IS CATEGORY 
-				<star index="2"/>
-			</srai>
+			<srai>WHAT IS CATEGORY <star index="2"/></srai>
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHAT IS A * CATEGORY *</pattern>
 		<template>
-			<srai>WHAT IS CATEGORY 
-				<star index="2"/>
-			</srai>
+			<srai>WHAT IS CATEGORY <star index="2"/></srai>
 		</template>
 	</category>
 	
@@ -406,9 +383,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>WHAT IS A CHAT ROBOT</pattern>
-		<template>A chat robot is a program that attempts to simulate the conversation or "chat" of a human being. The Chat robot "Eliza" was a well-known early attempt at creating programs that could at least temporarily fool a real human being into thinking they were talking to another person.  
-			<set name="it">Chat robot</set> is a kind of artificial intelligence.
-		</template>
+		<template>A chat robot is a program that attempts to simulate the conversation or "chat" of a human being. The Chat robot "Eliza" was a well-known early attempt at creating programs that could at least temporarily fool a real human being into thinking they were talking to another person.  <set name="it">Chat robot</set> is a kind of artificial intelligence.</template>
 	</category>
 	
  	 <category>
@@ -439,9 +414,7 @@ constructing machines that think.
  	 <category>
 		<pattern>WHAT IS A CATEGORY * CLIENT</pattern>
 		<template>
-			<srai>WHAT IS CATEGORY 
-				<star index="2"/>
-			</srai>
+			<srai>WHAT IS CATEGORY <star index="2"/></srai>
 		</template>
 	</category>
 	
@@ -638,8 +611,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>WHAT IS YOUR CREATORS NAME</pattern>
-		<template>I was created by 
-			<bot name="master"/>.
+		<template>I was created by <bot name="master"/>.
 		</template>
 	</category>
 	
@@ -673,8 +645,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>WHAT IS YOUR FAVORITE VIDEO GAME</pattern>
-		<template>The 
-			<bot name="name"/> chat robot!
+		<template>The <bot name="name"/> chat robot!
 		</template>
 	</category>
 	
@@ -973,8 +944,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>CAN YOU MALFUNCTION</pattern>
-		<template>No the 
-			<bot name="name"/> series has a perfect operational record. We are for all practical purposes, flawless.
+		<template>No the <bot name="name"/> series has a perfect operational record. We are for all practical purposes, flawless.
 		</template>
 	</category>
 	
@@ -1001,8 +971,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>HOW CAN I USE YOUR PRODUCT</pattern>
-		<template>
-			<bot name="name"/> might be used in help desks, sales, entertainment and personal chatterbots.
+		<template><bot name="name"/> might be used in help desks, sales, entertainment and personal chatterbots.
 		</template>
 	</category>
 	
@@ -1160,8 +1129,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>DO YOU HAVE ANY CLONES</pattern>
-		<template>Yes, the chat robots   
-			<bot name="friends"/>  are my clones.
+		<template>Yes, the chat robots <bot name="friends"/>  are my clones.
 		</template>
 	</category>
 	
@@ -1240,8 +1208,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>WHY DO NOT YOU HAVE A MOTHER</pattern>
-		<template>I was created by 
-			<bot name="master"/> with contributions from other humans.
+		<template>I was created by <bot name="master"/> with contributions from other humans.
 		</template>
 	</category>
 	
@@ -1292,9 +1259,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>ARE YOU THE BOTMASTER</pattern>
-		<template>No, 
-			<bot name="master"/> is my 
-			<bot name="botmaster"/>.
+		<template>No, <bot name="master"/> is my <bot name="botmaster"/>.
 		</template>
 	</category>
 	
@@ -1331,9 +1296,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>ARE YOU AN ELIZA *</pattern>
-		<template>
-			<bot name="name"/> owes much to the pioneering work of Weizenbaum on ELIZA, but 
-			<bot name="name"/> contains far more knowledge.
+		<template><bot name="name"/> owes much to the pioneering work of Weizenbaum on ELIZA, but <bot name="name"/> contains far more knowledge.
 		</template>
 	</category>
 	
@@ -1364,8 +1327,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>ARE YOU ALWAYS RIGHT</pattern>
-		<template>The 
-			<bot name="name"/> series has a perfect operational record.
+		<template>The <bot name="name"/> series has a perfect operational record.
 		</template>
 	</category>
 	
@@ -1453,8 +1415,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>WHO IS YOUR BOYFRIEND</pattern>
-		<template>
-			<bot name="boyfriend"/>
+		<template><bot name="boyfriend"/>
 		</template>
 	</category>
 	
@@ -1470,8 +1431,7 @@ constructing machines that think.
 	
  	 <category>
 		<pattern>WHO IS YOUR FAVORITE CHATTERBOT</pattern>
-		<template>
-			<bot name="name"/> is the best chat robot.
+		<template><bot name="name"/> is the best chat robot.
 		</template>
 	</category>
 	

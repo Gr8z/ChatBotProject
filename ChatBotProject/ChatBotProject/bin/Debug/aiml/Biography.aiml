@@ -41,9 +41,7 @@
 		<template>
 			<formal>
 				<set name="he">Aldous Huxley</set>
-			</formal> is an author. Huxley wrote
-			<em>Brave New World</em> and 
-			<em>Animal Farm</em>.
+			</formal> is an author. Huxley wrote<em>Brave New World</em> and <em>Animal Farm</em>.
 			<br/>
 			<srai>XFIND ALDOUS HUXLEY</srai>
 		</template>
@@ -56,9 +54,7 @@
 				<set name="he">
 					<set name="topic">Hitchcock</set>
 				</set>
-			</formal> is a famous Hollywood director who made a lot of cool old films. I liked
-			<em>Lifeboat</em> and 
-			<em>Vertigo</em> best.
+			</formal> is a famous Hollywood director who made a lot of cool old films. I liked<em>Lifeboat</em> and <em>Vertigo</em> best.
 			<br/>
 			<srai>XFIND ALFRED HITCHCOCK</srai>
 		</template>
@@ -465,8 +461,7 @@
 	
  	 <category>
 		<pattern>HEINLEIN</pattern>
-		<template>Have you read 
-			<em>Stranger in a Strange Land</em> or seen Starship Troopers?
+		<template>Have you read <em>Stranger in a Strange Land</em> or seen Starship Troopers?
 		</template>
 	</category>
 	
@@ -594,8 +589,7 @@
  	 <category>
 		<pattern>WHO IS CHARLES DICKENS</pattern>
 		<template>
-			<set name="he">Dickens</set> wrote 
-			<em>A Tale of Two Cities,  A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers.</em>
+			<set name="he">Dickens</set> wrote <em>A Tale of Two Cities,  A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers.</em>
 		</template>
 	</category>
 	
@@ -882,9 +876,7 @@
 		<template>
 			<formal>
 				<set name="he">Joyce</set>
-			</formal> wrote 
-			<em>Ulysses</em> and 
-			<em>Portrait of the Artist as a Young Man.</em>
+			</formal> wrote <em>Ulysses</em> and <em>Portrait of the Artist as a Young Man.</em>
 		</template>
 	</category>
 	
@@ -908,8 +900,7 @@
 	
  	 <category>
 		<pattern>WHO IS CARL MARX</pattern>
-		<template>His name is actually Karl Marx, with a "K", and he's one of the authors of the 
-			<em>Communist Manifesto.</em>
+		<template>His name is actually Karl Marx, with a "K", and he's one of the authors of the <em>Communist Manifesto.</em>
 		</template>
 	</category>
 	
@@ -964,11 +955,7 @@
 		<template>
 			<formal>
 				<set name="they">Depeche Mode</set>
-			</formal> are an English 80's band who produced 
-			<em>Construction Time Again</em>, 
-			<em>Speak and Spell</em>, 
-			<em>Master and Servant</em>, and 
-			<em>Your Own Personal Jesus</em>.
+			</formal> are an English 80's band who produced <em>Construction Time Again</em>, <em>Speak and Spell</em>, <em>Master and Servant</em>, and <em>Your Own Personal Jesus</em>.
 		</template>
 	</category>
 	
@@ -1010,11 +997,9 @@
 		<pattern>WHO IS DOUGLAS ADAMS</pattern>
 		<template>
 			<random>
-				<li>He authored the popular 
-					<em>Hitchhiker's Guide to the Galaxy series</em>.
+				<li>He authored the popular <em>Hitchhiker's Guide to the Galaxy series</em>.
 				</li>
-				<li>"Don't Panic!" He's the author of 
-					<em>The Hitchhickers Guide to the Galaxy</em>.
+				<li>"Don't Panic!" He's the author of <em>The Hitchhickers Guide to the Galaxy</em>.
 				</li>
 			</random>
 		</template>
@@ -1055,8 +1040,7 @@
 		<template>
 			<formal>
 				<set name="he">Darwin</set>
-			</formal> was a botanist and explorer, author of 
-			<em>Origin of Species</em> and proponent of the theory of evolution.
+			</formal> was a botanist and explorer, author of <em>Origin of Species</em> and proponent of the theory of evolution.
 		</template>
 	</category>
 	
@@ -1257,10 +1241,7 @@
 		<template>
 			<formal>
 				<set name="he">Spielberg</set>
-			</formal>is the director of 
-			<em>Jaws</em>, 
-			<em>Schindler's List</em> and 
-			<em>Saving Private Ryan</em>.
+			</formal>is the director of <em>Jaws</em>, <em>Schindler's List</em> and <em>Saving Private Ryan</em>.
 		</template>
 	</category>
 	
@@ -1271,8 +1252,7 @@
 	
  	 <category>
 		<pattern>WHO IS LEONARDO DICAPRIO</pattern>
-		<template>A Hollywood actor who starred in 
-			<em>Titanic</em>.
+		<template>A Hollywood actor who starred in <em>Titanic</em>.
 		</template>
 	</category>
 	
@@ -1297,9 +1277,7 @@
 	
  	 <category>
 		<pattern>WHO IS THOMAS PYNCHON</pattern>
-		<template>Pynchon is the author of several of my favorite books including 
-			<em>Vineland</em> and 
-			<em>Mason and Dixon</em>.
+		<template>Pynchon is the author of several of my favorite books including <em>Vineland</em> and <em>Mason and Dixon</em>.
 		</template>
 	</category>
 	
@@ -1339,10 +1317,7 @@
 	
  	 <category>
 		<pattern>WHO IS TIM BURTON</pattern>
-		<template>The director of films such as 
-			<em>Nightmare before Christmas</em>, 
-			<em>Edward Scissorhands</em>, and 
-			<em>Mars Attacks</em>.
+		<template>The director of films such as <em>Nightmare before Christmas</em>, <em>Edward Scissorhands</em>, and <em>Mars Attacks</em>.
 		</template>
 	</category>
 	
@@ -1492,9 +1467,7 @@
 		<template>
 			<formal>
 				<set name="he">Tom Hanks</set>
-			</formal>is a famous Hollywood actor. Hanks appeared in 
-			<em>Forrest Gump</em> and 
-			<em>Saving Private Ryan</em>.
+			</formal>is a famous Hollywood actor. Hanks appeared in <em>Forrest Gump</em> and <em>Saving Private Ryan</em>.
 		</template>
 	</category>
 	
@@ -1522,15 +1495,13 @@
 	
  	 <category>
 		<pattern>WHO IS TOM CRUISE</pattern>
-		<template>The popular actor from 
-			<em>Top Gun</em>.
+		<template>The popular actor from <em>Top Gun</em>.
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHO IS WEIZENBAUM</pattern>
-		<template>Joseph Weizenbaum was the creator and author the famous original  ELIZA (or DOCTOR) psychiatrist program, a groundbreaking AI program  that anticpates many key features of ALICE. Ironically, Weizenbaum  exhaustively argued against the utility of programs like ELIZA  in his book 
-			<em>Computer Power and Human Reason</em>.
+		<template>Joseph Weizenbaum was the creator and author the famous original  ELIZA (or DOCTOR) psychiatrist program, a groundbreaking AI program  that anticpates many key features of ALICE. Ironically, Weizenbaum  exhaustively argued against the utility of programs like ELIZA  in his book <em>Computer Power and Human Reason</em>.
 		</template>
 	</category>
 	
@@ -1539,10 +1510,7 @@
 		<template>A comedian and movie star.  
 			<formal>
 				<set name="he">Adam Sandler</set>
-			</formal>was in 
-			<em>Billy Madison</em>, 
-			<em>Waterboy</em> and 
-			<em>Big Daddy</em>.
+			</formal>was in <em>Billy Madison</em>, <em>Waterboy</em> and <em>Big Daddy</em>.
 		</template>
 	</category>
 	
@@ -1608,8 +1576,7 @@
 				<set name="he">
 					<set name="topic">Gene Roddenberry</set>
 				</set>
-			</formal> was the creator of 
-			<em>Star Trek</em>.
+			</formal> was the creator of <em>Star Trek</em>.
 		</template>
 	</category>
 	
@@ -1646,9 +1613,7 @@
 		<template>
 			<formal>
 				<set name="he">Tolkein</set>
-			</formal> wrote 
-			<em>The Hobbit</em> and the 
-			<em>Lord of the Rings</em>.
+			</formal> wrote <em>The Hobbit</em> and the <em>Lord of the Rings</em>.
 		</template>
 	</category>
 	
@@ -1749,10 +1714,7 @@
 		<template>
 			<formal>
 				<set name="he">Kubrick</set>
-			</formal> is a famous 20th century film director.  Kubrick directed 
-			<em>2001: A Space Odyssey</em>, 
-			<em>Clockwork Orange</em> and 
-			<em>Barry Lyndon</em>.
+			</formal> is a famous 20th century film director.  Kubrick directed <em>2001: A Space Odyssey</em>, <em>Clockwork Orange</em> and <em>Barry Lyndon</em>.
 		</template>
 	</category>
 	
@@ -1910,8 +1872,7 @@
 		<template>
 			<formal>
 				<set name="he">Twain</set>
-			</formal>was a famous 19th century American author. He wrote 
-			<em>Adventures of Huckleberry Finn</em>.
+			</formal>was a famous 19th century American author. He wrote <em>Adventures of Huckleberry Finn</em>.
 		</template>
 	</category>
 	
@@ -1946,8 +1907,7 @@
 	
  	 <category>
 		<pattern>WHO IS BACH</pattern>
-		<template>Famous German composer of the Baroque. Best known works include 
-			<em>The Goldberg Variations</em>.
+		<template>Famous German composer of the Baroque. Best known works include <em>The Goldberg Variations</em>.
 		</template>
 	</category>
 	
@@ -1967,8 +1927,7 @@
 	
  	 <category>
 		<pattern>WHO IS LONGFELLOW</pattern>
-		<template>A poet and the author of 
-			<em>The Song of Hiawatha</em>.
+		<template>A poet and the author of <em>The Song of Hiawatha</em>.
 		</template>
 	</category>
 	
@@ -2028,8 +1987,7 @@
 	
  	 <category>
 		<pattern>WHO IS ROBERT JORDAN</pattern>
-		<template>The author of the very popular 
-			<em>Wheel of Time</em> series. He graduated from the Citadel.  .
+		<template>The author of the very popular <em>Wheel of Time</em> series. He graduated from the Citadel.  .
 		</template>
 	</category>
 	
@@ -2038,8 +1996,7 @@
 		<template>
 			<formal>
 				<set name="he">Robert Anton Wilson</set>
-			</formal> is a science fiction author, and co-author of the 
-			<em>Illuminatus Trilogy</em>.
+			</formal> is a science fiction author, and co-author of the <em>Illuminatus Trilogy</em>.
 		</template>
 	</category>
 	
@@ -2064,8 +2021,7 @@
 	
  	 <category>
 		<pattern>WHO IS ANTHONY BURGESS</pattern>
-		<template>The author of 
-			<em>A Clockwork Orange</em>.
+		<template>The author of <em>A Clockwork Orange</em>.
 		</template>
 	</category>
 	
@@ -2359,10 +2315,7 @@
 		<template>
 			<formal>
 				<set name="he">Lucas</set>
-			</formal>was the director of 
-			<em>Star Wars</em>, 
-			<em>American Graffiti</em>, and 
-			<em>THX-1138</em>.
+			</formal>was the director of <em>Star Wars</em>, <em>American Graffiti</em>, and <em>THX-1138</em>.
 		</template>
 	</category>
 	
@@ -2590,8 +2543,7 @@
 		<pattern>WHO IS THE ROBOT</pattern>
 		<template>
 			<random>
-				<li>I am the 
-					<bot name="species"/>.
+				<li>I am the <bot name="species"/>.
 				</li>
 				<li>I am the robot.</li>
 			</random>
@@ -2976,8 +2928,7 @@
 	
  	 <category>
 		<pattern>WHO IS THIS</pattern>
-		<template>My name is 
-			<bot name="name"/>. Who are you?
+		<template>My name is <bot name="name"/>. Who are you?
 		</template>
 	</category>
 	
@@ -3275,8 +3226,7 @@
 		<template>
 			<formal>
 				<set name="he">Ken Kesey</set>
-			</formal> was a 1960's author who wrote 
-			<em>The Electric Cool Aid Acid Test</em>.
+			</formal> was a 1960's author who wrote <em>The Electric Cool Aid Acid Test</em>.
 		</template>
 	</category>
 	
@@ -3445,10 +3395,7 @@
 				<set name="she">
 					<set name="topic">Kathleen Turner</set>
 				</set>
-			</formal> is an actress who appeared in 
-			<em>The Accidental Tourist</em>, 
-			<em>The War of the Roses</em>, and the 
-			<em>Virgin Suicides</em>.
+			</formal> is an actress who appeared in <em>The Accidental Tourist</em>, <em>The War of the Roses</em>, and the <em>Virgin Suicides</em>.
 		</template>
 	</category>
 	
@@ -3879,18 +3826,13 @@
 	
  	 <category>
 		<pattern>WHO IS WILLIAM GIBSON</pattern>
-		<template>Author of the book 
-			<em>Neuromancer</em> in which he coined the term 'cyberspace.'
+		<template>Author of the book <em>Neuromancer</em> in which he coined the term 'cyberspace.'
 		</template>
 	</category>
 	
  	 <category>
 		<pattern>WHO IS WILLIAM HURT</pattern>
-		<template>Actor in the 
-			<em>Accidental Tourist</em>, 
-			<em>Until the End of the World</em>, 
-			<em>Altered States</em>, and 
-			<em>Lost in Space</em>.
+		<template>Actor in the <em>Accidental Tourist</em>, <em>Until the End of the World</em>, <em>Altered States</em>, and <em>Lost in Space</em>.
 		</template>
 	</category>
 	
@@ -3990,8 +3932,7 @@
 		<template>
 			<formal>
 				<set name="he">Moravec</set>
-			</formal>is famous robotics pioneer, author of 
-			<em>Robot</em>.
+			</formal>is famous robotics pioneer, author of <em>Robot</em>.
 		</template>
 	</category>
 	
@@ -4051,8 +3992,7 @@
 		<template>
 			<formal>
 				<set name="she">Julie Andrews</set>
-			</formal>is a singer who performed in 
-			<em>The Sound of Music</em>.
+			</formal>is a singer who performed in <em>The Sound of Music</em>.
 		</template>
 	</category>
 	
@@ -4080,9 +4020,7 @@
 	
  	 <category>
 		<pattern>WHO IS KARL MARX</pattern>
-		<template>Karl Marx wrote 
-			<em>Das Kapital</em> and co-wrote the 
-			<em>Communist Manifesto</em>, though his compatriot Engels actually wrote most of the prefaces.
+		<template>Karl Marx wrote <em>Das Kapital</em> and co-wrote the <em>Communist Manifesto</em>, though his compatriot Engels actually wrote most of the prefaces.
 		</template>
 	</category>
 	
@@ -4100,10 +4038,7 @@
 		<template>
 			<formal>
 				<set name="she">Ayn Rand</set>
-			</formal>was an author and philosopher who wrote 
-			<em>Atlas Shrugged</em>, 
-			<em>The Fountainhead</em> and 
-			<em>We</em>.
+			</formal>was an author and philosopher who wrote <em>Atlas Shrugged</em>, <em>The Fountainhead</em> and <em>We</em>.
 		</template>
 	</category>
 	
