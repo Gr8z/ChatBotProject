@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.lblmessgae = new System.Windows.Forms.Label();
+            this.lblmessage = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -38,21 +38,20 @@
             this.bunifuElipse1.ElipseRadius = 40;
             this.bunifuElipse1.TargetControl = this;
             // 
-            // lblmessgae
+            // lblmessage
             // 
-            this.lblmessgae.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblmessage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblmessgae.BackColor = System.Drawing.Color.Transparent;
-            this.lblmessgae.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblmessgae.ForeColor = System.Drawing.Color.White;
-            this.lblmessgae.Location = new System.Drawing.Point(10, 7);
-            this.lblmessgae.Name = "lblmessgae";
-            this.lblmessgae.Size = new System.Drawing.Size(616, 52);
-            this.lblmessgae.TabIndex = 2;
-            this.lblmessgae.Text = "I\'m a Barbie girl in the Barbie world. Life in plastic, it\'s fantastic! You can b" +
+            this.lblmessage.BackColor = System.Drawing.Color.Transparent;
+            this.lblmessage.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmessage.ForeColor = System.Drawing.Color.White;
+            this.lblmessage.Location = new System.Drawing.Point(10, 7);
+            this.lblmessage.Name = "lblmessage";
+            this.lblmessage.Size = new System.Drawing.Size(616, 52);
+            this.lblmessage.TabIndex = 2;
+            this.lblmessage.Text = "I\'m a Barbie girl in the Barbie world. Life in plastic, it\'s fantastic! You can b" +
     "rush my hair, undress me everywhere. Imagination, life is your creation. Come on" +
     ", Barbie, let\'s go party!";
-            this.lblmessgae.Click += new System.EventHandler(this.lblmessgae_Click);
             // 
             // bubble
             // 
@@ -61,11 +60,12 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Silver;
-            this.Controls.Add(this.lblmessgae);
+            this.Controls.Add(this.lblmessage);
             this.Name = "bubble";
             this.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
             this.Size = new System.Drawing.Size(644, 64);
             this.Load += new System.EventHandler(this.bubble_Load);
+            this.Resize += new System.EventHandler(this.bubble_Resize);
             this.ResumeLayout(false);
 
         }
@@ -73,6 +73,6 @@
         #endregion
 
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private System.Windows.Forms.Label lblmessgae;
+        private System.Windows.Forms.Label lblmessage;
     }
 }

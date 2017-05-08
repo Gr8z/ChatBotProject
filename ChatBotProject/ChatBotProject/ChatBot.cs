@@ -9,102 +9,127 @@ namespace ChatBotProject
         public Form1()
         {
             InitializeComponent();
-            this.ActiveControl = InputTxt;
-            InputTxt.Focus();
         }
 
         static ChatBot bot;
         private void Form1_Load(object sender, EventArgs e)
         {
             bot = new ChatBot();
-            bbl_old.Top = 0 - bbl_old.Height + 10;
+
+            // Sets Position for the first bubble on the top
+            bbl_old.Top = 0 - bbl_old.Height;
         }
 
         private void showOutput()
         {
-            if (!(string.IsNullOrWhiteSpace(InputTxt.Text)))
+            if (!(string.IsNullOrWhiteSpace(InputTxt.Text))) // Make sure the textbox isnt empty
             {
-                SoundPlayer Send = new SoundPlayer("SOUND1.wav");
-                SoundPlayer Rcv = new SoundPlayer("SOUND2.wav");
+                SoundPlayer Send = new SoundPlayer("SOUND1.wav"); // Send Sound Effect
+                SoundPlayer Rcv = new SoundPlayer("SOUND2.wav"); // Recieve Sound Effect
+
+                // Show the user message and play the sound
                 addInMessage(InputTxt.Text);
                 Send.Play();
+
+                // Store the Bot's Output by giving it our input.
                 string outtt = bot.getOutput(InputTxt.Text);
+
+                // Make a Dynamic Timer to delay the bot's response to make it feel humanlike.
                 var t = new Timer();
-                //t.Interval = 1000 + (outtt.Length * 100); //Don't remove (Saad)
-                t.Interval = 1;
+                
+                // Time in milseconds - minimum delay of 1s plus 0.1s per character.
+                t.Interval = 1; // 1000 + (outtt.Length * 100);
+
+                // Show the "Bot is typing.." text
                 txtTyping.Show();
+
+                // disable the chat box white the bot is typing to prevent user spam.
                 InputTxt.Enabled = false;
+
                 t.Tick += (s, d) =>
                 {
-                    InputTxt.Enabled = true;
-                    addOutMessage(outtt);
+                    // Once the timer ends
+
+                    InputTxt.Enabled = true; // Enable Chat box
+
+                    // Hide the "Bot is typing.." text
                     txtTyping.Hide();
+
+                    // Show the bot message and play the sound
+                    addOutMessage(outtt);
                     Rcv.Play();
-                    InputTxt.Focus();
+                    
+                    InputTxt.Focus(); // Put the cursor back on the textbox
                     t.Stop();
                 };
-                t.Start();
-                InputTxt.Text = "";
-                
-            }
-            else
-            {
-                InputTxt.Focus();
+                t.Start(); // Start Timer
+
+                InputTxt.Text = ""; // Reset textbox
             }
         }
 
+        // Call the Output method when the send button is clicked.
         private void button1_Click(object sender, EventArgs e)
         {
             showOutput();
         }
 
+        // Call the Output method when the enter key is pressed.
         private void InputTxt_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
                 showOutput();
-                e.SuppressKeyPress = true;
+                e.SuppressKeyPress = true; // Disable windows error sound
             }
         }
         
+        // Dummy Bubble created to store the previous bubble data.
         bubble bbl_old = new bubble();
+
+        // User Message Bubble Creation
         public void addInMessage(string message)
         {
-            bubble bbl = new ChatBotProject.bubble(message, msgtype.In);
-            bbl.Location = bubble1.Location; bbl.Left += 50; // add indent
-            bbl.Size = bubble1.Size;
-            bbl.Anchor = bubble1.Anchor;
-            bbl.Top = bbl_old.Bottom + 10;
+            // Create new chat bubble
+            bubble bbl = new bubble(message, msgtype.In);
+            bbl.Location = bubble1.Location; // Set the new bubble location from the bubble sample.
+            bbl.Left += 50; // Indent the bubble to the right side.
+            bbl.Size = bubble1.Size; // Set the new bubble size from the bubble sample.
+            bbl.Top = bbl_old.Bottom + 10; // Position the bubble below the previous one with some extra space.
+            
+            // Add the new bubble to the panel.
             panel2.Controls.Add(bbl);
+
+            // Force Scroll to the latest bubble
             bbl.Focus();
 
-            bbl_old = bbl;  // save the last added object
-
+            // save the last added object to the dummy bubble
+            bbl_old = bbl;
         }
+
+        // Bot Message Bubble Creation
         public void addOutMessage(string message)
         {
-            bubble bbl = new ChatBotProject.bubble(message, msgtype.Out);
-            bbl.Location = bubble1.Location; 
-            bbl.Size = bubble1.Size;
-            bbl.Anchor = bubble1.Anchor;
-            bbl.Top = bbl_old.Bottom + 10;
+            // Create new chat bubble
+            bubble bbl = new bubble(message, msgtype.Out);
+            bbl.Location = bubble1.Location; // Set the new bubble location from the bubble sample.
+            bbl.Size = bubble1.Size; // Set the new bubble size from the bubble sample.
+            bbl.Top = bbl_old.Bottom + 10; // Position the bubble below the previous one with some extra space.
+            
+            // Add the new bubble to the panel.
             panel2.Controls.Add(bbl);
+
+            // Force Scroll to the latest bubble
             bbl.Focus();
 
-            bottom.Top = bbl.Bottom + 50;
-
-            bbl_old = bbl;  // save the last added object
-
+            // save the last added object to the dummy bubble
+            bbl_old = bbl;
         }
 
+        // Custom close button to close the program when clicked.
         private void close_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

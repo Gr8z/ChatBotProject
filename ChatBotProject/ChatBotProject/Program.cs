@@ -9,7 +9,6 @@ namespace ChatBotProject
 {
     static class Program
     {
-        
         static void Main()
         {
             Application.EnableVisualStyles();
