@@ -3,7 +3,7 @@ A simple AIML based Chat Bot written in C# which is a computer program that you 
 
 Second Semester Object Oriented Programming Final Project at SZABIST.
 
-![Screenshot](http://i.imgur.com/ZU9v8it.png)
+![Screenshot](http://i.imgur.com/NgSNauW.png)
 
 # Features
 * The bot is able to answer most questions and has the ability to carry on a normal conversation.
