@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Media;
+using System.IO; // needed for filing
 
 namespace ChatBotProject
 {
@@ -18,6 +19,17 @@ namespace ChatBotProject
 
             // Sets Position for the first bubble on the top
             bbl_old.Top = 0 - bbl_old.Height;
+
+            //FileStream cs = new FileStream(@"D:\Chat BackUp.doc",FileMode.Open,FileAccess.Read);
+            //{
+            //    if(cs.CanRead)
+            //    {
+            //        byte[] read = new byte[cs.Length];
+            //        int byteread = cs.Read(read, 0, read.Length);
+                      
+            //    }
+            //}
+
         }
 
         private void showOutput()
@@ -30,9 +42,20 @@ namespace ChatBotProject
                 // Show the user message and play the sound
                 addInMessage(InputTxt.Text);
                 Send.Play();
-
+  
                 // Store the Bot's Output by giving it our input.
                 string outtt = bot.getOutput(InputTxt.Text);
+
+                //=========== Creates backup of chat from user and bot to the given location ============
+                FileStream fs = new FileStream(@"D:\Chat BackUp.doc", FileMode.Append, FileAccess.Write);
+                if (fs.CanWrite)
+                {
+                    byte[] write = System.Text.Encoding.ASCII.GetBytes(InputTxt.Text + "\n" + outtt);
+                    fs.Write(write, 0, write.Length);
+                }
+                fs.Flush();
+                fs.Close();
+                //=======================================================================================
 
                 // Make a Dynamic Timer to delay the bot's response to make it feel humanlike.
                 var t = new Timer();
@@ -64,7 +87,7 @@ namespace ChatBotProject
                 };
                 t.Start(); // Start Timer
 
-                InputTxt.Text = ""; // Reset textbox
+                InputTxt.Text = " "; // Reset textbox
             }
         }
 
@@ -130,6 +153,16 @@ namespace ChatBotProject
         private void close_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void bubble1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

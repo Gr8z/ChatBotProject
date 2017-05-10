@@ -159,9 +159,10 @@
             this.bubble1.Location = new System.Drawing.Point(9, 10);
             this.bubble1.Name = "bubble1";
             this.bubble1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.bubble1.Size = new System.Drawing.Size(479, 64);
+            this.bubble1.Size = new System.Drawing.Size(479, 94);
             this.bubble1.TabIndex = 3;
             this.bubble1.Visible = false;
+            this.bubble1.Load += new System.EventHandler(this.bubble1_Load);
             // 
             // panel2
             // 
@@ -171,6 +172,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(561, 350);
             this.panel2.TabIndex = 7;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // Form1
             // 
