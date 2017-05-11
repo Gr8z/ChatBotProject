@@ -57,6 +57,11 @@ namespace ChatBotProject
                 // Store the Bot's Output by giving it our input.
                 string outtt = bot.getOutput(InputTxt.Text);
 
+                if (outtt.Length == 0)
+                {
+                    outtt = "I don't understand.";
+                }
+
                 //=========== Creates backup of chat from user and bot to the given location ============
                 FileStream fs = new FileStream(@"chat.log", FileMode.Append, FileAccess.Write);
                 if (fs.CanWrite)
