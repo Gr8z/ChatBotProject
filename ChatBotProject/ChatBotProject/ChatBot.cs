@@ -20,15 +20,26 @@ namespace ChatBotProject
             // Sets Position for the first bubble on the top
             bbl_old.Top = 0 - bbl_old.Height;
 
-            //FileStream cs = new FileStream(@"D:\Chat BackUp.doc",FileMode.Open,FileAccess.Read);
-            //{
-            //    if(cs.CanRead)
-            //    {
-            //        byte[] read = new byte[cs.Length];
-            //        int byteread = cs.Read(read, 0, read.Length);
-                      
-            //    }
-            //}
+            // Load Chat from the log file
+            using (StreamReader sr = File.OpenText("chat.log"))
+            {
+                int i = 0; // to count lines
+                while (sr.Peek() >= 0) // loop till the file ends
+                {
+                    if (i % 2 == 0) // check if line is even
+                    {
+                        addInMessage(sr.ReadLine());
+                    }
+                    else
+                    {
+                        addOutMessage(sr.ReadLine());
+                    }
+                    i++;
+                }
+                // scroll to the bottom once finished loading.
+                panel2.VerticalScroll.Value = panel2.VerticalScroll.Maximum;
+                panel2.PerformLayout();
+            }
 
         }
 
@@ -47,10 +58,10 @@ namespace ChatBotProject
                 string outtt = bot.getOutput(InputTxt.Text);
 
                 //=========== Creates backup of chat from user and bot to the given location ============
-                FileStream fs = new FileStream(@"D:\Chat BackUp.doc", FileMode.Append, FileAccess.Write);
+                FileStream fs = new FileStream(@"chat.log", FileMode.Append, FileAccess.Write);
                 if (fs.CanWrite)
                 {
-                    byte[] write = System.Text.Encoding.ASCII.GetBytes(InputTxt.Text + "\n" + outtt);
+                    byte[] write = System.Text.Encoding.ASCII.GetBytes(Environment.NewLine + InputTxt.Text + Environment.NewLine + outtt);
                     fs.Write(write, 0, write.Length);
                 }
                 fs.Flush();
