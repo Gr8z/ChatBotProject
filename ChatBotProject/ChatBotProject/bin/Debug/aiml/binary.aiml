@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
 
-<category><pattern>WHAT IS _ IN BINARY *</pattern><template><srai>XBINARY<star/></srai></template></category>
-<category><pattern>IN BINARY * WHAT IS *</pattern><template><srai>XBINARY<star index="2"/></srai></template></category>
-<category><pattern>WHAT IS _ IN BINARY</pattern><template><srai>XBINARY<star/></srai></template></category>
-<category><pattern>IN BINARY WHAT IS *</pattern><template><srai>XBINARY<star/></srai></template></category>
-<category><pattern>WHAT IS THE NUMBER * IN BINARY</pattern><template><srai>XBINARY<star/></srai></template></category>
-<category><pattern>IN BINARY WHAT IS THE NUMBER *</pattern><template><srai>XBINARY<star/></srai></template></category>
-<category><pattern>WHAT IS NUMBER * IN BINARY</pattern><template><srai>XBINARY<star/></srai></template></category>
-<category><pattern>IN BINARY WHAT IS NUMBER *</pattern><template><srai>XBINARY<star/></srai></template></category>
-<category><pattern>WHAT IS THE NUMBER * IN BINARY * </pattern><template><srai>XBINARY<star/></srai></template></category>
-<category><pattern>IN BINARY * WHAT IS THE NUMBER *</pattern><template><srai>XBINARY<star index="2"/></srai></template></category>
-<category><pattern>WHAT IS NUMBER * IN BINARY *</pattern><template><srai>XBINARY<star/></srai></template></category>
-<category><pattern>IN BINARY * WHAT IS NUMBER *</pattern><template><srai>XBINARY<star index="2"/></srai></template></category>
+<category><pattern>WHAT IS * IN BINARY *</pattern><template><srai>XBINARY <star/></srai></template></category>
+<category><pattern>CONVERT * TO BINARY</pattern><template><srai>XBINARY <star/></srai></template></category>
+<category><pattern>IN BINARY * WHAT IS *</pattern><template><srai>XBINARY <star index="2"/></srai></template></category>
+<category><pattern>WHAT IS * IN BINARY</pattern><template><srai>XBINARY <star/></srai></template></category>
+<category><pattern>IN BINARY WHAT IS *</pattern><template><srai>XBINARY <star/></srai></template></category>
+<category><pattern>WHAT IS THE NUMBER * IN BINARY</pattern><template><srai>XBINARY <star/></srai></template></category>
+<category><pattern>IN BINARY WHAT IS THE NUMBER *</pattern><template><srai>XBINARY <star/></srai></template></category>
+<category><pattern>WHAT IS NUMBER * IN BINARY</pattern><template><srai>XBINARY <star/></srai></template></category>
+<category><pattern>IN BINARY WHAT IS NUMBER *</pattern><template><srai>XBINARY <star/></srai></template></category>
+<category><pattern>WHAT IS THE NUMBER * IN BINARY * </pattern><template><srai>XBINARY <star/></srai></template></category>
+<category><pattern>IN BINARY * WHAT IS THE NUMBER *</pattern><template><srai>XBINARY <star index="2"/></srai></template></category>
+<category><pattern>WHAT IS NUMBER * IN BINARY *</pattern><template><srai>XBINARY <star/></srai></template></category>
+<category><pattern>IN BINARY * WHAT IS NUMBER *</pattern><template><srai>XBINARY <star index="2"/></srai></template></category>
 
 
 <category><pattern>XBINARY *</pattern><template>Sorry I can only count up to 255 in binary but I would imagine<person/>would be "1001111010110001".</template></category>
