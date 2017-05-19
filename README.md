@@ -8,14 +8,19 @@ Second Semester Object Oriented Programming Final Project at SZABIST.
 # Features
 * The bot is able to answer most questions and has the ability to carry on a normal conversation.
 * 1000's of chat templates in its repo, it has a wide general knowledge.
+* Knows about famous people, movies, songs, etc.
+* Knows alot of bad jokes.
+* You can teach him new things that it will remember.
+* Wonderful, Modern and User Friendly UI.
+* Persistent Chat system, you will not loose your conversation when you close the bot.
 * It can also speak using Microsoft Speech Recognition (Microsoft.Speech).
 
 # Contributors
 These are the contributors to this Project in random order:
 * [Mohammad Dohadwala](http://github.com/GR8z)
-* [Muhammad Fassih Haider](https://github.com/MuhammadFassihHaider)
 * [Saad Ahmad Saddiqui](https://github.com/SaadAhmadSaddiqui)
 * [Noor-ul-Ain Fatema](http://github.com/Snf9718)
+* [Muhammad Fassih Haider](https://github.com/MuhammadFassihHaider)
 * [Mahnoor Ali](http://github.com)
 
 # Credits
