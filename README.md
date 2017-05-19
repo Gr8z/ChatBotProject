@@ -15,6 +15,20 @@ Second Semester Object Oriented Programming Final Project at SZABIST.
 * Persistent Chat system, you will not loose your conversation when you close the bot.
 * It can also speak using Microsoft Speech Recognition (Microsoft.Speech).
 
+# Things to Say
+Here are some things you can say to the bot.
+
+* Tell me a joke
+* Copy me
+* What is the Bible?
+* poop
+* cats suck
+* Where is Canada?
+* What is the Illuminati
+* I want to die
+* shut up
+
+
 # Contributors
 These are the contributors to this Project in random order:
 * [Mohammad Dohadwala](http://github.com/GR8z)
