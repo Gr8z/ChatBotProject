@@ -105,7 +105,7 @@ namespace ChatBotProject
                 };
                 t.Start(); // Start Timer
 
-                InputTxt.Text = " "; // Reset textbox
+                InputTxt.Text = ""; // Reset textbox
             }
         }
 
@@ -184,16 +184,6 @@ namespace ChatBotProject
 
             // This reset the position for the next bubble to come back to the top.
             bbl_old.Top = 0 - bbl_old.Height;
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void bubble1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void contextMenuStrip1_Opening(object sender, System.ComponentModel.CancelEventArgs e)
