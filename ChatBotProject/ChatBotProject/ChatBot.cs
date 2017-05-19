@@ -21,26 +21,28 @@ namespace ChatBotProject
             bbl_old.Top = 0 - bbl_old.Height;
 
             // Load Chat from the log file
-            using (StreamReader sr = File.OpenText("chat.log"))
+            if (File.Exists("chat.log"))
             {
-                int i = 0; // to count lines
-                while (sr.Peek() >= 0) // loop till the file ends
+                using (StreamReader sr = File.OpenText("chat.log"))
                 {
-                    if (i % 2 == 0) // check if line is even
+                    int i = 0; // to count lines
+                    while (sr.Peek() >= 0) // loop till the file ends
                     {
-                        addInMessage(sr.ReadLine());
+                        if (i % 2 == 0) // check if line is even
+                        {
+                            addInMessage(sr.ReadLine());
+                        }
+                        else
+                        {
+                            addOutMessage(sr.ReadLine());
+                        }
+                        i++;
                     }
-                    else
-                    {
-                        addOutMessage(sr.ReadLine());
-                    }
-                    i++;
+                    // scroll to the bottom once finished loading.
+                    panel2.VerticalScroll.Value = panel2.VerticalScroll.Maximum;
+                    panel2.PerformLayout();
                 }
-                // scroll to the bottom once finished loading.
-                panel2.VerticalScroll.Value = panel2.VerticalScroll.Maximum;
-                panel2.PerformLayout();
             }
-
         }
 
         private void showOutput()
@@ -66,7 +68,7 @@ namespace ChatBotProject
                 FileStream fs = new FileStream(@"chat.log", FileMode.Append, FileAccess.Write);
                 if (fs.CanWrite)
                 {
-                    byte[] write = System.Text.Encoding.ASCII.GetBytes(Environment.NewLine + InputTxt.Text + Environment.NewLine + outtt);
+                    byte[] write = System.Text.Encoding.ASCII.GetBytes(InputTxt.Text + Environment.NewLine + outtt + Environment.NewLine);
                     fs.Write(write, 0, write.Length);
                 }
                 fs.Flush();
@@ -170,6 +172,19 @@ namespace ChatBotProject
         {
             Environment.Exit(0);
         }
+        
+        // Clear all the bubbles and chat.log
+        private void clearChatToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Delete the log file
+            File.Delete(@"chat.log");
+
+            // Clear the chat Bubbles
+            panel2.Controls.Clear();
+
+            // This reset the position for the next bubble to come back to the top.
+            bbl_old.Top = 0 - bbl_old.Height;
+        }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
@@ -191,9 +206,5 @@ namespace ChatBotProject
             contextMenuStrip1.Show(menuButton, new System.Drawing.Point(0, -contextMenuStrip1.Size.Height));
         }
 
-        private void toolStripComboBox1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
