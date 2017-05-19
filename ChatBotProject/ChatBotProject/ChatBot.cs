@@ -180,5 +180,20 @@ namespace ChatBotProject
         {
 
         }
+
+        private void contextMenuStrip1_Opening(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
+        }
+
+        private void menuButton_Click(object sender, EventArgs e)
+        {
+            contextMenuStrip1.Show(menuButton, new System.Drawing.Point(0, -contextMenuStrip1.Size.Height));
+        }
+
+        private void toolStripComboBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

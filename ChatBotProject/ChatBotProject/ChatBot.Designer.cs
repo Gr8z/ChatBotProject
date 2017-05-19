@@ -41,11 +41,17 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bubble1 = new ChatBotProject.bubble();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.menuButton = new Bunifu.Framework.UI.BunifuImageButton();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.clearChatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toggleVoiceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.button1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtTyping
@@ -123,10 +129,10 @@
             this.InputTxt.LineIdleColor = System.Drawing.Color.Gray;
             this.InputTxt.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.InputTxt.LineThickness = 3;
-            this.InputTxt.Location = new System.Drawing.Point(7, 403);
+            this.InputTxt.Location = new System.Drawing.Point(51, 403);
             this.InputTxt.Margin = new System.Windows.Forms.Padding(4);
             this.InputTxt.Name = "InputTxt";
-            this.InputTxt.Size = new System.Drawing.Size(517, 44);
+            this.InputTxt.Size = new System.Drawing.Size(473, 44);
             this.InputTxt.TabIndex = 5;
             this.InputTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.InputTxt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.InputTxt_KeyDown);
@@ -174,11 +180,48 @@
             this.panel2.TabIndex = 7;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // menuButton
+            // 
+            this.menuButton.BackColor = System.Drawing.Color.Transparent;
+            this.menuButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.menuButton.Image = ((System.Drawing.Image)(resources.GetObject("menuButton.Image")));
+            this.menuButton.ImageActive = null;
+            this.menuButton.Location = new System.Drawing.Point(7, 405);
+            this.menuButton.Name = "menuButton";
+            this.menuButton.Size = new System.Drawing.Size(37, 44);
+            this.menuButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.menuButton.TabIndex = 8;
+            this.menuButton.TabStop = false;
+            this.menuButton.Zoom = 10;
+            this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.clearChatToolStripMenuItem,
+            this.toggleVoiceToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(142, 48);
+            this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
+            // 
+            // clearChatToolStripMenuItem
+            // 
+            this.clearChatToolStripMenuItem.Name = "clearChatToolStripMenuItem";
+            this.clearChatToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.clearChatToolStripMenuItem.Text = "Clear Chat";
+            // 
+            // toggleVoiceToolStripMenuItem
+            // 
+            this.toggleVoiceToolStripMenuItem.Name = "toggleVoiceToolStripMenuItem";
+            this.toggleVoiceToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.toggleVoiceToolStripMenuItem.Text = "Toggle Voice";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(576, 471);
+            this.Controls.Add(this.menuButton);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.InputTxt);
@@ -198,6 +241,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.button1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.menuButton)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,6 +260,10 @@
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.Panel panel2;
         private bubble bubble1;
+        private Bunifu.Framework.UI.BunifuImageButton menuButton;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem clearChatToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toggleVoiceToolStripMenuItem;
     }
 }
 

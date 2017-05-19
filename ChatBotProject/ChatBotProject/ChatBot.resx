@@ -288,6 +288,27 @@
   <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>177, 17</value>
   </metadata>
+  <data name="menuButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAACxMAAAsTAQCanBgAAANPSURBVHhe7dyhbUBRDATBNP3r
+        TxpY8KSY3YAhyywd9s/3fTArI6zICCsywoqMsCIjrMgIKzLCioywIiOsyAgrMsKKjLAiI6zICCsywoqM
+        sCIjrMgIKzLCioywIiOsyAgrMsKKjLAiI6zICCsywoqMsCIjrMgIKzLCioywIiOsyAgrMsKKjLAiI6zI
+        CCsywoqMsCIjrMgIKzLCioywIiOsyAgrMsKKjMd+4R9qU2cyHquj4FVt6kzGY3UUvKpNncl4rI6CV7Wp
+        MxmP1VHwqjZ1JuOxOgpe1abOZDxWR8Gr2tSZjMfqKHhVmzqT8VgdBa9qU2cyHquj4FVt6kzGY3UUvKpN
+        ncl4rI6CV7WpMxmP1VHwqjZ1JuOxOgpe1abOZDxWR8Gr2tSZjMfqKHhVmzqTEVZkhBUZYUVGWJERVmSE
+        FRlhRUZYkRFWZIQVGWFFRliREVZkhBUZYUVGWJERVmSEFRlhRUZYkRFWZIQVGWFFRliR8Vg9O4JXtakz
+        GY/VUfCqNnUm47E6Cl7Vps5kPFZHwava1JmMx+ooeFWbOpPxWB0Fr2pTZzIeq6PgVW3qTMZjdRS8qk2d
+        yXisjoJXtakzGY/VUfCqNnUm47E6Cl7Vps5kPFZHwava1JmMx+ooeFWbOpPxWB0Fr2pTZzIeq6PgVW3q
+        TMZjdRS8qk2dyQgrMsKKjLAiI6zICCsywoqMsCIjrMgIKzLCioywIiOsyAgrMsKKjLAiI6zICCsywoqM
+        sCIjrMgIKzLCioywIiOsyHisnh3Bq9rUmYzH6ih4VZs6k/FYHQWvalNnMh6ro+BVbepMxmN1FLyqTZ3J
+        eKyOgle1qTMZj9VR8Ko2dSbjsToKXtWmzmQ8VkfBq9rUmYzH6ih4VZs6k/FYHQWvalNnMh6ro+BVbepM
+        xmN1FLyqTZ3JeKyOgle1qTMZj9VR8Ko2dSbjsToKXtWmzmSEFRlhRUZYkRFWZIQVGWFFRliREVZkhBUZ
+        YUVGWJERVmSEFRlhRUZYkRFWZIQVGWFFRliREVZkhBUZYUVGWJERVmSEFRlhRUZYkRFWZIQVGWFFRliR
+        EVZkhBUZYUVGWJERVmSEFRlhRUZYkRFWZIQVGWFFRliREVZkhBUZYUVGWJERNnw/f+slYiGpbk4GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAYAEBAAAAEAIABoBAAAZgAAACAgAAABACAAqBAAAM4EAAAwMAAAAQAgAKglAAB2FQAAQEAAAAEA
@@ -2054,4 +2075,7 @@
         v9P92aD6lEOWJl08kxq2Yd70MaP6nf8HFqy2XDeBwhMAAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>301, 17</value>
+  </metadata>
 </root>
