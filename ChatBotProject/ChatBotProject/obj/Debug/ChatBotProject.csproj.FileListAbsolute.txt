@@ -1,4 +1,0 @@
-C:\Users\Noor-ul-ain\Desktop\ChatBotProject-master\ChatBotProject\ChatBotProject\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.bubble.resources
-C:\Users\Noor-ul-ain\Desktop\ChatBotProject-master\ChatBotProject\ChatBotProject\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.Form1.resources
-C:\Users\Noor-ul-ain\Desktop\ChatBotProject-master\ChatBotProject\ChatBotProject\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.Properties.Resources.resources
-C:\Users\Noor-ul-ain\Desktop\ChatBotProject-master\ChatBotProject\ChatBotProject\ChatBotProject\ChatBotProject\ChatBotProject\obj\Debug\ChatBotProject.csproj.GenerateResource.Cache

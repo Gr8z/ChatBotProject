@@ -2,9 +2,6 @@
 using System.Windows.Forms;
 using System.Media;
 using System.IO; // needed for filing
-using System.Speech.Synthesis;
-using System.Speech.Recognition;
-using System.Threading;
 
 namespace ChatBotProject
 {
@@ -112,19 +109,10 @@ namespace ChatBotProject
             }
         }
 
-        SpeechSynthesizer sSynth = new SpeechSynthesizer();
-        PromptBuilder pbuilder = new PromptBuilder();
-        SpeechRecognitionEngine sRecognize = new SpeechRecognitionEngine();
-
         // Call the Output method when the send button is clicked.
         private void button1_Click(object sender, EventArgs e)
         {
             showOutput();
-            
-
-            pbuilder.ClearContent();
-            pbuilder.AppendText(InputTxt.Text);
-            sSynth.Speak(pbuilder);
         }
 
         // Call the Output method when the enter key is pressed.
