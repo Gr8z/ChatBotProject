@@ -199,21 +199,23 @@
             this.clearChatToolStripMenuItem,
             this.toggleVoiceToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(142, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 70);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // clearChatToolStripMenuItem
             // 
             this.clearChatToolStripMenuItem.Name = "clearChatToolStripMenuItem";
-            this.clearChatToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.clearChatToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.clearChatToolStripMenuItem.Text = "Clear Chat";
             this.clearChatToolStripMenuItem.Click += new System.EventHandler(this.clearChatToolStripMenuItem_Click);
             // 
             // toggleVoiceToolStripMenuItem
             // 
+            this.toggleVoiceToolStripMenuItem.CheckOnClick = true;
             this.toggleVoiceToolStripMenuItem.Name = "toggleVoiceToolStripMenuItem";
-            this.toggleVoiceToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.toggleVoiceToolStripMenuItem.Text = "Toggle Voice";
+            this.toggleVoiceToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.toggleVoiceToolStripMenuItem.Text = "Bot Voice";
+            this.toggleVoiceToolStripMenuItem.Click += new System.EventHandler(this.toggleVoiceToolStripMenuItem_Click);
             // 
             // Form1
             // 

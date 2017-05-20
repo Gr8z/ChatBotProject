@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using System.Media;
 using System.IO; // needed for filing
+using System.Speech.Synthesis;
 
 namespace ChatBotProject
 {
@@ -13,6 +14,9 @@ namespace ChatBotProject
         }
 
         static ChatBot bot;
+        SpeechSynthesizer reader = new SpeechSynthesizer();
+        bool textToSpeech = false;
+
         private void Form1_Load(object sender, EventArgs e)
         {
             bot = new ChatBot();
@@ -79,7 +83,7 @@ namespace ChatBotProject
                 var t = new Timer();
                 
                 // Time in milseconds - minimum delay of 1s plus 0.1s per character.
-                t.Interval = 1; // 1000 + (outtt.Length * 100);
+                t.Interval = 1000 + (outtt.Length * 100);
 
                 // Show the "Bot is typing.." text
                 txtTyping.Show();
@@ -99,6 +103,12 @@ namespace ChatBotProject
                     // Show the bot message and play the sound
                     addOutMessage(outtt);
                     Rcv.Play();
+
+                    // Text to Speech if enabled
+                    if (textToSpeech)
+                    {
+                        reader.SpeakAsync(outtt);
+                    }
                     
                     InputTxt.Focus(); // Put the cursor back on the textbox
                     t.Stop();
@@ -196,5 +206,10 @@ namespace ChatBotProject
             contextMenuStrip1.Show(menuButton, new System.Drawing.Point(0, -contextMenuStrip1.Size.Height));
         }
 
+        private void toggleVoiceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // whenever the toggle is clicked, true is set to false visa versa.
+            textToSpeech = !textToSpeech;
+        }
     }
 }
