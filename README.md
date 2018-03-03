@@ -31,7 +31,7 @@ Here are some things you can say to the bot.
 
 # Contributors
 These are the contributors to this Project in random order:
-* [Mohammad Dohadwala](http://github.com/GR8z)
+* [GR8](http://github.com/GR8z)
 * [Saad Ahmad Saddiqui](https://github.com/SaadAhmadSaddiqui)
 * [Noor-ul-Ain Fatema](http://github.com/Snf9718)
 * [Muhammad Fassih Haider](https://github.com/MuhammadFassihHaider)
