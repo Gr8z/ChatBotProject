@@ -18,7 +18,7 @@ Second Semester Object Oriented Programming Final Project at SZABIST.
 ```
 # Note while compiling in Visual Studio
 Not all of the required files are generated automatically on compilation.
-![Screenshot 2022-08-21 132858](https://user-images.githubusercontent.com/29324589/185989214-f4066061-6528-4963-bbd5-42f19be4551d.png)
+
 So if you try to build a release version of the chatbot the code breaks.
 Following are the extra files that you need to explicilty place in the folder in which visual studio builds exe.
 (It is already places in Debug folder, you can copy paste to release)
