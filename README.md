@@ -15,8 +15,8 @@ Second Semester Object Oriented Programming Final Project at SZABIST.
 * Persistent Chat system, you will not loose your conversation when you close the bot.
 * It can also speak using Microsoft Speech Recognition (Microsoft.Speech).
 
-```
-# Note while compiling in Visual Studio
+
+## Note while compiling in Visual Studio
 Not all of the required files are generated automatically on compilation.
 
 So if you try to build a release version of the chatbot the code breaks.
@@ -30,7 +30,7 @@ Following are the extra files that you need to explicilty place in the folder in
 - ChatBotProject.vshost.exe.manifest
 - SOUND1.wav
 - SOUND2.wav
-```
+
 
 ![Screenshot 2022-08-21 132858](https://user-images.githubusercontent.com/29324589/185988745-01f70e4b-5fb5-4de0-b2d6-8c750afcc8a2.png)
 
